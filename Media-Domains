@@ -1,0 +1,104 @@
+! Title:       Swiss Shit Media Blocklist (SSMB) - Domains
+! Description: Wegen; miserablem Journalismus, Panikmache, blosem Senations-Journalismus,
+!              tendenziöser Berichterstattung, verbreitung von Regierungspropaganda,
+!              gesteuerter Meinungsmache, blosem ungeprüftem Copy'n'Paste, und dergleichen
+!              gesperrter Nonsens
+! Expires:     Days, Weeks or everytime is needed
+! Licence:     Free
+! Homepage:    github.com
+
+! Block TX Group AG (Tamedia)
+20min.ch
+tagi.ch
+tagesanzeiger.ch
+tagi.ch
+bazonline.ch
+12app.ch
+24heures.ch
+berneroberlaender.ch
+bernerzeitung.ch
+langenthalertagblatt.ch
+derbund.ch
+landbote.ch
+lematindimanche.ch
+sonntagszeitung.ch
+thunertagblatt.ch
+tdg.ch
+zuonline.ch
+zsz.ch
+signegeneve.ch
+sonntagszeitung.ch
+
+! Extended Block TX Group AG (Tamedia)
+bilan.ch
+dasmagazin.ch
+femina.ch
+fuw.ch
+fuw-forum.ch
+hommages.ch
+schweizerfamilie.ch
+tvtaeglich.ch
+tribunedesarts.ch
+zueritipp.ch
+
+! Block Ringier AG
+beobachter.ch
+bilanz.ch
+blick.ch
+cash.ch
+handelszeitung.ch
+
+! Extended Block Riengier AG
+boleromagazin.ch
+energy.ch
+gaultmillau.ch
+glueckspost.ch
+illustre.ch
+izzyprojects.ch
+online-kiosk.ch
+pme.ch
+schweizer-illustrierte.ch
+students.ch
+tele.ch
+tv8.ch
+usgang.ch
+vayamo.ch
+
+! Block FixxPunkt AG (Watson - Offizielles Publikations-Organ der SP & Grünen)
+watson.ch
+
+! Block CH Media Holding AG
+aargauerzeitung.ch
+tagblatt.ch
+badenertagblatt.ch
+bzbasel.ch
+grenchnertagblatt.ch
+limmattalerzeitung.ch
+luzernerzeitung.ch
+oltnertagblatt.ch
+schweizamwochenende.ch
+chmedia.ch
+
+! Block Neue Zürcher Zeitung AG
+nzz.ch
+domizil.nzz.ch
+bellevue.nzz.ch
+nzzas.nzz.ch
+shop.nzz.ch
+folio.nzz.ch
+reisen.nzz.ch
+z.nzz.ch
+connect.nzz.ch
+nzz-red.com
+nzz-libro.ch
+nzz-xdays.com
+
+!Extended Block Neue Zürcher Zeitung AG
+www.swisseconomic.ch
+themarket.ch
+zff.com
+architonic.com
+swiss-innovation.com
+moneyhouse.ch
+bindexis.ch
+ce2.ch
