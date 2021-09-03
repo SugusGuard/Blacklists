@@ -1,0 +1,74 @@
+! Title: uBlock Origin Personal Plus
+! Description: Personal "Plus-List" for uBlock Origin
+! List-URL: https://raw.githubusercontent.com/SugusGuard/Blocklists/main/AdGuardDNSPlus
+! 
+! 20min
+!
+www.20min.ch##.TeaserContentSlider_section__2vKNX
+www.20min.ch###paid-inside-full-pos3_front
+www.20min.ch###paid-inside-full-pos4_front
+www.20min.ch###paid-inside-full-pos2_front
+www.20min.ch###paid-inside-full-pos1_regionen_zuerich
+www.20min.ch###paid-inside-full-pos1_regionen_bern
+www.20min.ch###paid-inside-full-pos1_regionen_basel
+www.20min.ch###paid-inside-full-pos1_regionen_zentralschweiz
+www.20min.ch###paid-inside-full-pos1_regionen_ostschweiz
+www.20min.ch###paid-inside-full-community-pos1
+www.20min.ch###paid-inside-full-ausland-pos1
+www.20min.ch###paid-inside-full-people-pos2
+www.20min.ch###paid-inside-full-digital-pos1
+www.20min.ch###paid-inside-full-pos1_lifestyle_bodyandsoul
+www.20min.ch##.Teaser_teaserSmall__2FPxf.Teaser_siteAreaNews__Kz7OG.Teaser_iframe__3AV-4.Teaser_teaser__3rdot
+www.20min.ch###paid-inside-full-pos1_lifestyle_reisen
+www.20min.ch###paid-inside-full-pos1_lifestyle_beauty
+www.20min.ch###paid-inside-full-onelove-pos1
+www.20min.ch##.TeaserSection_categorySlider__pW7IY.TeaserSection_siteAreaNews__3nlOO.TeaserSection_carousel__2-t_x.TeaserSection_section__E44Cv
+www.20min.ch###paid-inside-full-pos1_front
+www.20min.ch###paid-inside-full-wirtschaft-pos1
+www.20min.ch###paid-inside-full-wissen-pos1
+||storage.googleapis.com/fooby/*$important
+www.20min.ch##article.Teaser_insideQuarterPos__3qgu9.Teaser_siteAreaNews__Kz7OG.Teaser_ad__KRil1.Teaser_teaser__3rdot:nth-of-type(2)
+www.20min.ch##.Teaser_teaserSmall__2FPxf.Teaser_siteAreaNews__Kz7OG.Teaser_iframe__3AV-4.Teaser_teaser__3rdot > .EmbedIframe_container__3QqVo
+www.20min.ch##article.Teaser_insideQuarterPos__3qgu9.Teaser_siteAreaNews__Kz7OG.Teaser_ad__KRil1.Teaser_teaser__3rdot:nth-of-type(6)
+www.20min.ch##article.Teaser_insideQuarterPos__3qgu9.Teaser_siteAreaNews__Kz7OG.Teaser_ad__KRil1.Teaser_teaser__3rdot
+www.20min.ch##section.TeaserSection_siteAreaNews__3nlOO.TeaserSection_section__E44Cv:nth-of-type(2)
+||myshop.20min.ch^$important
+||deal.cpstatic.ch/iframewidget/zwanzigmin$subdocument
+!
+! Blick
+!
+||www.npttech.com^$important
+||php.blick.ch/static/2021_blickdeal/$subdocument
+www.blick.ch##.embedded-content-container
+www.blick.ch##.video-wrapper
+www.blick.ch##div.multiline.tunaK.sc-1m16myc-0:nth-of-type(15)
+www.blick.ch##div.nFDyy.p1mwtc-0
+www.blick.ch##div.multiline.tunaK.sc-1m16myc-0
+www.blick.ch##div.multiline.fzhDwm.sc-1m16myc-0 > .flexitem.euWuia.sc-1elypw2-0 > .withViewportContainer > .koApwW.sc-1xzmqwe-0
+www.blick.ch##div.multiline.fzhDwm.sc-1m16myc-0:nth-of-type(37)
+www.blick.ch##div.iQjzHS.p1mwtc-0:nth-of-type(36)
+www.blick.ch##.placement-articleTopAd.data-slot-code-mobile-MMR_1.data-slot-code-WBM_1.appnexus-container
+www.blick.ch###blick-tv-pop-out
+www.blick.ch##.video-player-wrapper
+||players.brightcove.net^$domain=www.blick.ch,important
+www.blick.ch##.blick-tv-teaser__wrapper.fMcCzb.sc-151zy08-0
+!
+! Computerbase
+!
+||www.computerbase.de/js/dialog-polyfill.20201214.js$script,important
+||www.computerbase.de/js/onetrust/*$domain=www.computerbase.de
+!
+! Heise
+!
+||cdn13.com^$script
+||upscore.com^$script
+||privacy-mgmt.com^
+!
+! Youtube
+!
+www.youtube.com##.opened
+www.youtube.com###dialog
+!
+! Serienjunkies
+!
+www.serienjunkies.de##amp-ad.i-amphtml-unresolved.amp-unresolved.i-amphtml-layout-size-defined.i-amphtml-layout-fixed.amp-notbuilt.i-amphtml-notbuilt.i-amphtml-element
