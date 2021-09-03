@@ -1,5 +1,8 @@
-! AdGuard DNS Plus Filter
-
+# Title: AdGuard DNS Plus Filter
+# Description: Personal "Plus" list for AdGuard DNS Filter
+# List-URL: https://raw.githubusercontent.com/SugusGuard/Blocklists/main/AdGuardDNSPlus
+# 
+# General Trash
 ||npttech.com^
 ||tinypass.com^
 ||deal.cpstatic.ch^
