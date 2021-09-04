@@ -10,3 +10,6 @@
 # Telemetry
 ||telemetry.kde.org^
 ||entypes.kde.org^
+# Specials (Testing)
+||pki-goog.l.google.com^
+||ocsp.pki.goog^
