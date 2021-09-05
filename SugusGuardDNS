@@ -2,6 +2,10 @@
 # Description: Personal "Plus" list for AdGuard DNS Filter
 # List-URL: https://raw.githubusercontent.com/SugusGuard/Blocklists/main/SugusGuardDNS
 # 
+# Whitelist
+! Google Fonts because it breaks to many sites if blocked
+@@||fonts.googleapis.com^
+@@||fonts.gstatic.com^
 # General Trash
 ||npttech.com^$important
 ||tinypass.com^$important
