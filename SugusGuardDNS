@@ -1,5 +1,5 @@
 # Title: SugusGuard DNS filter
-# Description: Personal "Plus" list for AdGuard DNS Filter
+# Description: Additional (Personal) filterlist for AdGuard Home / AdGuard Pro App
 # List-URL: https://raw.githubusercontent.com/SugusGuard/Blocklists/main/SugusGuardDNS
 # 
 # Whitelist
@@ -56,8 +56,8 @@
 ||chart.apis.google.com^$important
 ||chat-pa.clients6.google.com^$important
 ||people-pa.clients6.google.com^$important
-||addons-pa.clients6.google.com^$important 
-# Specials (Testing!)
+||addons-pa.clients6.google.com^$important
+# Specials (Testing! is maybe to much)
 ||encrypted-tbn0.gstatic.com^$important
 ||encrypted-tbn2.gstatic.com^$important
 ||encrypted-tbn3.gstatic.com^$important
@@ -67,3 +67,8 @@
 ||clients2.google.com^$important
 ||client-channel.google.com^$important
 ||clients4.google.com^$important
+||clients.l.google.com^$important
+||clients5.google.com^$important
+||clients3.google.com^$important
+||fcmtoken.googleapis.com^$important
+||device-provisioning.googleapis.com^$important
