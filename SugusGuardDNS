@@ -16,6 +16,17 @@
 ! KDE Bullshit "kuserfeeback" shame on you KDE!
 ||telemetry.kde.org^$important
 ||entypes.kde.org^$important
+! Apple/iOS (minimal but doesn't brick any funktions)
+||metrics.apple.com^$important
+||securemetrics.apple.com^$important
+||supportmetrics.apple.com^$important
+||metrics.icloud.com^$important
+||metrics.mzstatic.com^$important
+||dzc-metrics.mzstatic.com^$important
+||books-analytics-events.news.apple-dns.net^$important
+||books-analytics-events.apple.com^$important
+||stocks-analytics-events.apple.com^$important
+||stocks-analytics-events.news.apple-dns.net^$important
 # Tracker missing on other lists
 ||tagger.opecloud.com^$important
 # Browser related
