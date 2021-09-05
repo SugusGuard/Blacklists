@@ -1,0 +1,65 @@
+# Title: SugusGuard DNS filter
+# Description: Personal "Plus" list for AdGuard DNS Filter
+# List-URL: https://raw.githubusercontent.com/SugusGuard/Blocklists/main/SugusGuardDNS
+# 
+# General Trash
+||npttech.com^$important
+||tinypass.com^$important
+||deal.cpstatic.ch^$important
+||php.blick.ch^$important
+||fooby.ch^$important
+# Telemetry missing on other lists
+! KDE Bullshit "kuserfeeback" shame on you KDE!
+||telemetry.kde.org^$important
+||entypes.kde.org^$important
+# Tracker missing on other lists
+||tagger.opecloud.com^$important
+# Browser related
+! General (Vivaldi, Iridium [sadly block other included "Google-Tracking" brick the browsers-funktions])
+||safebrowsing.googleapis.com^$important
+||content-autofill.googleapis.com^$important
+! Brave
+||variations.brave.com^$important
+||p3a.brave.com^$important
+! Firefox, *fox
+||detectportal.firefox.com^$important # Don't use this if you use public WLan's
+||push.services.mozilla.com^$important
+||incoming.telemetry.mozilla.org^$important
+||location.services.mozilla.com^$important
+! Opera, just to be safe, but don't use this pos browser
+||speeddials.opera.com^$important
+||features.opera-api.com^$important
+||weather.opera-api.com^$important
+||merchandise.opera-api.com^$important
+||android.clients.google.com^$important
+||sitecheck.opera.com^$important
+! SRWare Iron, don't use this pos browser
+! Microsoft Edge, don't use this pos browser
+# Google Crap
+||pki-goog.l.google.com^$important
+||ocsp.pki.goog^$important
+||ogs.google.com^$important
+||accounts.google.com^$important
+||plus.l.google.com^$important
+||firebaseremoteconfig.googleapis.com^$important
+||dnsotls-ds.metric.gstatic.com^$important
+||metric.gstatic.com^$important
+||mtalk.google.com^$important
+||aa.google.com^$important
+||cse.google.com^$important
+||content-partnersbadge-pa.googleapis.com^$important
+||signaler-pa.clients6.google.com^$important
+||chart.apis.google.com^$important
+||chat-pa.clients6.google.com^$important
+||people-pa.clients6.google.com^$important
+||addons-pa.clients6.google.com^$important 
+# Specials (Testing!)
+||encrypted-tbn0.gstatic.com^$important
+||encrypted-tbn2.gstatic.com^$important
+||encrypted-tbn3.gstatic.com^$important
+||www3.l.google.com^$important
+||play.google.com^$important
+||0.client-channel.google.com^$important 
+||clients2.google.com^$important
+||client-channel.google.com^$important
+||clients4.google.com^$important
