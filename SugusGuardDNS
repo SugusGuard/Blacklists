@@ -57,7 +57,11 @@
 ||chart.apis.google.com^$important
 ||chat-pa.clients6.google.com^$important
 ||people-pa.clients6.google.com^$important
+||peoplestackwebexperiments-pa.clients6.google.com^$important
 ||addons-pa.clients6.google.com^$important
+||dai.google.com^$important
+||fcmatch.google.com^$important
+||bandaid-redirector.l.google.com^$important
 # Specials (Testing! is maybe to much)
 ||encrypted-tbn0.gstatic.com^$important
 ||encrypted-tbn2.gstatic.com^$important
