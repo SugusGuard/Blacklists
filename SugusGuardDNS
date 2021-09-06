@@ -6,7 +6,7 @@
 ! Google Fonts because it breaks to many sites if blocked
 @@||fonts.googleapis.com^
 @@||fonts.gstatic.com^
-# General Trash
+# General Garbage
 ||npttech.com^$important
 ||tinypass.com^$important
 ||deal.cpstatic.ch^$important
@@ -42,7 +42,7 @@
 ||sitecheck.opera.com^$important
 ! SRWare Iron, don't use this pos browser
 ! Microsoft Edge, don't use this pos browser
-# Google
+# Google related (maybe should be in separate list(s))
 ! Google Analytics
 ||apis.googletagmanager.com^$important
 ||click.google-analytics.com^$important
@@ -64,7 +64,7 @@
 ||www.googletagmanager.com^$important
 ||www.googletagservices.com^$important
 ||wwwctp.googletagmanager.com^$important
-! Google DNS (no IPs)
+! Google DNS
 ||0c27d4c0-dnsotls-ds.metric.gstatic.com^$important
 ||0cce3ccd-dnsotls-ds.metric.gstatic.com^$important
 ||1jz49v-dnsotls-ds.metric.gstatic.com^$important
