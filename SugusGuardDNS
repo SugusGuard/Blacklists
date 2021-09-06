@@ -69,7 +69,6 @@
 ||dai.google.com^$important
 ||fcmatch.google.com^$important
 ||bandaid-redirector.l.google.com^$important
-||app-measurement.com^$important
 # Browsers, missing on other lists
 ! General (Vivaldi, Iridium [sadly block other included "Google-Tracking" brick the browsers-funktions])
 ||safebrowsing.googleapis.com^$important
