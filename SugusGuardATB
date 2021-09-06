@@ -1,6 +1,6 @@
 # Title: SugusGuard Apple Telemetry Blocklist
 # Description: Apple telemtry filterlist for AdGuard Home / AdGuard Pro App
-# List-URL: https://raw.githubusercontent.com^$important/SugusGuard/Blocklists/main/SugusGuardATB
+# List-URL: https://raw.githubusercontent.com/SugusGuard/Blocklists/main/SugusGuardATB
 # Sourced from: https://github.com^$important/llacb47/mischosts
 # Sourced from: https://github.com^$important/llacb47/mischosts/blob/master/blacklist
 # Sourced from: https://github.com^$important/adversarialtools/apple-telemetry/blob/master/blacklist
