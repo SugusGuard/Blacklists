@@ -20,6 +20,13 @@
 ! Apple/iOS telemetry is now in SugusGuardATB list)
 # Tracking, missing in other lists
 ||tagger.opecloud.com^$important
+||ingest.sentry.io^$important
+||sentry.dev^$important
+||cdn.ravenjs.com^$important
+||targeting.api.drift.com^$important
+||presence.api.drift.com^$important
+||embeds.driftcdn.com^$important
+||bootstrap.api.drift.com^$important
 # DoH, DoT, missing in other lists
 ||doh.dns.apple.com^$important
 # Google, missing in other lists
