@@ -3,9 +3,9 @@
 # List-URL: https://raw.githubusercontent.com/SugusGuard/Blocklists/main/SugusGuardDNS
 # 
 # Whitelist
-! Google Fonts because it breaks to many sites if blocked
-@@||fonts.googleapis.com^
-@@||fonts.gstatic.com^
+! Google Fonts if it breaks to many important sites if blocked
+! @@||fonts.googleapis.com^
+! @@||fonts.gstatic.com^
 # General Garbage
 ||npttech.com^$important
 ||tinypass.com^$important
@@ -17,8 +17,13 @@
 ! KDE Bullshit "kuserfeeback" shame on you KDE!
 ||telemetry.kde.org^$important
 ||entypes.kde.org^$important
+! Nitro Software
+||inapp.gonitro.com^$important
+||desktop.gonitro.com^$important
 ! Apple/iOS telemetry is now in SugusGuardATB list)
 # Tracking, missing in other lists
+||i2.wp.com^$important
+||secure.gravatar.com^$important
 ||tagger.opecloud.com^$important
 ||ingest.sentry.io^$important
 ||sentry.dev^$important
@@ -90,6 +95,7 @@
 ||sitecheck.opera.com^$important
 ! SRWare Iron, don't use this pos browser
 ! Microsoft Edge, don't use this pos browser
+||gstaticadssl.l.google.com^$important
 # Specials (Testing! is maybe to much)
 ! Google Testing
 ||encrypted-tbn0.gstatic.com^$important
