@@ -244,3 +244,4 @@
 ! SugusGuard Additional Domains
 ||books-analytics-events.news.apple-dns.net^$important
 ||stocks-analytics-events.news.apple-dns.net^$important
+||configuration.apple.com^important
