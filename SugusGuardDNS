@@ -32,6 +32,7 @@
 ||presence.api.drift.com^$important
 ||embeds.driftcdn.com^$important
 ||bootstrap.api.drift.com^$important
+||gstaticadssl.l.google.com^$important
 # DoH, DoT, missing in other lists
 ||doh.dns.apple.com^$important
 # Google, missing in other lists
@@ -77,6 +78,9 @@
 # Browsers, missing on other lists
 ! General (Vivaldi, Iridium [sadly block other included "Google-Tracking" brick the browsers-funktions])
 ||safebrowsing.googleapis.com^$important
+||safebrowsing.clients.google.com^$important
+||sb-ssl.google.com^$important
+||sb-ssl.l.google.com^$important
 ||content-autofill.googleapis.com^$important
 ! Brave
 ||variations.brave.com^$important
