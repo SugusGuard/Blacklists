@@ -45,7 +45,7 @@
 ||swdownload.apple.com^$important
 ||swpost.apple.com^$important
 ||swscan.apple.com^$important
-! Domains from mischosts / AdGuard Syntax
+! Domains from llacb47/mischosts
 ||appleglobal.102.112.2o7.com^$important
 ||appleglobal.112.2o7.com^$important
 ||pancake.g.aaplimg.com^$important
