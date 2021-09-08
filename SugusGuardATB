@@ -1,4 +1,4 @@
-# Title: SugusGuard Apple Telemetry Blocklist
+# Title: SugusGuard Apple Telemetry & Update Blocklist
 # Description: Apple telemtry filterlist for AdGuard Home / AdGuard Pro App
 # List-URL: https://raw.githubusercontent.com/SugusGuard/Blocklists/main/SugusGuardATB
 # Sourced from: https://github.com/llacb47/mischosts
@@ -6,6 +6,43 @@
 # Sourced from: https://github.com/adversarialtools/apple-telemetry/blob/master/blacklist
 # Originally hosted at https://github.com/llacb47/apple-telemetry/blob/master/blacklist
 #
+! Apple Updates & Update-Check iOS, iPadOS, tvOS, and macOS
+||appldnld.apple.com^$important
+||appldnld.apple.com.akadns.net^$important
+||appldnld-lb.apple.com.akadns.net^$important
+||appldnld.g.aaplimg.com^$important
+||mesu.apple.com^$important
+||mesu-cdn.apple.com.akadns.net^$important
+||mesu-cdn.origin-apple.com.akadns.net^$important
+||mesu.apple.com.edgekey.net^$important
+||gdmf.apple.com^$important
+||gdmf.apple.com.akadns.net^$important
+||ocsp.apple.com^$important
+||ocsp-lb.apple.com.akadns.net^$important
+||ocsp-a.g.aaplimg.com^$important
+||ocsp2.apple.com^$important
+||ocsp2-lb.apple.com.akadns.net^$important
+||ocsp2.g.aaplimg.com^$important
+||updates-http.cdn-apple.com^$important
+||gg.apple.com^$important
+||gs.apple.com^$important
+||ns.itunes.apple.com^$important
+||updates.cdn-apple.com^$important
+||xp.apple.com^$important
+! macOS only^$important
+||gnf-mdn.apple.com^$important
+||configuration.apple.com^$important
+||gnf-mr.apple.com^$important
+||ig.apple.com^$important
+||configuration.apple.com^$important
+||oscdn.apple.com^$important
+||osrecovery.apple.com^$important
+||skl.apple.com^$important
+||swcdn.apple.com^$important
+||swdist.apple.com^$important
+||swdownload.apple.com^$important
+||swpost.apple.com^$important
+||swscan.apple.com^$important
 ! Domains from mischosts / AdGuard Syntax
 ||appleglobal.102.112.2o7.com^$important
 ||appleglobal.112.2o7.com^$important
@@ -244,4 +281,3 @@
 ! SugusGuard Additional Domains
 ||books-analytics-events.news.apple-dns.net^$important
 ||stocks-analytics-events.news.apple-dns.net^$important
-||configuration.apple.com^important
