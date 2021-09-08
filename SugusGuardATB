@@ -27,6 +27,8 @@
 ||gg.apple.com^$important
 ||gs.apple.com^$important
 ||ns.itunes.apple.com^$important
+||configuration.apple.com.akadns.net^$important
+||configuration.apple.com.edgekey.net^$important
 ||updates.cdn-apple.com^$important
 ||xp.apple.com^$important
 ! macOS only^$important
