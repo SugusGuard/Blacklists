@@ -7,6 +7,8 @@
 ! @@||fonts.googleapis.com^
 ! @@||fonts.gstatic.com^
 # General Garbage
+||2o7.net^$important
+||omtrdc.net^$important
 ||npttech.com^$important
 ||tinypass.com^$important
 ||deal.cpstatic.ch^$important
@@ -33,6 +35,8 @@
 ||embeds.driftcdn.com^$important
 ||bootstrap.api.drift.com^$important
 ||gstaticadssl.l.google.com^$important
+# Ads missing in other lists
+||a-msedge.net^$important
 # DoH, DoT, missing in other lists
 ||doh.dns.apple.com^$important
 # Google, missing in other lists
@@ -119,7 +123,10 @@
 ||device-provisioning.googleapis.com^$important
 ||maps.googleapis.com^$important
 ||chart.googleapis.com^$important
-||metric.gstatic.com^$important #should include all Google DNS
+! Should include all Google DNS
+||metric.gstatic.com^$important
+! Google Cookies
+||1e100.net^$important
 ! rnFirebase Testing
 ||firebase.flutter.dev^$important
 ||flutter-firebase-docs.web.app^$important
