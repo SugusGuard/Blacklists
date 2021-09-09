@@ -24,6 +24,7 @@
 ||desktop.gonitro.com^$important
 ! Apple/iOS telemetry is now in SugusGuardATB list)
 # Tracking, missing in other lists
+||comscoreresearch.*^$important
 ||i2.wp.com^$important
 ||secure.gravatar.com^$important
 ||tagger.opecloud.com^$important
