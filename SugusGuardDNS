@@ -2,11 +2,14 @@
 # Description: SugusGuard's additional filterlist for AdGuard Home / AdGuard Pro App
 # List-URL: https://raw.githubusercontent.com/SugusGuard/Blocklists/main/SugusGuardDNS
 # 
-# Whitelist
+## Whitelist
+#
 ! Google Fonts if it breaks to many important sites if blocked
 ! @@||fonts.googleapis.com^
 ! @@||fonts.gstatic.com^
-# General Garbage
+#
+## General Garbage
+#
 ||2o7.net^$important
 ||omtrdc.net^$important
 ||npttech.com^$important
@@ -15,7 +18,9 @@
 ||php.blick.ch^$important
 ||fooby.ch^$important
 ||savor-app.ch^$important
-# Telemetry, missing on other lists
+# 
+## Telemetry, missing on other lists
+#
 ! KDE Bullshit "kuserfeeback" shame on you KDE!
 ||telemetry.kde.org^$important
 ||entypes.kde.org^$important
@@ -23,7 +28,9 @@
 ||inapp.gonitro.com^$important
 ||desktop.gonitro.com^$important
 ! Apple/iOS telemetry is now in SugusGuardATB list)
-# Tracking, missing in other lists
+#
+## Tracking, missing in other lists
+#
 ||comscoreresearch.*^$important
 ||i2.wp.com^$important
 ||secure.gravatar.com^$important
@@ -36,22 +43,27 @@
 ||embeds.driftcdn.com^$important
 ||bootstrap.api.drift.com^$important
 ||gstaticadssl.l.google.com^$important
-# Ads missing in other lists
+#
+## Ads missing in other lists
+#
 ||a-msedge.net^$important
-# DoH, DoT, missing in other lists
+#
+## DoH, DoT, missing in other lists
+#
 ||doh.dns.apple.com^$important
-# Google, missing in other lists
-! Google Analytics
+#
+## Google, missing in other lists
+#! Google Analytics
 ||google-analytics.com^$important
 ||googleanalytics.com^$important
 ||crashlytics.com^$important
 ||googletagmanager.com^$important
 ||googletagservices.com^$important
 ||tagmanager.google.com^$important
-! Google Doubleclick
+#! Google Doubleclick
 ||doubleclick.net^$important
 ||doubleclick.com^$important
-! Google Firebase
+#! Google Firebase
 ||firebaseio.com^$important
 ||firebase.google.com^$important
 ||firebase-dot-google-developers.appspot.com^$important
@@ -59,7 +71,7 @@
 ||firebasedynamiclinks-ipv6.googleapis.com^$important
 ||firebaseremoteconfig.googleapis.com^$important
 ||firebaseinstallations.googleapis.com^$important
-! Google Misc
+#! Google Misc
 ||www.google.com^$important
 ||pki-goog.l.google.com^$important
 ||ocsp.pki.goog^$important
@@ -80,34 +92,37 @@
 ||dai.google.com^$important
 ||fcmatch.google.com^$important
 ||bandaid-redirector.l.google.com^$important
-# Browsers, missing on other lists
-! General (Vivaldi, Iridium [sadly block other included "Google-Tracking" brick the browsers-funktions])
+#
+## Browsers, missing on other lists
+#! General (Vivaldi, Iridium [sadly block other included "Google-Tracking" brick the browsers-funktions])
 ||safebrowsing.googleapis.com^$important
 ||safebrowsing.clients.google.com^$important
 ||sb-ssl.google.com^$important
 ||sb-ssl.l.google.com^$important
 ||content-autofill.googleapis.com^$important
-! Brave
+#! Brave
 ||variations.brave.com^$important
 ||p3a.brave.com^$important
-! Firefox, *fox
+#! Firefox, *fox
 ||detectportal.firefox.com^$important # Don't use this if you use public WLan's
 ||push.services.mozilla.com^$important
 ||incoming.telemetry.mozilla.org^$important
 ||location.services.mozilla.com^$important
-! Opera, just to be safe, but don't use this pos browser
+#! Opera, just to be safe, but don't use this pos browser
 ||speeddials.opera.com^$important
 ||features.opera-api.com^$important
 ||weather.opera-api.com^$important
 ||merchandise.opera-api.com^$important
 ||android.clients.google.com^$important
 ||sitecheck.opera.com^$important
-! SRWare Iron, don't use this pos browser
-! Microsoft Edge, don't use this pos browser
+#! SRWare Iron, don't use this pos browser
+#! Microsoft Edge, don't use this pos browser
 ||gstaticadssl.l.google.com^$important
-# Specials (Testing! is maybe to much)
-! Google Testing
+#
+## Specials (Testing! is maybe to much)
+#! Google Testing
 ||encrypted-tbn0.gstatic.com^$important
+||encrypted-tbn1.gstatic.com^$important
 ||encrypted-tbn2.gstatic.com^$important
 ||encrypted-tbn3.gstatic.com^$important
 ||www3.l.google.com^$important
@@ -124,11 +139,11 @@
 ||device-provisioning.googleapis.com^$important
 ||maps.googleapis.com^$important
 ||chart.googleapis.com^$important
-! Should include all Google DNS
+#! Should include all Google DNS
 ||metric.gstatic.com^$important
-! Google Cookies
+#! Google Cookies
 ||1e100.net^$important
-! rnFirebase Testing
+#! rnFirebase Testing
 ||firebase.flutter.dev^$important
 ||flutter-firebase-docs.web.app^$important
 ||rnfirebase.io^$important
