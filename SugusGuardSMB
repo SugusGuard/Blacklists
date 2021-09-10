@@ -1,8 +1,8 @@
-# Title:		SugusGuard Social Media Blocklist
-# Description:	Social Media basic filterlist for AdGuard Home / AdGuard Pro App
-#				Blocks only the basics, use a separate list to "full" block social media.
-#				Not needed if you use AdGuard Home "Blocking specific services" feature.
-# List-URL:		https://raw.githubusercontent.com/SugusGuard/Blocklists/main/SugusGuardSMB
+# Title: SugusGuard Social Media Blocklist
+# Description: Social Media basic filterlist for AdGuard Home / AdGuard Pro App
+#	Description: Blocks only the basics, use a separate list to "full" block social media.
+#	Description: Not needed if you use AdGuard Home "Blocking specific services" feature.
+# List-URL: https://raw.githubusercontent.com/SugusGuard/Blocklists/main/SugusGuardSMB
 #
 ## Facebook
 #
