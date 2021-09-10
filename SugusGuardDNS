@@ -116,9 +116,21 @@
 ||merchandise.opera-api.com^$important
 ||android.clients.google.com^$important
 ||sitecheck.opera.com^$important
-#! SRWare Iron, don't use this pos browser
-#! Microsoft Edge, don't use this pos browser
+#! SRWare Iron, don't use this pos browser it's spyware
+||srware.net^$important
+||srware-search.com^$important
+||wisesearches.com^$important
+#! Microsoft Edge, don't use this pos browser it's spyware
 ||gstaticadssl.l.google.com^$important
+||browser.pipe.aria.microsoft.com^$important
+||config.edge.skype.com^$important
+||nav.smartscreen.microsoft.com^$important
+||browser.events.data.msn.com^$important
+||ntp.msn.com^$important
+||assets.msn.com^$important
+||arc.msn.com^$important
+||img-s-msn-com.akamaized.net^$important
+||srtb.msn.com^$important
 #
 ## Specials (Testing! is maybe to much)
 #! Google Testing
