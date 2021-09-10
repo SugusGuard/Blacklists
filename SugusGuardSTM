@@ -1,11 +1,11 @@
-# Title:       SugusGuard Swiss Shit Media Blocklist (SSMB) for AdGuard Home / AdGuard Pro App
+# Title:       SugusGuard Swiss Trash Media Blocklist for AdGuard Home / AdGuard Pro App
 # Description: Wegen; miserablem Journalismus, Panikmache, blosem Senations-Journalismus,
 #              tendenziöser Berichterstattung, verbreitung von Regierungspropaganda,
 #              gesteuerter Meinungsmache, blosem ungeprüftem Copy'n'Paste, und dergleichen
 #              gesperrter Nonsens
 # Expires:     Days, Weeks or everytime is needed
 # Licence:     Free
-# Homepage:    https://raw.githubusercontent.com/SugusGuard/Blocklists/main/SugusGuardSSMB
+# Homepage:    https://raw.githubusercontent.com/SugusGuard/Blocklists/main/SugusGuardSTM
 #
 ! Block TX Group AG (Tamedia)
 ||20min.ch^$important
