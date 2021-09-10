@@ -1,0 +1,235 @@
+# Title:		    SugusGuard Social Media Blocklist
+# Description:	Social Media basic filterlist for AdGuard Home / AdGuard Pro App
+# 				      Blocks only the basics, use a separate list to "full" block social media.
+#				        Not needed if you use AdGuard Home "Blocking specific services" feature.
+# List-URL:		  https://raw.githubusercontent.com/SugusGuard/Blocklists/main/SugusGuardSMB
+#
+## Facebook
+#
+! Basic
+!
+||facebook.com^$important
+||facebook.net^$important
+||fbcdn.com^$important
+||fbcdn.net^$important
+||tfbnw.net^$important
+||fbsbx.com^$important
+||fb.me^$important
+||fb.com^$important
+||fb.watch^$important
+||messenger.com^$important
+||facebookcorewwwi.onion^$important
+||facebookmail.com^$important
+||facebookvirtualassistant.com^$important
+!
+! Enhanced - we do a little bit more, because... it's Facebook
+! 
+||connect.facebook.net.edgekey.net^$important
+||facebook.com.edgekey.net^$important
+||facebook.net.edgekey.net^$important
+||s-static.ak.facebook.com.edgekey.net^$important
+||facebook.com.edgesuite.net^$important
+||profile.ak.facebook.com.edgesuite.net^$important
+||static.ak.facebook.com.edgesuite.net^$important
+||facebook-web-clients.appspot.com^$important
+||fbcdn-profile-a.akamaihd.net^$important
+||fbcdn-creative-a.akamaihd.net^$important
+||fbcdn-photos-a.akamaihd.net^$important
+||fbcdn-photos-e-a.akamaihd.net^$important
+||fbcdn-profile-a.akamaihd.net^$important
+||fbcdn-sphotos-a-a.akamaihd.net^$important
+||fbcdn-sphotos-a.akamaihd.net^$important
+||fbcdn-sphotos-b-a.akamaihd.net^$important
+||fbcdn-sphotos-c-a.akamaihd.net^$important
+||fbcdn-sphotos-d-a.akamaihd.net^$important
+||fbcdn-sphotos-e-a.akamaihd.net^$important
+||fbcdn-sphotos-f-a.akamaihd.net^$important
+||fbcdn-sphotos-g-a.akamaihd.net^$important
+||fbcdn-sphotos-h-a.akamaihd.net^$important
+||fbcdn-video-a-a.akamaihd.net^$important
+||fbcdn-video-b-a.akamaihd.net^$important
+||fbcdn-video-c-a.akamaihd.net^$important
+||fbcdn-video-d-a.akamaihd.net^$important
+||fbcdn-video-e-a.akamaihd.net^$important
+||fbcdn-video-f-a.akamaihd.net^$important
+||fbcdn-video-g-a.akamaihd.net^$important
+||fbcdn-video-h-a.akamaihd.net^$important
+||fbcdn-video-i-a.akamaihd.net^$important
+||fbcdn-video-j-a.akamaihd.net^$important
+||fbcdn-video-k-a.akamaihd.net^$important
+||fbcdn-video-l-a.akamaihd.net^$important
+||fbcdn-video-m-a.akamaihd.net^$important
+||fbcdn-video-n-a.akamaihd.net^$important
+||fbcdn-video-o-a.akamaihd.net^$important
+||fbcdn-video-p-a.akamaihd.net^$important
+||fbcdn-vthumb-a.akamaihd.net^$important
+||fbexternal-a.akamaihd.net^$important
+||fbstatic-a.akamaihd.net^$important
+||online-metrix.net^$important
+||accountkit.com^$important
+||autodiscover.oculus.com^$important
+||autodiscover.oculusvr.com^$important
+#
+## WhatsApp
+#
+! Basic
+||whatsapp.net^$important
+||whatsapp.com^$important
+!
+! Enhanced - We don't use enhanced rules here, if necessary use a separeted "full" list
+#
+## Instagram
+#
+! Basic
+||instagram.com^$important
+||cdninstagram.com^$important
+!
+! Enhanced - We don't use enhanced rules here, if necessary use a separeted "full" list
+||instagramstatic-a.akamaihd.net^$important
+||instagramstatic-a.akamaihd.net.edgesuite.net^$important
+#
+## Giphy
+#
+! Basic
+||giphy.com^$important
+!
+! Enhanced - We don't use enhanced rules here, if necessary use a separeted "full" list
+#
+## Calibra now Novi Facebooks CryptoMoney
+#
+! Basic
+||calibra.com^$important
+||novi.com^$important
+!
+! Enhanced - We don't use enhanced rules here, if necessary use a separeted "full" list
+#
+## Snapchat
+#
+! Basic
+||snapchat.com^$important
+||sc-cdn.net^$important
+||snap-dev.net^$important
+||snapkit.com^$important
+||snapads.com^$important
+||impala-media-production.s3.amazonaws.com^$important
+!
+! Enhanced - We don't use enhanced rules here, if necessary use a separeted "full" list
+#
+## TikTok
+#
+! Basic
+||tiktok.com^$important
+||tiktok.org^$important
+||tiktokcdn.com^$important
+||tiktokv.com^$important
+||musemuse.cn^$important
+||musical.ly^$important
+||snssdk.com^$important
+||amemv.com^$important
+||toutiao.com^$important
+||toutiao50.com^$important
+||pstatp.com^$important
+||ixigua.com^$important
+||ixiguavideo.com^$important
+||ipstatp.com^$important
+||sgpstatp.com^$important
+||sgsnssdk.com^$important
+||toutiaocloud.com^$important
+||toutiaocloud.net^$important
+||bdurl.com^$important
+||bytecdn.cn^$important
+||byteimg.com^$important
+||muscdn.com^$important
+||musical.ly^$important
+||douyin.com^$important
+||tiktokv.com^$important
+||xzcs3zlph.com^$important
+||qfyf1toi.com^$important
+||mzfvozqybf.com^$important
+||byteoversea.com^$important
+||bytedns.net^$important
+||ibyteimg.com^$important
+||hypstarcdn.com^$important
+||ns-440.awsdns-55.com^$important
+||ns-722.awsdns-26.net^$important
+||ns-1475.awsdns-56.org^$important
+||ns-1574.awsdns-04.co.uk^$important
+||bytedance.map.fastly.net^$important
+||tiktokcdn-com.akamaized.net^$important
+||p16-tiktokcdn-com.akamaized.net^$important
+||v16-tiktokcdn-com.akamaized.net^$important
+!
+! Enhanced - We don't use enhanced rules here (it would be huge), if necessary use a separeted "full" list
+#
+## Skype
+#
+! Basic
+||skype.com^$important
+||skypeassets.com^$important
+!
+! Enhanced - We don't use enhanced rules here, if necessary use a separeted "full" list
+#
+## Twitch
+#
+! Basic
+||twitch.tv^$important
+||skypeassets.com^$important
+||ttvnw.net^$important
+||jtvnw.net^$important
+||twitchcdn.net^$important
+!
+! Enhanced - We don't use enhanced rules here, if necessary use a separeted "full" list
+#
+## Twitter
+#
+! Basic
+||twitter.com^$important
+||twttr.com^$important
+||t.co^$important
+||twimg.com^$important
+!
+! Enhanced - We don't use enhanced rules here, if necessary use a separeted "full" list
+#
+## Pinterest
+#
+! Basic
+||pinterest.*^$important
+||pinimg.com^$important
+!
+! Enhanced - We don't use enhanced rules here, if necessary use a separeted "full" list
+#
+## QQ without WeChat
+#
+! Basic
+^(?!weixin|wx)([^.]+\\.)?qq\\.com$
+||qqzaixian.com^$important
+!
+! Enhanced - We don't use enhanced rules here, if necessary use a separeted "full" list
+#
+## WeChat
+#
+! Basic
+||wechat.com^$important
+||weixin.qq.com^$important
+||wx.qq.com^$important
+!
+! Enhanced - We don't use enhanced rules here, if necessary use a separeted "full" list
+#
+## Tinder - We've a network for cheap bitches and stupid notorious horny mens
+#
+! Basic
+||gotinder.com^$important
+||tinder.com^$important
+||tindersparks.com^$important
+!
+! Enhanced - We don't use enhanced rules here, if necessary use a separeted "full" list
+#
+## VK
+#
+! Basic
+||vk.com^$important
+||userapi.com^$important
+||vk-cdn.net^$important
+||vkuservideo.net^$important
+!
+! Enhanced - We don't use enhanced rules here, if necessary use a separeted "full" list
