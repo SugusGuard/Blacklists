@@ -42,16 +42,16 @@
 ||presence.api.drift.com^$important
 ||embeds.driftcdn.com^$important
 ||bootstrap.api.drift.com^$important
-||gstaticadssl.l.google.com^$important
 #
 ## Ads missing in other lists
 #
+||gstaticadssl.l.google.com^$important
 ||imasdk.googleapis.com^$important
 ||a-msedge.net^$important
 #
 ## DoH, DoT, missing in other lists
 #
-||doh.dns.apple.com^$important
+!
 #
 ## Google, missing in other lists
 #! Google Analytics
@@ -134,24 +134,10 @@
 #
 ## Specials (Testing! is maybe to much)
 #! Google Testing
-||encrypted-tbn0.gstatic.com^$important
-||encrypted-tbn1.gstatic.com^$important
-||encrypted-tbn2.gstatic.com^$important
-||encrypted-tbn3.gstatic.com^$important
 ||www3.l.google.com^$important
-||play.google.com^$important
-||0.client-channel.google.com^$important 
-||clients2.google.com^$important
-||client-channel.google.com^$important
-||clients4.google.com^$important
-||clients.l.google.com^$important
-||clients5.google.com^$important
-||clients3.google.com^$important
 ||fcmtoken.googleapis.com^$important
 ||iid.googleapis.com^$important
 ||device-provisioning.googleapis.com^$important
-||maps.googleapis.com^$important
-||chart.googleapis.com^$important
 #! Should include all Google DNS
 ||metric.gstatic.com^$important
 #! Google Cookies
