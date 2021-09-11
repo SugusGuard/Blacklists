@@ -32,7 +32,7 @@
 ||configuration.apple.com.edgekey.net^$important
 ||updates.cdn-apple.com^$important
 ||xp.apple.com^$important
-! macOS only^$important
+! macOS only
 ||gnf-mdn.apple.com^$important
 ||configuration.apple.com^$important
 ||gnf-mr.apple.com^$important
