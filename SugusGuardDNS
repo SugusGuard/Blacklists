@@ -4,7 +4,7 @@
 # 
 ## Whitelist
 #
-! Google Fonts if it breaks to many important sites if blocked
+#! Google Fonts if it breaks to many important sites if blocked
 ! @@||fonts.googleapis.com^
 ! @@||fonts.gstatic.com^
 #
@@ -18,16 +18,16 @@
 ||php.blick.ch^$important
 ||fooby.ch^$important
 ||savor-app.ch^$important
+||1e100.net^$important
 # 
 ## Telemetry, missing on other lists
-#
-! KDE Bullshit "kuserfeeback" shame on you KDE!
+#! Apple/iOS telemetry is now in SugusGuardATB list)
+#! KDE Bullshit "kuserfeeback" shame on you KDE!
 ||telemetry.kde.org^$important
 ||entypes.kde.org^$important
-! Nitro Software
+#! Nitro Software
 ||inapp.gonitro.com^$important
 ||desktop.gonitro.com^$important
-! Apple/iOS telemetry is now in SugusGuardATB list)
 #
 ## Tracking, missing in other lists
 #
@@ -42,6 +42,7 @@
 ||presence.api.drift.com^$important
 ||embeds.driftcdn.com^$important
 ||bootstrap.api.drift.com^$important
+||marketo.clearbit.com^$important
 #
 ## Ads missing in other lists
 #
@@ -51,9 +52,15 @@
 #
 ## DoH, DoT, missing in other lists
 #
-!
+!||doh.dns.apple.com^$important
 #
-## Google, missing in other lists
+## rnFirebase
+#
+||firebase.flutter.dev^$important
+||flutter-firebase-docs.web.app^$important
+||rnfirebase.io^$important
+#
+## Google, missing in other lists or just to generaly block
 #! Google Analytics
 ||google-analytics.com^$important
 ||googleanalytics.com^$important
@@ -72,6 +79,8 @@
 ||firebasedynamiclinks-ipv6.googleapis.com^$important
 ||firebaseremoteconfig.googleapis.com^$important
 ||firebaseinstallations.googleapis.com^$important
+#! Google DNS
+||metric.gstatic.com^$important
 #! Google Misc
 ||www.google.com^$important
 ||pki-goog.l.google.com^$important
@@ -95,7 +104,7 @@
 ||bandaid-redirector.l.google.com^$important
 #
 ## Browsers, missing on other lists
-#! General (Vivaldi, Iridium [sadly block other included "Google-Tracking" brick the browsers-funktions])
+#! General (Vivaldi, Iridium [sadly block other included "Google-Tracking" brick browsers-funktions])
 ||safebrowsing.googleapis.com^$important
 ||safebrowsing.clients.google.com^$important
 ||sb-ssl.google.com^$important
@@ -109,7 +118,8 @@
 ||push.services.mozilla.com^$important
 ||incoming.telemetry.mozilla.org^$important
 ||location.services.mozilla.com^$important
-#! Opera, just to be safe, but don't use this pos browser
+!||mozilla.cloudflare-dns.com^$important 
+#! Opera, just to be safe, but don't use this pos browser it's spyware
 ||speeddials.opera.com^$important
 ||features.opera-api.com^$important
 ||weather.opera-api.com^$important
@@ -138,11 +148,4 @@
 ||fcmtoken.googleapis.com^$important
 ||iid.googleapis.com^$important
 ||device-provisioning.googleapis.com^$important
-#! Should include all Google DNS
-||metric.gstatic.com^$important
-#! Google Cookies
-||1e100.net^$important
-#! rnFirebase Testing
-||firebase.flutter.dev^$important
-||flutter-firebase-docs.web.app^$important
-||rnfirebase.io^$important
+#
