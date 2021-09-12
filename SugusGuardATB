@@ -6,7 +6,8 @@
 # Sourced from: https://github.com/adversarialtools/apple-telemetry/blob/master/blacklist
 # Originally hosted at https://github.com/llacb47/apple-telemetry/blob/master/blacklist
 #
-! Apple Updates & Update-Check iOS, iPadOS, tvOS, and macOS
+## Apple Updates & Update-Check iOS, iPadOS, tvOS, and macOS
+#
 ||appldnld.apple.com^$important
 ||appldnld.apple.com.akadns.net^$important
 ||appldnld-lb.apple.com.akadns.net^$important
@@ -32,7 +33,7 @@
 ||configuration.apple.com.edgekey.net^$important
 ||updates.cdn-apple.com^$important
 ||xp.apple.com^$important
-! macOS only
+#! macOS only
 ||gnf-mdn.apple.com^$important
 ||configuration.apple.com^$important
 ||gnf-mr.apple.com^$important
@@ -45,7 +46,9 @@
 ||swdownload.apple.com^$important
 ||swpost.apple.com^$important
 ||swscan.apple.com^$important
-! Domains from llacb47/mischosts
+#
+## Domains from llacb47/mischosts
+#
 ||appleglobal.102.112.2o7.net^$important
 ||appleglobal.112.2o7.net^$important
 ||pancake.g.aaplimg.com^$important
@@ -280,7 +283,9 @@
 ||itc.mzstatic.com^$important
 ||metrics.mzstatic.com^$important
 ||store.mzstatic.com^$important
-! SugusGuard Additional Domains
+#
+##! SugusGuard Additional Domains
+#
 ||books-analytics-events.news.apple-dns.net^$important
 ||stocks-analytics-events.news.apple-dns.net^$important
 ||idiagnostics.apple.com.akadns.net^$important
