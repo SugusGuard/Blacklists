@@ -79,7 +79,7 @@
 ||firebasedynamiclinks-ipv6.googleapis.com^$important
 ||firebaseremoteconfig.googleapis.com^$important
 ||firebaseinstallations.googleapis.com^$important
-#! Google DNS
+#! Google DNS (should block all at once)
 ||metric.gstatic.com^$important
 #! Google Misc
 ||www.google.com^$important
