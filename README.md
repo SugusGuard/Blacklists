@@ -8,7 +8,7 @@ Maybe you should try The Blocklist Project: https://blocklistproject.github.io/L
 
 SugusGuardATB - Apple telemetry & update filterlist for AdGuard Home / AdGuard Pro App
 
-SugusGuardAWL - Apple minimal Whitelist for AdGuard Home / AdGuard Pro App **!! EXPERIMENTAL !! NOT READY TO USE YET**
+SugusGuardAWL - Apple minimal Whitelist for AdGuard Home / AdGuard Pro App **!! EXPERIMENTAL !!**
 
 SugusGuardDNS - SugusGuard's additional filterlist for AdGuard Home / AdGuard Pro App
 
