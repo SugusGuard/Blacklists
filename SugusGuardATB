@@ -11,6 +11,7 @@
 #
 ||*^$dnstype=HTTPS,dnsrewrite=REFUSED, important
 ||doh.dns.apple.com^$dnsrewrite=REFUSED,important
+||doh.dns.apple.com.v.aaplimg.com^$dnsrewrite=REFUSED,important
 #
 ## Apple Updates & Update-Check iOS, iPadOS, tvOS, and macOS
 #
