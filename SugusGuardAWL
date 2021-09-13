@@ -1,8 +1,14 @@
 # Title: SugusGuard minimal Apple Whitelist
 # Description: Apple minimal Whitelist for AdGuard Home / AdGuard Pro App !! EXPERIMENTAL !!
-# List-URL: https://raw.githubusercontent.com/SugusGuard/Blocklists/main/SugusGuardATB
-# Apple Info: https://support.apple.com/en-us/HT210060
-# Some  https://github.com/llacb47/apple-telemetry/blob/master/blacklist
+# List-URL: https://raw.githubusercontent.com/SugusGuard/Blocklists/main/SugusGuardAWL
+# Apple's host info: https://support.apple.com/en-us/HT210060
+# It's not nearly accurate or proper explained so that nobody sees what Apple really does
+# Some host from:  https://github.com/llacb47/apple-telemetry/blob/master/blacklist
+#
+## First we prevent filter-bypassing with https requests as Apple like to do
+#
+||*^$dnstype=HTTPS,dnsrewrite=REFUSED, important
+||doh.dns.apple.com^$dnsrewrite=REFUSED,important
 #
 ## Device Setup
 #! Access to the following hosts might be required when setting up your device, or when installing, updating, or restoring the operating system.
