@@ -1,7 +1,6 @@
 # Title: SugusGuard DNS filter
 # Description: SugusGuard's additional filterlist for AdGuard Home / AdGuard Pro App
 # List-URL: https://raw.githubusercontent.com/SugusGuard/Blocklists/main/SugusGuardDNS
-# 
 #
 ## Prevent filter-bypassing with https requests as Apple like to do
 #
@@ -23,8 +22,16 @@
 ||savor-app.ch^$important
 ||1e100.net^$important
 # 
-## Telemetry, missing on other lists
-#! Apple/iOS telemetry is now in SugusGuardATB list)
+## Specific Telemetry & Analytics missing on other lists
+#! Apple/iOS
+||metrics.mzstatic.com^$important
+||metrics.icloud.com^$important
+||messaging.metrics.icloud.com^$important
+||securemetrics.apple.com^$important
+||supportmetrics.apple.com^$important
+||books-analytics-events.news.apple-dns.net^$important
+||stocks-analytics-events.news.apple-dns.net^$important
+||idiagnostics.apple.com.akadns.net^$important
 #! KDE Bullshit "kuserfeeback" shame on you KDE!
 ||telemetry.kde.org^$important
 ||entypes.kde.org^$important
@@ -53,10 +60,12 @@
 ||imasdk.googleapis.com^$important
 ||a-msedge.net^$important
 #
-## DoH, DoT, missing in other lists
+## DoH, DoT Servers that seems to be hardcoded in some Software
 #
-!||doh.dns.apple.com^$important
-!||doh.dns.apple.com.v.aaplimg.com^$important
+||doh.dns.apple.com^$important
+||doh.dns.apple.com.v.aaplimg.com^$important
+||dns.google.com^$dnsrewrite=REFUSED,important
+||cloudflare-dns.com^$dnsrewrite=REFUSED,important
 #
 ## rnFirebase
 #
