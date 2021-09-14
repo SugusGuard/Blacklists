@@ -217,6 +217,6 @@
 ||eu-irl-00001.s3.dualstack.eu-west-1.amazonaws.com^$dnsrewrite=REFUSED,important                   #This is a weird connection, well at least unwanted we block it for now
 ||gcs-eu-00002.content-storage-download.googleapis.com^$dnsrewrite=REFUSED,important                #Seems to be icloud related to store some stuff
 #
-## Observed suspect connections from your Apple devices
+## Observed suspect connections from our Apple devices
 !seems to be Maps, Photo Library, Photo Stream, Photo Sharing etc that we don't use, but devices call this host all the time with no interaction, ATV even in standby.. weird
 #||gspe35-ssl.ls.apple.com^$important                                                               #Should be covered with the first few rules, we'll see                   
