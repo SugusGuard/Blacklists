@@ -207,14 +207,14 @@
 #
 ## Now we try to block all not whitelisted connections to Apple and use "REFUSED" here, so that devices SHOULD know that is restricted by policy
 # 
-||*apple.*|^$dnsrewrite=REFUSED,important                                                            #Block all URLs that include "apple." except whitelistet
-||*itunes.*|^$dnsrewrite=REFUSED,important                                                           #Block all URLs that include "itunes." except whitelistet
-||*icloud.*|^$dnsrewrite=REFUSED,important                                                           #Block all URLs that include "icloud." except whitelistet
-||*aaplimg*^$dnsrewrite=REFUSED,important                                                           #Block all URLs that include "aaplimg" except whitelistet
-||*mzstatic*^$dnsrewrite=REFUSED,important                                                          #Block all URLs that include "mzstatic" except whitelistet
-||*apple-dns.*^$dnsrewrite=REFUSED,important                                                        #Block all URLs that include "apple-dns." except whitelistet
-||*apple-cloudkit.*^$dnsrewrite=REFUSED,important                                                   #Block all URLs that include "apple-cloudkit." except whitelistet
-||*apple-livephotoskit.*^$dnsrewrite=REFUSED,important                                              #Block all URLs that include "apple-livephotoskit." except whitelistet
+||apple.*^$dnsrewrite=REFUSED,important                                                            #Block all URLs that include "apple." except whitelistet
+||itunes.*^$dnsrewrite=REFUSED,important                                                           #Block all URLs that include "itunes." except whitelistet
+||icloud.*^$dnsrewrite=REFUSED,important                                                           #Block all URLs that include "icloud." except whitelistet
+||aaplimg.*^$dnsrewrite=REFUSED,important                                                           #Block all URLs that include "aaplimg" except whitelistet
+||mzstatic.*^$dnsrewrite=REFUSED,important                                                          #Block all URLs that include "mzstatic" except whitelistet
+||apple-dns.*^$dnsrewrite=REFUSED,important                                                        #Block all URLs that include "apple-dns." except whitelistet
+||apple-cloudkit.*^$dnsrewrite=REFUSED,important                                                   #Block all URLs that include "apple-cloudkit." except whitelistet
+||apple-livephotoskit.*^$dnsrewrite=REFUSED,important                                              #Block all URLs that include "apple-livephotoskit." except whitelistet
 ||itunes-nocookie.com^$dnsrewrite=REFUSED,important                                                 #No info what it is, sadly Apple is to stupid to proper explain such weird domains
 #
 ## An we block other weird hosts we found in other Apple telemetry list incl. corresponding subdomains
