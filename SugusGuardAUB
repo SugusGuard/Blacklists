@@ -1,0 +1,51 @@
+# Title: SugusGuard Apple Update Blocklist
+# Description: Filterlist to block Apple updates for AdGuard Home / AdGuard Pro App
+# List-URL: https://raw.githubusercontent.com/SugusGuard/Blocklists/main/SugusGuardAUB
+# We use REFUSED here, so Apple devices seems to reduce harassing the dns server every few seconds
+#
+## Prevent filter-bypassing with https requests as Apple like to do
+#
+||*^$dnstype=HTTPS,dnsrewrite=REFUSED, important
+||doh.dns.apple.com^$dnsrewrite=REFUSED,important
+||doh.dns.apple.com.v.aaplimg.com^$dnsrewrite=REFUSED,important
+#
+## Apple Updates & Update-Check iOS, iPadOS, tvOS, and macOS
+#
+||appldnld.apple.com^$dnsrewrite=REFUSED,important
+||appldnld.apple.com.akadns.net^$dnsrewrite=REFUSED,important
+||appldnld-lb.apple.com.akadns.net^$dnsrewrite=REFUSED,important
+||appldnld.g.aaplimg.com^$dnsrewrite=REFUSED,important
+||mesu.apple.com^$dnsrewrite=REFUSED,important
+||mesu-cdn.apple.com.akadns.net^$dnsrewrite=REFUSED,important
+||mesu-cdn.origin-apple.com.akadns.net^$dnsrewrite=REFUSED,important
+||mesu.apple.com.edgekey.net^$dnsrewrite=REFUSED,important
+||mesu.g.aaplimg.com^$dnsrewrite=REFUSED,important
+||gdmf.apple.com^$dnsrewrite=REFUSED,important
+||gdmf.apple.com.akadns.net^$dnsrewrite=REFUSED,important
+||ocsp.apple.com^$dnsrewrite=REFUSED,important
+||ocsp-lb.apple.com.akadns.net^$dnsrewrite=REFUSED,important
+||ocsp-a.g.aaplimg.com^$dnsrewrite=REFUSED,important
+||ocsp2.apple.com^$dnsrewrite=REFUSED,important
+||ocsp2-lb.apple.com.akadns.net^$dnsrewrite=REFUSED,important
+||ocsp2.g.aaplimg.com^$dnsrewrite=REFUSED,important
+||updates-http.cdn-apple.com^$dnsrewrite=REFUSED,important
+||gg.apple.com^$dnsrewrite=REFUSED,important
+||gs.apple.com^$dnsrewrite=REFUSED,important
+||ns.itunes.apple.com^$dnsrewrite=REFUSED,important
+||configuration.apple.com.akadns.net^$dnsrewrite=REFUSED,important
+||configuration.apple.com.edgekey.net^$dnsrewrite=REFUSED,important
+||updates.cdn-apple.com^$dnsrewrite=REFUSED,important
+||xp.apple.com^$dnsrewrite=REFUSED,important
+#! macOS only
+||gnf-mdn.apple.com^$dnsrewrite=REFUSED,important
+||configuration.apple.com^$dnsrewrite=REFUSED,important
+||gnf-mr.apple.com^$dnsrewrite=REFUSED,important
+||ig.apple.com^$dnsrewrite=REFUSED,important
+||oscdn.apple.com^$dnsrewrite=REFUSED,important
+||osrecovery.apple.com^$dnsrewrite=REFUSED,important
+||skl.apple.com^$dnsrewrite=REFUSED,important
+||swcdn.apple.com^$dnsrewrite=REFUSED,important
+||swdist.apple.com^$dnsrewrite=REFUSED,important
+||swdownload.apple.com^$dnsrewrite=REFUSED,important
+||swpost.apple.com^$dnsrewrite=REFUSED,important
+||swscan.apple.com^$dnsrewrite=REFUSED,important
