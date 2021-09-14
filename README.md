@@ -6,7 +6,7 @@ Maybe you should try The Blocklist Project: https://blocklistproject.github.io/L
 
 # Short Descriptions
 
-SugusGuardATB - Apple telemetry & update filterlist for AdGuard Home / AdGuard Pro App
+SugusGuardAUB - Apple Update blocklist for AdGuard Home / AdGuard Pro App
 
 SugusGuardAWL - Apple minimal Whitelist for AdGuard Home / AdGuard Pro App **!! EXPERIMENTAL !!**
 
