@@ -1,7 +1,7 @@
 # Title: SugusGuard minimal Apple Whitelist
 # Description: Apple minimal Whitelist for AdGuard Home / AdGuard Pro App !! EXPERIMENTAL !!
 # List-URL: https://raw.githubusercontent.com/SugusGuard/Blocklists/main/SugusGuardAWL
-# Apple's unclear host info: https://support.apple.com/en-us/HT210060 from date: 2021/09/10
+# Apple's unclear "required" host info: https://support.apple.com/en-us/HT210060 from date: 2021/09/10
 # Apple's host info is not nearly accurate or proper explained (so that nobody sees what Apple really does?)
 # Apple explains Apple devices should have access to the listed hosts not CNAME hosts, so we don't whitelist them yet
 #
@@ -12,11 +12,14 @@
 # "sooo good", "non-spying" software! It shows also, Apple is as worst as Google, but at least, Google stands to the
 # things they do, Apple always claims "we are so privacy" - a shit you're! -> Yes now i feel ab it better ;-)
 #
-## First we prevent filter-bypassing with https requests as Apple like to do
+## First we prevent filter-bypassing with https requests as Apple like to do, it's a pure hassle with Apple at all
 #
 ||*^$dnstype=HTTPS,dnsrewrite=REFUSED, important                                                    #Refuse HTTPS requests in general
 ||doh.dns.apple.com^$dnsrewrite=REFUSED,important                                                   #Refuse Apple DoH DNS Server
 ||doh.dns.apple.com.v.aaplimg.com^$dnsrewrite=REFUSED,important                                     #CNAME
+#
+## Now we whitelist the hosts that Apple claim as "required", we know it's not true at all, some are only required from Apple for tracking and deliver advertising.
+## Therefore we've to comment some "not necessary" host out of the whitelist now and maybe later - this need some time to figure out the right one
 #
 ## Device Setup
 #! Access to the following hosts might be required when setting up your device, or when installing, updating, or restoring the operating system.
@@ -58,7 +61,6 @@
 #
 ## Software updates (we don't accept "more" spyware on our devices, so we block updates at the moment... FU Tim)
 #! Network access to the following hostnames is required for installing, restoring, and updating macOS, iOS, and tvOS.
-#
 #@@appldnld.apple.com^$important                            #iOS and iPadOS                         iOS updates
 #@@configuration.apple.com^$important                       #macOS only                             Rosetta 2 updates
 #@@gdmf.apple.com^$important                                #iOS, iPadOS, tvOS, and macOS           Software update catalog		
@@ -83,7 +85,7 @@
 ## App Store
 #! Access to the following hosts might be required for updating apps.
 @@||apps.apple.com^$important                               #iOS, iPadOS, tvOS, and macOS           Store content such as apps, books, and music
-#@@||mzstatic.com^                                          #We can't do this generally because Apple use this domain also for garbage so we try to finde the necessary ones below
+#@@||mzstatic.com^                                          #We can't do this generally because Apple use this domain also for garbage so we try to find the necessary ones below
 @@apps.mzstatic.com^$important                              #iOS, iPadOS, tvOS, and macOS           Store content such as apps, books, and music							
 @@s.mzstatic.com^$important
 @@is1.mzstatic.com^$important                                         
@@ -96,7 +98,7 @@
 @@is3-ssl.mzstatic.com^$important
 @@is4-ssl.mzstatic.com^$important
 @@is5-ssl.mzstatic.com^$important
-#@@||itunes.apple.com^                                      #We can't do this generally because Apple use this domain also for garbage so we try to finde the necessary ones below
+#@@||itunes.apple.com^                                      #We can't do this generally because Apple use this domain also for garbage so we try to find the necessary ones below
 @@itunes.apple.com^$important                               #iOS, iPadOS, tvOS, and macOS           Store content such as apps, books, and music
 @@itunes-cdn.itunes-apple.com.akadns.net^$important         #CNAME
 @@itunes.apple.com.edgekey.net^$important                   #CNAME
@@ -113,7 +115,7 @@
 @@pd.itunes.apple.com^$important                            #iOS, iPadOS, tvOS, and macOS           Without explanation from Apple
 @@su.itunes.apple.com^$important                            #iOS, iPadOS, tvOS, and macOS           Without explanation from Apple
 @@sf-api-token-service.itunes.apple.com^$important          #iOS, iPadOS, tvOS, and macOS           Without explanation from Apple
-#@@silverbullet-external-ats.itunes.apple.com^$important    #iOS, iPadOS, tvOS, and macOS           Without explanation from Apple
+#@@silverbullet-external-ats.itunes.apple.com^$important    #iOS, iPadOS, tvOS, and macOS           Vampires around in Cupertino?
 #@@ppq.apple.com^$important                                 #iOS, iPadOS, tvOS, and macOS           Enterprise App validation
 #
 ## Carrier updates
@@ -133,7 +135,7 @@
 #@@lcdn-locator.apple.com^$important                        #iOS, iPadOS, tvOS, and macOS           Content caching locator service
 #@@serverstatus.apple.com^$important                        #macOS only                             Content caching client public IP determination
 #
-## Apple Developer (unnecessary at the moment)
+## Apple Developer (unnecessary except for developers)
 #! Access to the following hosts is required for app notarization and app validation - App validation
 #@@||appattest.apple.com^$important                         #iOS, iPadOS, and macOS                 App validation, Touch ID and Face ID authentication for websites
 #
@@ -172,7 +174,7 @@
 @@idmsa.apple.com^$important                                #iOS, iPadOS, tvOS, and macOS           Apple ID authentication
 @@gsa.apple.com^$important                                  #iOS, iPadOS, tvOS, and macOS           Apple ID authentication
 #
-## iCloud (we don't use icloud, so so this should be unnecessary except (maybe) iMessage, we'll see...)
+## iCloud (we don't use icloud and never will, so this should be unnecessary except (maybe) iMessage, we'll see...)
 #! In addition to the Apple ID hosts listed above, Apple devices must be able to connect to hosts in the following domains to use iCloud services.
 ! We can't do this generally because Apple use this domain also for garbage, so we need to find out the necessary ones and whiteleist them below without subdomains
 #@@||apple-cloudkit.com^                                    #iOS, iPadOS, tvOS, and macOS           iCloud services
@@ -186,7 +188,7 @@
 #@@||icloud-content.com^                                    #iOS, iPadOS, tvOS, and macOS           iCloud services
 #@@||iwork.apple.com^                                       #iOS, iPadOS, tvOS, and macOS           iWork documents
 #
-## Additional content (no thanks not really necessary)
+## Additional content (no thanks)
 #! Apple devices must be able to connect to the following hosts to download additional content. Some additional content might also be hosted on third-party content distribution networks.
 #
 #@@audiocontentdownload.apple.com^$important                #iOS, iPadOS, and macOS                 GarageBand downloadable content
@@ -196,27 +198,30 @@
 #@@playgrounds-cdn.apple.com^$important                     #iPadOS and macOS                       Swift Playgrounds
 #@@sylvan.apple.com^$important                              #tvOS only                              Apple TV screen savers
 #
-## Whitelist "normal" WebAccess
-#! important so it overrules important blocks
+## Now we've to whitelist "normal" access to Apple's Websites, we'll see if need something more
+#
 @@www.apple.com^$important
 @@www.itunes.com^$important
 @@support.apple.com^$important
 #
-## (try to) Block all not whitelisted connections to Apple
-#! We use "REFUSED" here, so that devices SHOULD know that is restricted by policy
+## Now we try to block all not whitelisted connections to Apple and use "REFUSED" here, so that devices SHOULD know that is restricted by policy
+# 
 ||*apple.*^$dnsrewrite=REFUSED,important                                                            #Block all URLs that include "apple." except whitelistet
 ||*itunes.*^$dnsrewrite=REFUSED,important                                                           #Block all URLs that include "itunes." except whitelistet
 ||*icloud.*^$dnsrewrite=REFUSED,important                                                           #Block all URLs that include "icloud." except whitelistet
 ||*aaplimg*^$dnsrewrite=REFUSED,important                                                           #Block all URLs that include "aaplimg" except whitelistet
 ||*mzstatic*^$dnsrewrite=REFUSED,important                                                          #Block all URLs that include "mzstatic" except whitelistet
 ||*apple-dns.*^$dnsrewrite=REFUSED,important                                                        #Block all URLs that include "apple-dns." except whitelistet
+||*apple-cloudkit.*^$dnsrewrite=REFUSED,important                                                   #Block all URLs that include "apple-cloudkit." except whitelistet
+||*apple-livephotoskit.*^$dnsrewrite=REFUSED,important                                              #Block all URLs that include "apple-livephotoskit." except whitelistet
 ||itunes-nocookie.com^$dnsrewrite=REFUSED,important                                                 #No info what it is, sadly Apple is to stupid to proper explain such weird domains
 #
-## Other weird host we found in llacb47's Apple telemetry list incl. corresponding subdomains
+## An we block other weird hosts we found in other Apple telemetry list incl. corresponding subdomains
 #
 ||eu-irl-00001.s3.dualstack.eu-west-1.amazonaws.com^$dnsrewrite=REFUSED,important                   #This is a weird connection, well at least unwanted we block it for now
-||gcs-eu-00002.content-storage-download.googleapis.com^$dnsrewrite=REFUSED,important                #Seems to be icloud related to store some stuff
+||gcs-eu-00002.content-storage-download.googleapis.com^$dnsrewrite=REFUSED,important                #Seems to be icloud related to store some stuff, we dom't like to store something in Apple's shitty-cloud
 #
-## Observed suspect connections from our Apple devices
+## Observed suspect connections from our Apple devices, maybe we've to add this host(s) to the whitelist if blocking brick some funktions we need
+#
 !seems to be Maps, Photo Library, Photo Stream, Photo Sharing etc that we don't use, but devices call this host all the time with no interaction, ATV even in standby.. weird
-#||gspe35-ssl.ls.apple.com^$important                                                               #Should be covered with the first few rules, we'll see                   
+#@@gspe35-ssl.ls.apple.com^$important                                                               #??                
