@@ -45,156 +45,156 @@
 #
 ## Device Setup
 #! Access to the following hosts might be required when setting up your device, or when installing, updating, or restoring the operating system.
-@@albert.apple.com^$important                               #iOS, iPadOS, tvOS, and macOS           Device activation		
-@@captive.apple.com^$important                              #iOS, iPadOS, tvOS, and macOS           Device activation
-#@@captive-cidr.origin-apple.com.akadns.net^$important      #CNAME
-#@@captive-cdn.origin-apple.com.akadns.net^$important       #CNAME
-@@gs.apple.com^$important                                   #iOS, iPadOS, tvOS, and macOS           Without explanation from Apple (restoring?)
-#@@gs.apple.com.akadns.net^$important                       #CNAME
-@@humb.apple.com^$important                                 #iOS, iPadOS, tvOS, and macOS           Without explanation from Apple
-#@@static.ips.apple.com^$important                          #iOS, iPadOS, tvOS, and macOS           Without explanation from Apple seems to be location tracking
-@@sq-device.apple.com^$important                            #iOS and iPadOS                         eSIM activation
-@@tbsc.apple.com^$important                                 #iOS, iPadOS, tvOS, and macOS           Without explanation from Apple
-@@time-ios.apple.com^$important                             #iOS, iPadOS, and tvOS                  Used by devices to set their date and time
-#@@time-ios.g.aaplimg.com^$important                        #CNAME
-@@time.apple.com^$important                                 #iOS, iPadOS, tvOS, and macOS           Used by devices to set their date and time
-#@@time-osx.g.aaplimg.com^$important                        #CNAME
-@@time-macos.apple.com^$important                           #macOS only                             Used by devices to set their date and time
-#@@time-macos.apple.com^$important                          #CNAME
+@@|albert.apple.com^$important                               #iOS, iPadOS, tvOS, and macOS           Device activation		
+@@|captive.apple.com^$important                              #iOS, iPadOS, tvOS, and macOS           Device activation
+#@@|captive-cidr.origin-apple.com.akadns.net^$important      #CNAME
+#@@|captive-cdn.origin-apple.com.akadns.net^$important       #CNAME
+@@|gs.apple.com^$important                                   #iOS, iPadOS, tvOS, and macOS           Without explanation from Apple (restoring?)
+#@@|gs.apple.com.akadns.net^$important                       #CNAME
+@@|humb.apple.com^$important                                 #iOS, iPadOS, tvOS, and macOS           Without explanation from Apple
+#@@|static.ips.apple.com^$important                          #iOS, iPadOS, tvOS, and macOS           Without explanation from Apple seems to be location tracking
+@@|sq-device.apple.com^$important                            #iOS and iPadOS                         eSIM activation
+@@|tbsc.apple.com^$important                                 #iOS, iPadOS, tvOS, and macOS           Without explanation from Apple
+@@|time-ios.apple.com^$important                             #iOS, iPadOS, and tvOS                  Used by devices to set their date and time
+#@@|time-ios.g.aaplimg.com^$important                        #CNAME
+@@|time.apple.com^$important                                 #iOS, iPadOS, tvOS, and macOS           Used by devices to set their date and time
+#@@|time-osx.g.aaplimg.com^$important                        #CNAME
+@@|time-macos.apple.com^$important                           #macOS only                             Used by devices to set their date and time
+#@@|time-macos.apple.com^$important                          #CNAME
 #
 ## Device Management (seems to be unnecessary if we don't use MDM, except push)
 #! Network access to the following hosts might be required for devices enrolled in Mobile Device Management (MDM).
-@@||push.apple.com^$important                               #iOS, iPadOS, tvOS, and macOS           Push notifications
-#@@deviceenrollment.apple.com^$important                    #iOS, iPadOS, tvOS, and macOS           DEP provisional enrollment
-#@@deviceservices-external.apple.com^$important             #iOS, iPadOS, tvOS, and macOS           N/A
-#@@gdmf.apple.com^$important                                #iOS, iPadOS, tvOS, and macOS           MDM server to identify which software updates are available to devices that use managed software updates
-#@@identity.apple.com^$important                            #iOS, iPadOS, tvOS, and macOS           APNs certificate request portal
-#@@iprofiles.apple.com^$important                           #iOS, iPadOS, tvOS, and macOS           Hosts enrollment profiles used when devices enroll in Apple School or Apple Business Manager
-#@@mdmenrollment.apple.com^$important                       #iOS, iPadOS, tvOS, and macOS           MDM servers uploads for School Manager or Business Manager, and to look up devices and accounts
-#@@setup.icloud.com^$important                              #iOS and iPadOS                         Required to log in with a Managed Apple ID on Shared iPad
-#@@vpp.itunes.apple.com^$important                          #iOS, iPadOS, tvOS, and macOS           MDM servers to perform operations related to Apps and Books, like assigning or revoking licenses on a device
+@@||push.apple.com^$important                                #iOS, iPadOS, tvOS, and macOS           Push notifications
+#@@|deviceenrollment.apple.com^$important                    #iOS, iPadOS, tvOS, and macOS           DEP provisional enrollment
+#@@|deviceservices-external.apple.com^$important             #iOS, iPadOS, tvOS, and macOS           N/A
+#@@|gdmf.apple.com^$important                                #iOS, iPadOS, tvOS, and macOS           MDM server to identify which software updates are available to devices that use managed software updates
+#@@|identity.apple.com^$important                            #iOS, iPadOS, tvOS, and macOS           APNs certificate request portal
+#@@|iprofiles.apple.com^$important                           #iOS, iPadOS, tvOS, and macOS           Hosts enrollment profiles used when devices enroll in Apple School or Apple Business Manager
+#@@|mdmenrollment.apple.com^$important                       #iOS, iPadOS, tvOS, and macOS           MDM servers uploads for School Manager or Business Manager, and to look up devices and accounts
+#@@|setup.icloud.com^$important                              #iOS and iPadOS                         Required to log in with a Managed Apple ID on Shared iPad
+#@@|vpp.itunes.apple.com^$important                          #iOS, iPadOS, tvOS, and macOS           MDM servers to perform operations related to Apps and Books, like assigning or revoking licenses on a device
 #
 ## Apple School Manager and Apple Business Manager (seems to be unnecessary if we don't use School or Business Manager)
 #! Network access to the following hosts as well as the hosts in the App Store section is required for full functionality of Apple School Manager and Apple Business Manager.
-#@@||business.apple.com^                                    #N/A                                    Apple Business Manager
-#@@||school.apple.com^                                      #N/A                                    Schoolwork Roster service
-#@@isu.apple.com^$important                                 #N/A                                    N/A
-#@@ws-ee-maidsvc.icloud.com^$important                      #N/A                                    Schoolwork Roster service
+#@@||business.apple.com^                                     #N/A                                    Apple Business Manager
+#@@||school.apple.com^                                       #N/A                                    Schoolwork Roster service
+#@@|isu.apple.com^$important                                 #N/A                                    N/A
+#@@|ws-ee-maidsvc.icloud.com^$important                      #N/A                                    Schoolwork Roster service
 #
 ## Software updates (we don't accept "more" spyware on our devices, so we block updates at the moment... FU Tim)
 #! Network access to the following hostnames is required for installing, restoring, and updating macOS, iOS, and tvOS.
-#@@appldnld.apple.com^$important                            #iOS and iPadOS                         iOS updates
-#@@configuration.apple.com^$important                       #macOS only                             Rosetta 2 updates
-#@@gdmf.apple.com^$important                                #iOS, iPadOS, tvOS, and macOS           Software update catalog		
-#@@gg.apple.com^$important                                  #iOS, iPadOS, tvOS, and macOS           iOS, tvOS, and macOS updates
-#@@gnf-mdn.apple.com^$important                             #macOS only                             macOS updates
-#@@gnf-mr.apple.com^$important                              #macOS only                             macOS updates
-#@@gs.apple.com^$important                                  #iOS, iPadOS, tvOS, and macOS           iOS, iPadOS, tvOS, and macOS updates
-#@@ig.apple.com^$important                                  #macOS only                             macOS updates
-#@@mesu.apple.com^$important                                #iOS, iPadOS, tvOS, and macOS           Hosts software update catalogs
-#@@ns.itunes.apple.com^$important                           #iOS and iPadOS                         N/A
-#@@oscdn.apple.com^$important                               #macOS only                             macOS Recovery
-#@@osrecovery.apple.com^$important                          #macOS only                             macOS Recovery
-#@@skl.apple.com^$important                                 #macOS only                             macOS updates
-#@@swcdn.apple.com^$important                               #macOS only                             macOS updates
-#@@swdist.apple.com^$important                              #macOS only                             macOS updates
-#@@swdownload.apple.com^$important                          #macOS only                             macOS updates
-#@@swpost.apple.com^$important                              #macOS only                             macOS updates
-#@@swscan.apple.com^$important                              #macOS only                             macOS updates
-#@@updates-http.cdn-apple.com^$important                    #iOS, iPadOS, tvOS, and macOS           Software update downloads
-#@@xp.apple.com^$important                                  #iOS, iPadOS, tvOS, and macOS           N/A
+#@@|appldnld.apple.com^$important                            #iOS and iPadOS                         iOS updates
+#@@|configuration.apple.com^$important                       #macOS only                             Rosetta 2 updates
+#@@|gdmf.apple.com^$important                                #iOS, iPadOS, tvOS, and macOS           Software update catalog		
+#@@|gg.apple.com^$important                                  #iOS, iPadOS, tvOS, and macOS           iOS, tvOS, and macOS updates
+#@@|gnf-mdn.apple.com^$important                             #macOS only                             macOS updates
+#@@|gnf-mr.apple.com^$important                              #macOS only                             macOS updates
+#@@|gs.apple.com^$important                                  #iOS, iPadOS, tvOS, and macOS           iOS, iPadOS, tvOS, and macOS updates
+#@@|ig.apple.com^$important                                  #macOS only                             macOS updates
+#@@|mesu.apple.com^$important                                #iOS, iPadOS, tvOS, and macOS           Hosts software update catalogs
+#@@|ns.itunes.apple.com^$important                           #iOS and iPadOS                         N/A
+#@@|oscdn.apple.com^$important                               #macOS only                             macOS Recovery
+#@@|osrecovery.apple.com^$important                          #macOS only                             macOS Recovery
+#@@|skl.apple.com^$important                                 #macOS only                             macOS updates
+#@@|swcdn.apple.com^$important                               #macOS only                             macOS updates
+#@@|swdist.apple.com^$important                              #macOS only                             macOS updates
+#@@|swdownload.apple.com^$important                          #macOS only                             macOS updates
+#@@|swpost.apple.com^$important                              #macOS only                             macOS updates
+#@@|swscan.apple.com^$important                              #macOS only                             macOS updates
+#@@|updates-http.cdn-apple.com^$important                    #iOS, iPadOS, tvOS, and macOS           Software update downloads
+#@@|xp.apple.com^$important                                  #iOS, iPadOS, tvOS, and macOS           N/A
 #
 ## App Store
 #! Access to the following hosts might be required for updating apps.
-@@||apps.apple.com^$important                               #iOS, iPadOS, tvOS, and macOS           Store content such as apps, books, and music
-#@@||mzstatic.com^                                          #We can't do this generally because Apple use this domain also for garbage so we try to find the necessary ones below
-@@apps.mzstatic.com^$important                              #iOS, iPadOS, tvOS, and macOS           Store content such as apps, books, and music							
-@@s.mzstatic.com^$important
-@@is1.mzstatic.com^$important                                         
-@@is2.mzstatic.com^$important
-@@is3.mzstatic.com^$important
-@@is4.mzstatic.com^$important
-@@is5.mzstatic.com^$important
-@@is1-ssl.mzstatic.com^$important
-@@is2-ssl.mzstatic.com^$important
-@@is3-ssl.mzstatic.com^$important
-@@is4-ssl.mzstatic.com^$important
-@@is5-ssl.mzstatic.com^$important
-#@@||itunes.apple.com^                                      #We can't do this generally because Apple use this domain also for garbage so we try to find the necessary ones below
-@@itunes.apple.com^$important                               #iOS, iPadOS, tvOS, and macOS           Store content such as apps, books, and music
-@@itunes-cdn.itunes-apple.com.akadns.net^$important         #CNAME
-@@itunes.apple.com.edgekey.net^$important                   #CNAME
-@@init.itunes.apple.com^$important                          #iOS, iPadOS, tvOS, and macOS           Without explanation from Apple
-@@bag.itunes.apple.com^$important                           #iOS, iPadOS, tvOS, and macOS           Without explanation from Apple
-@@play.itunes.apple.com^$important                          #iOS, iPadOS, tvOS, and macOS           Without explanation from Apple
-@@inappcheck.itunes.apple.com^$important                    #iOS, iPadOS, tvOS, and macOS           Without explanation from Apple
-@@partiality.itunes.apple.com^$important                    #iOS, iPadOS, tvOS, and macOS           Without explanation from Apple
-@@uts-api.itunes.apple.com^$important                       #iOS, iPadOS, tvOS, and macOS           Without explanation from Apple
-@@p70-buy.itunes.apple.com^$important                       #iOS, iPadOS, tvOS, and macOS           Without explanation from Apple
-@@iosapps.itunes.apple.com^$important                       #iOS, iPadOS, tvOS, and macOS           Without explanation from Apple
-@@downloaddispatch.itunes.apple.com^$important              #iOS, iPadOS, tvOS, and macOS           Without explanation from Apple
-@@apptrailers.itunes.apple.com^$important                   #iOS, iPadOS, tvOS, and macOS           Without explanation from Apple
-@@pd.itunes.apple.com^$important                            #iOS, iPadOS, tvOS, and macOS           Without explanation from Apple
-@@su.itunes.apple.com^$important                            #iOS, iPadOS, tvOS, and macOS           Without explanation from Apple
-@@sf-api-token-service.itunes.apple.com^$important          #iOS, iPadOS, tvOS, and macOS           Without explanation from Apple
-#@@silverbullet-external-ats.itunes.apple.com^$important    #iOS, iPadOS, tvOS, and macOS           Vampires around in Cupertino?
-#@@ppq.apple.com^$important                                 #iOS, iPadOS, tvOS, and macOS           Enterprise App validation
+@@||apps.apple.com^$important                                #iOS, iPadOS, tvOS, and macOS           Store content such as apps, books, and music
+#@@||mzstatic.com^                                           #We can't do this generally because Apple use this domain also for garbage so we try to find the necessary ones below
+@@|apps.mzstatic.com^$important                              #iOS, iPadOS, tvOS, and macOS           Store content such as apps, books, and music							
+@@|s.mzstatic.com^$important
+@@|is1.mzstatic.com^$important                                         
+@@|is2.mzstatic.com^$important
+@@|is3.mzstatic.com^$important
+@@|is4.mzstatic.com^$important
+@@|is5.mzstatic.com^$important
+@@|is1-ssl.mzstatic.com^$important
+@@|is2-ssl.mzstatic.com^$important
+@@|is3-ssl.mzstatic.com^$important
+@@|is4-ssl.mzstatic.com^$important
+@@|is5-ssl.mzstatic.com^$important
+#@@||itunes.apple.com^                                       #We can't do this generally because Apple use this domain also for garbage so we try to find the necessary ones below
+@@|itunes.apple.com^$important                               #iOS, iPadOS, tvOS, and macOS           Store content such as apps, books, and music
+@@|itunes-cdn.itunes-apple.com.akadns.net^$important         #CNAME
+@@|itunes.apple.com.edgekey.net^$important                   #CNAME
+@@|init.itunes.apple.com^$important                          #iOS, iPadOS, tvOS, and macOS           Without explanation from Apple
+@@|bag.itunes.apple.com^$important                           #iOS, iPadOS, tvOS, and macOS           Without explanation from Apple
+@@|play.itunes.apple.com^$important                          #iOS, iPadOS, tvOS, and macOS           Without explanation from Apple
+@@|inappcheck.itunes.apple.com^$important                    #iOS, iPadOS, tvOS, and macOS           Without explanation from Apple
+@@|partiality.itunes.apple.com^$important                    #iOS, iPadOS, tvOS, and macOS           Without explanation from Apple
+@@|uts-api.itunes.apple.com^$important                       #iOS, iPadOS, tvOS, and macOS           Without explanation from Apple
+@@|p70-buy.itunes.apple.com^$important                       #iOS, iPadOS, tvOS, and macOS           Without explanation from Apple
+@@|iosapps.itunes.apple.com^$important                       #iOS, iPadOS, tvOS, and macOS           Without explanation from Apple
+@@|downloaddispatch.itunes.apple.com^$important              #iOS, iPadOS, tvOS, and macOS           Without explanation from Apple
+@@|apptrailers.itunes.apple.com^$important                   #iOS, iPadOS, tvOS, and macOS           Without explanation from Apple
+@@|pd.itunes.apple.com^$important                            #iOS, iPadOS, tvOS, and macOS           Without explanation from Apple
+@@|su.itunes.apple.com^$important                            #iOS, iPadOS, tvOS, and macOS           Without explanation from Apple
+@@|sf-api-token-service.itunes.apple.com^$important          #iOS, iPadOS, tvOS, and macOS           Without explanation from Apple
+#@@|silverbullet-external-ats.itunes.apple.com^$important    #iOS, iPadOS, tvOS, and macOS           Vampires around in Cupertino?
+#@@|ppq.apple.com^$important                                 #iOS, iPadOS, tvOS, and macOS           Enterprise App validation
 #
 ## Carrier updates
 #! Cellular devices must be able to connect to the following hosts to install carrier bundle updates.
-@@appldnld.apple.com^$important                             #iOS and iPadOS                         Cellular carrier bundle updates
-@@appldnld.apple.com.edgesuite.net^$important               #iOS and iPadOS                         Cellular carrier bundle updates
-@@itunes.com^$important                                     #iOS and iPadOS                         Carrier bundle update discovery
-@@itunes.apple.com^$important                               #iOS and iPadOS                         Carrier bundle update discovery
-@@updates-http.cdn-apple.com^$important                     #iOS and iPadOS                         Cellular carrier bundle updates
-@@updates.cdn-apple.com^$important                          #iOS and iPadOS                         Cellular carrier bundle updates
+@@|appldnld.apple.com^$important                             #iOS and iPadOS                         Cellular carrier bundle updates
+@@|appldnld.apple.com.edgesuite.net^$important               #iOS and iPadOS                         Cellular carrier bundle updates
+@@|itunes.com^$important                                     #iOS and iPadOS                         Carrier bundle update discovery
+@@|itunes.apple.com^$important                               #iOS and iPadOS                         Carrier bundle update discovery
+@@|updates-http.cdn-apple.com^$important                     #iOS and iPadOS                         Cellular carrier bundle updates
+@@|updates.cdn-apple.com^$important                          #iOS and iPadOS                         Cellular carrier bundle updates
 #
 ## Content caching (we'll use a mac when the hell freeze, so this should be unnecessary)
 #! A Mac that provides content caching must be able to connect to the following hosts, as well as the hosts that provide Apple content such as software updates, apps, and additional content.
-#@@lcdn-registration.apple.com^$important                   #macOS only                             Server registration
-#@@suconfig.apple.com^$important                            #macOS only                             Configuration
-#@@xp-cdn.apple.com^$important                              #macOS only                             Reporting
-#@@lcdn-locator.apple.com^$important                        #iOS, iPadOS, tvOS, and macOS           Content caching locator service
-#@@serverstatus.apple.com^$important                        #macOS only                             Content caching client public IP determination
+#@@|lcdn-registration.apple.com^$important                   #macOS only                             Server registration
+#@@|suconfig.apple.com^$important                            #macOS only                             Configuration
+#@@|xp-cdn.apple.com^$important                              #macOS only                             Reporting
+#@@|lcdn-locator.apple.com^$important                        #iOS, iPadOS, tvOS, and macOS           Content caching locator service
+#@@|serverstatus.apple.com^$important                        #macOS only                             Content caching client public IP determination
 #
 ## Apple Developer (unnecessary except for developers)
 #! Access to the following hosts is required for app notarization and app validation - App validation
-#@@||appattest.apple.com^$important                         #iOS, iPadOS, and macOS                 App validation, Touch ID and Face ID authentication for websites
+#@@||appattest.apple.com^$important                          #iOS, iPadOS, and macOS                 App validation, Touch ID and Face ID authentication for websites
 #
 ## Feedback Assistant (we don't use beta software, so this should be unnecessary)
 #! Feedback Assistant is an app used by developers and members of the beta software programs to report feedback to Apple. It uses the following hosts
-#@@bpapi.apple.com^$important                               #tvOS only                              Provides beta software updates
-#@@cssubmissions.apple.com^$important                       #iOS, iPadOS, tvOS, and macOS           Used by Feedback Assistant to upload files
-#@@fba.apple.com^$important                                 #iOS, iPadOS, tvOS, and macOS           Used by Feedback Assistant to file and view feedback
+#@@|bpapi.apple.com^$important                               #tvOS only                              Provides beta software updates
+#@@|cssubmissions.apple.com^$important                       #iOS, iPadOS, tvOS, and macOS           Used by Feedback Assistant to upload files
+#@@|fba.apple.com^$important                                 #iOS, iPadOS, tvOS, and macOS           Used by Feedback Assistant to file and view feedback
 #
 ## Apple diagnostics (Yes of course Apple...)
 #! Apple devices might access the following host in order to perform diagnostics used to detect a possible hardware issue.
-#@@diagassets.apple.com^                                    #iOS, iPadOS, tvOS, and macOS           Used by Apple devices to help detect possible hardware issues
+#@@|diagassets.apple.com^                                    #iOS, iPadOS, tvOS, and macOS           Used by Apple devices to help detect possible hardware issues
 #
 ## Domain Name System resolution (Yes of course Apple... don't tell us what kind of dns we've to use)
 #! In order to use encrypted Domain Name System (DNS) resolution in iOS 14, tvOS 14, and macOS Big Sur, the following host will be contacted.
-#@@doh.dns.apple.com^                                       #iOS, iPadOS, tvOS, and macOS           Used for DNS over HTTPS (DoH)
+#@@|doh.dns.apple.com^                                       #iOS, iPadOS, tvOS, and macOS           Used for DNS over HTTPS (DoH)
 #
 ## Certificate validation (at least some are just tracking so we whitelist only the (probaly) really needed host)
 #! Apple devices must be able to connect to the following hosts to validate digital certificates used by the hosts in this article.
-@@certs.apple.com^$important                                #iOS, iPadOS, tvOS, and macOS           Certificate validation
-@@crl.apple.com^$important                                  #iOS, iPadOS, tvOS, and macOS           Certificate validation
-#@@crl.entrust.net^                                         #iOS, iPadOS, tvOS, and macOS           Certificate validation
-#@@crl3.digicert.com^                                       #iOS, iPadOS, tvOS, and macOS           Certificate validation
-#@@crl4.digicert.com^                                       #iOS, iPadOS, tvOS, and macOS           Certificate validation
-#@@ocsp.apple.com^                                          #iOS, iPadOS, tvOS, and macOS           Certificate validation
-#@@ocsp.digicert.cn^                                        #iOS, iPadOS, tvOS, and macOS           Certificate validation
-#@@ocsp.digicert.com^                                       #iOS, iPadOS, tvOS, and macOS           Certificate validation
-#@@ocsp.entrust.net^                                        #iOS, iPadOS, tvOS, and macOS           Certificate validation
-#@@ocsp2.apple.com^                                         #iOS, iPadOS, tvOS, and macOS           Certificate validation
-@@valid.apple.com^$important                                #iOS, iPadOS, tvOS, and macOS           Certificate validation
+@@|certs.apple.com^$important                                #iOS, iPadOS, tvOS, and macOS           Certificate validation
+@@|crl.apple.com^$important                                  #iOS, iPadOS, tvOS, and macOS           Certificate validation
+#@@|crl.entrust.net^                                         #iOS, iPadOS, tvOS, and macOS           Certificate validation
+#@@|crl3.digicert.com^                                       #iOS, iPadOS, tvOS, and macOS           Certificate validation
+#@@|crl4.digicert.com^                                       #iOS, iPadOS, tvOS, and macOS           Certificate validation
+#@@|ocsp.apple.com^                                          #iOS, iPadOS, tvOS, and macOS           Certificate validation
+#@@|ocsp.digicert.cn^                                        #iOS, iPadOS, tvOS, and macOS           Certificate validation
+#@@|ocsp.digicert.com^                                       #iOS, iPadOS, tvOS, and macOS           Certificate validation
+#@@|ocsp.entrust.net^                                        #iOS, iPadOS, tvOS, and macOS           Certificate validation
+#@@|ocsp2.apple.com^                                         #iOS, iPadOS, tvOS, and macOS           Certificate validation
+@@|valid.apple.com^$important                                #iOS, iPadOS, tvOS, and macOS           Certificate validation
 #
 ## Apple ID
 #! Apple devices must be able to connect to the following hosts in order to authenticate an Apple ID. This is required for all services that use an Apple ID, such as iCloud, app installation, and Xcode.
-@@appleid.apple.com^$important                              #iOS, iPadOS, tvOS, and macOS           Apple ID authentication in Settings and System Preferences
-@@appleid.cdn-apple.com^$important                          #iOS, iPadOS, tvOS, and macOS           Apple ID authentication in Settings and System Preferences
-@@idmsa.apple.com^$important                                #iOS, iPadOS, tvOS, and macOS           Apple ID authentication
-@@gsa.apple.com^$important                                  #iOS, iPadOS, tvOS, and macOS           Apple ID authentication
+@@|appleid.apple.com^$important                              #iOS, iPadOS, tvOS, and macOS           Apple ID authentication in Settings and System Preferences
+@@|appleid.cdn-apple.com^$important                          #iOS, iPadOS, tvOS, and macOS           Apple ID authentication in Settings and System Preferences
+@@|idmsa.apple.com^$important                                #iOS, iPadOS, tvOS, and macOS           Apple ID authentication
+@@|gsa.apple.com^$important                                  #iOS, iPadOS, tvOS, and macOS           Apple ID authentication
 #
 ## iCloud (we don't use icloud and never will, so this should be unnecessary except (maybe) iMessage, we'll see...)
 #! In addition to the Apple ID hosts listed above, Apple devices must be able to connect to hosts in the following domains to use iCloud services.
@@ -213,16 +213,16 @@
 ## Additional content (no thanks)
 #! Apple devices must be able to connect to the following hosts to download additional content. Some additional content might also be hosted on third-party content distribution networks.
 #
-#@@audiocontentdownload.apple.com^$important                #iOS, iPadOS, and macOS                 GarageBand downloadable content
-#@@devimages-cdn.apple.com^$important                       #macOS only                             Xcode downloadable components
-#@@download.developer.apple.com^$important                  #macOS only                             Xcode downloadable components
-#@@playgrounds-assets-cdn.apple.com^$important              #iPadOS and macOS                       Swift Playgrounds
-#@@playgrounds-cdn.apple.com^$important                     #iPadOS and macOS                       Swift Playgrounds
-#@@sylvan.apple.com^$important                              #tvOS only                              Apple TV screen savers
+#@@|audiocontentdownload.apple.com^$important                #iOS, iPadOS, and macOS                 GarageBand downloadable content
+#@@|devimages-cdn.apple.com^$important                       #macOS only                             Xcode downloadable components
+#@@|download.developer.apple.com^$important                  #macOS only                             Xcode downloadable components
+#@@|playgrounds-assets-cdn.apple.com^$important              #iPadOS and macOS                       Swift Playgrounds
+#@@|playgrounds-cdn.apple.com^$important                     #iPadOS and macOS                       Swift Playgrounds
+#@@|sylvan.apple.com^$important                              #tvOS only                              Apple TV screen savers
 #
 ## Now we've to whitelist "normal" access to Apple's Websites, we'll see if need something more
 #
-@@www.apple.com^$important
-@@www.itunes.com^$important
-@@support.apple.com^$important
-@@communities.apple.com^$important
+@@|www.apple.com^$important
+@@|www.itunes.com^$important
+@@|support.apple.com^$important
+@@|communities.apple.com^$important
