@@ -203,6 +203,7 @@
 @@www.apple.com^$important
 @@www.itunes.com^$important
 @@support.apple.com^$important
+@@communities.apple.com^$important
 #
 ## Now we try to block all not whitelisted connections to Apple and use "REFUSED" here, so that devices SHOULD know that is restricted by policy
 # 
