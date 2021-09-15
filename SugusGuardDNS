@@ -2,9 +2,11 @@
 # Description: SugusGuard's additional filterlist for AdGuard Home / AdGuard Pro App
 # List-URL: https://raw.githubusercontent.com/SugusGuard/Blocklists/main/SugusGuardDNS
 #
+#
 ## Prevent filter-bypassing with https requests as Apple like to do
 #
-||*^$dnstype=HTTPS,dnsrewrite=REFUSED, important
+||use-application-dns.net^$dnsrewrite=REFUSED,important
+||*^$dnstype=HTTPS,dnsrewrite=REFUSED,important
 #
 ## Whitelist
 #
@@ -22,16 +24,41 @@
 ||savor-app.ch^$important
 ||1e100.net^$important
 # 
-## Specific Telemetry & Analytics missing on other lists
-#! Apple/iOS
-||metrics.mzstatic.com^$important
-||metrics.icloud.com^$important
-||messaging.metrics.icloud.com^$important
+## Specific Telemetry & Analytics missing in other lists
+#! Apple/iOS (for some we return "NOERROR" but give them nothing.. devices seems to be more happy with than just blocking)
+! The Mother of Apple telemetry
+||xp.apple.com^$dnsrewrite=NOERROR;TXT;ShutUp,important
+||metrics.mzstatic.com^$dnsrewrite=NOERROR;TXT;ShutUp,important
+||metrics.icloud.com^$dnsrewrite=NOERROR;TXT;ShutUp,important
+||messaging.metrics.icloud.com^$dnsrewrite=NOERROR;TXT;ShutUp,important
+||dzc-metrics.mzstatic.com^$dnsrewrite=NOERROR;TXT;ShutUp,important
 ||securemetrics.apple.com^$important
 ||supportmetrics.apple.com^$important
+||books-analytics-events.apple.com^$important
 ||books-analytics-events.news.apple-dns.net^$important
+||stocks-analytics-events.apple.com^$important
 ||stocks-analytics-events.news.apple-dns.net^$important
-||idiagnostics.apple.com.akadns.net^$important
+||idiagnostics.apple.com^$dnsrewrite=NOERROR;TXT;ShutUp,important
+||idiagnostics.apple.com.akadns.net^$dnsrewrite=NOERROR;TXT;ShutUp,important
+! Telemetry and leaks your location to Apple even you've disabled both
+!! Maybe brick some functions as SIRI, Maps, Places, Find my
+||gsp*-ssl.apple.com^$dnsrewrite=NOERROR;TXT;ShutUp,important
+||gsp*-ssl.ls.apple.com^$dnsrewrite=NOERROR;TXT;ShutUp,important
+||gsp*.apple.com^$dnsrewrite=NOERROR;TXT;ShutUp,important
+||gsp*-ssl-locus.ls.apple.com^$dnsrewrite=NOERROR;TXT;ShutUp,important
+||iphone-ld.apple.com^$dnsrewrite=NOERROR;TXT;ShutUp,important
+||iphone-ld.origin-apple.com.akadns.net^$dnsrewrite=NOERROR;TXT;ShutUp,important
+||iphone-ld.apple.com-v1.edgesuite.net^$dnsrewrite=NOERROR;TXT;ShutUp,important
+||a1931.dscgi3.akamai.net^$dnsrewrite=NOERROR;TXT;ShutUp,important
+||gs-loc.apple.com^$dnsrewrite=NOERROR;TXT;ShutUp,important
+! Siri and telemetry even you've both disabled
+||smoot.apple.com^$dnsrewrite=NOERROR;TXT;ShutUp,important
+||bag-smoot.v.aaplimg.com^$dnsrewrite=NOERROR;TXT;ShutUp,important
+||api-glb-dub.smoot.apple.com^$dnsrewrite=NOERROR;TXT;ShutUp,important
+||guzzoni.apple.com^$dnsrewrite=NOERROR;TXT;ShutUp,important
+||guzzoni-apple-com.v.aaplimg.com^$dnsrewrite=NOERROR;TXT;ShutUp,important
+! Game Center even you've disabled
+||gc.apple. com^$dnsrewrite=NOERROR;TXT;ShutUp,important
 #! KDE Bullshit "kuserfeeback" shame on you KDE!
 ||telemetry.kde.org^$important
 ||entypes.kde.org^$important
@@ -60,7 +87,7 @@
 ||imasdk.googleapis.com^$important
 ||a-msedge.net^$important
 #
-## DoH, DoT Servers that seems to be hardcoded in some Software
+## DoH, DoT Servers that seems to be forced in some Software
 #
 ||doh.dns.apple.com^$important
 ||doh.dns.apple.com.v.aaplimg.com^$important
@@ -161,3 +188,6 @@
 ||fcmtoken.googleapis.com^$important
 ||iid.googleapis.com^$important
 ||device-provisioning.googleapis.com^$important
+#! Apple testing
+||sas.apple.com^$dnsrewrite=NOERROR;TXT;ShutUp,important
+||gsas.apple.com^$dnsrewrite=NOERROR;TXT;ShutUp,important
