@@ -43,8 +43,6 @@
 ! Telemetry and leaks your location to Apple even you've disabled both
 !! Maybe brick some functions as SIRI, Maps, Places, Find my
 ||gsp*.apple.com^$dnsrewrite=NOERROR;TXT;ShutUp,important
-||gsp*-ssl.ls.apple.com^$dnsrewrite=NOERROR;TXT;ShutUp,important
-||gsp*-ssl-locus.ls.apple.com^$dnsrewrite=NOERROR;TXT;ShutUp,important
 ||iphone-ld.apple.com^$dnsrewrite=NOERROR;TXT;ShutUp,important
 ||iphone-ld.origin-apple.com.akadns.net^$dnsrewrite=NOERROR;TXT;ShutUp,important
 ||iphone-ld.apple.com-v1.edgesuite.net^$dnsrewrite=NOERROR;TXT;ShutUp,important
