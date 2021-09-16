@@ -86,7 +86,6 @@
 ## Tracking, missing in other lists
 #
 ||comscoreresearch.*^$important
-||i2.wp.com^$important
 ||secure.gravatar.com^$important
 ||tagger.opecloud.com^$important
 ||ingest.sentry.io^$important
@@ -140,6 +139,7 @@
 ||metric.gstatic.com^$important
 #! Google Misc
 ||www.google.com^$important
+||news.google.com^$important
 ||pki-goog.l.google.com^$important
 ||ocsp.pki.goog^$important
 ||ogs.google.com^$important
