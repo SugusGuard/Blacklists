@@ -30,6 +30,7 @@
 ||xp.apple.com^$dnsrewrite=NOERROR;TXT;ShutUp,important
 ||metrics.mzstatic.com^$dnsrewrite=NOERROR;TXT;ShutUp,important
 ||metrics.icloud.com^$dnsrewrite=NOERROR;TXT;ShutUp,important
+||metrics.fe.apple-dns.net$dnsrewrite=NOERROR;TXT;ShutUp,important
 ||messaging.metrics.icloud.com^$dnsrewrite=NOERROR;TXT;ShutUp,important
 ||dzc-metrics.mzstatic.com^$dnsrewrite=NOERROR;TXT;ShutUp,important
 ||securemetrics.apple.com^$important
