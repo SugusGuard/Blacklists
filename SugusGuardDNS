@@ -10,7 +10,7 @@
 #
 ## Whitelist
 #
-! Nothing whitelisted yet
+@@cs9.wac.phicdn.net^$important
 #
 ## General Garbage
 #
@@ -186,5 +186,6 @@
 ||iid.googleapis.com^$important
 ||device-provisioning.googleapis.com^$important
 #! Apple testing
-||sas.apple.com^$dnsrewrite=NOERROR;TXT;ShutUp,important
-||gsas.apple.com^$dnsrewrite=NOERROR;TXT;ShutUp,important
+||sas.apple.com^$dnsrewrite=NOERROR;TXT;GoodBye,important
+||gsas.apple.com^$dnsrewrite=NOERROR;TXT;GoodBye,important
+||configuration.ls.apple.com^$dnsrewrite=NOERROR;TXT;GoodBye,important
