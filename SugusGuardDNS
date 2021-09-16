@@ -49,13 +49,16 @@
 ||a1931.dscgi3.akamai.net^$dnsrewrite=NOERROR;TXT;ShutUp,important
 ||gs-loc.apple.com^$dnsrewrite=NOERROR;TXT;ShutUp,important
 ! Siri and telemetry even you've both disabled
-||smoot.apple.com^$dnsrewrite=NOERROR;TXT;ShutUp,important
-||bag-smoot.v.aaplimg.com^$dnsrewrite=NOERROR;TXT;ShutUp,important
-||api-glb-dub.smoot.apple.com^$dnsrewrite=NOERROR;TXT;ShutUp,important
-||guzzoni.apple.com^$dnsrewrite=NOERROR;TXT;ShutUp,important
-||guzzoni-apple-com.v.aaplimg.com^$dnsrewrite=NOERROR;TXT;ShutUp,important
+||smoot.apple.com^$dnsrewrite=NOERROR;TXT;NoSiri,important
+||bag-smoot.v.aaplimg.com^$dnsrewrite=NOERROR;TXT;NoSiri,important
+||api-glb-dub.smoot.apple.com^$dnsrewrite=NOERROR;TXT;NoSiri,important
+||guzzoni.apple.com^$dnsrewrite=NOERROR;TXT;NoSiri,important
+||guzzoni-apple-com.v.aaplimg.com^$dnsrewrite=NOERROR;TXT;NoSiri,important
+||dejavu.apple.com^$dnsrewrite=NOERROR;TXT;NoSiri,important
+||siri.apple.com^$dnsrewrite=NOERROR;TXT;NoSiri,important
+||swallow.apple.com^$dnsrewrite=NOERROR;TXT;NoSiri,important
 ! Game Center even you've disabled
-||gc.apple. com^$dnsrewrite=NOERROR;TXT;ShutUp,important
+||gc.apple. com^$dnsrewrite=NOERROR;TXT;NoGaming,important
 #! KDE Bullshit "kuserfeeback" shame on you KDE!
 ||telemetry.kde.org^$important
 ||entypes.kde.org^$important
