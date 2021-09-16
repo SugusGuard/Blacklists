@@ -39,16 +39,21 @@
 ||books-analytics-events.news.apple-dns.net^$important
 ||stocks-analytics-events.apple.com^$important
 ||stocks-analytics-events.news.apple-dns.net^$important
-||idiagnostics.apple.com^$dnsrewrite=NOERROR;TXT;ShutUp,important
-||idiagnostics.apple.com.akadns.net^$dnsrewrite=NOERROR;TXT;ShutUp,important
+||idiagnostics.apple.com^$dnsrewrite=NOERROR;TXT;Damaged,important
+||idiagnostics.apple.com.akadns.net^$dnsrewrite=NOERROR;TXT;Damaged,important
+! Telemetry - MDCrashReportTool even you've disabled Telemetry
+||iphonesubmissions.apple.com^$dnsrewrite=NOERROR;TXT;Uups,important
+||iphonesubmissions.v.aaplimg.com^$dnsrewrite=NOERROR;TXT;Uups,important
+||radarsubmissions.apple.com^$dnsrewrite=NOERROR;TXT;Uups,important
+||radarsubmissions.apple.com.akadns.net^$dnsrewrite=NOERROR;TXT;Uups,important
 ! Telemetry and leaks your location to Apple even you've disabled both
 !! Maybe brick some functions as SIRI, Maps, Places, Find my
-||gsp*.apple.com^$dnsrewrite=NOERROR;TXT;ShutUp,important
-||iphone-ld.apple.com^$dnsrewrite=NOERROR;TXT;ShutUp,important
-||iphone-ld.origin-apple.com.akadns.net^$dnsrewrite=NOERROR;TXT;ShutUp,important
-||iphone-ld.apple.com-v1.edgesuite.net^$dnsrewrite=NOERROR;TXT;ShutUp,important
-||a1931.dscgi3.akamai.net^$dnsrewrite=NOERROR;TXT;ShutUp,important
-||gs-loc.apple.com^$dnsrewrite=NOERROR;TXT;ShutUp,important
+||gsp*.apple.com^$dnsrewrite=NOERROR;TXT;PlanetEarth,important
+||iphone-ld.apple.com^$dnsrewrite=NOERROR;TXT;PlanetEarth,important
+||iphone-ld.origin-apple.com.akadns.net^$dnsrewrite=NOERROR;TXT;PlanetEarth,important
+||iphone-ld.apple.com-v1.edgesuite.net^$dnsrewrite=NOERROR;TXT;PlanetEarth,important
+||a1931.dscgi3.akamai.net^$dnsrewrite=NOERROR;TXT;PlanetEarth,important
+||gs-loc.apple.com^$dnsrewrite=NOERROR;TXT;PlanetEarth,important
 ! Siri and telemetry even you've both disabled
 ||smoot.apple.com^$dnsrewrite=NOERROR;TXT;NoSiri,important
 ||bag-smoot.v.aaplimg.com^$dnsrewrite=NOERROR;TXT;NoSiri,important
@@ -60,6 +65,17 @@
 ||swallow.apple.com^$dnsrewrite=NOERROR;TXT;NoSiri,important
 ! Game Center even you've disabled
 ||gc.apple. com^$dnsrewrite=NOERROR;TXT;NoGaming,important
+! Family sharing even you don't use
+||pancake.apple.com^$dnsrewrite=NOERROR;TXT;Blubb,important
+||pancake.g.aaplimg.com^$dnsrewrite=NOERROR;TXT;Blubb,important
+! Find my Friends even you don't use it
+||fmf.icloud.com^$dnsrewrite=NOERROR;TXT;TheyHide,important
+||fmfmobile.icloud.com^$dnsrewrite=NOERROR;TXT;TheyHide,important
+||fmfmobile.fe.apple-dns.net^$dnsrewrite=NOERROR;TXT;TheyHide,important
+||fmf.fe.apple-dns.net^$dnsrewrite=NOERROR;TXT;TheyHide,important
+! Find my iPhone even you've disabled
+||fmip.icloud.com^$dnsrewrite=NOERROR;TXT;TimHasIt,important
+||fmip.fe.apple-dns.net^$dnsrewrite=NOERROR;TXT;TimHasIt,important
 #! KDE Bullshit "kuserfeeback" shame on you KDE!
 ||telemetry.kde.org^$important
 ||entypes.kde.org^$important
@@ -143,6 +159,7 @@
 ||dai.google.com^$important
 ||fcmatch.google.com^$important
 ||bandaid-redirector.l.google.com^$important
+||metric.gstatic.com^$important
 #
 ## Browsers, missing on other lists
 #! General (Vivaldi, Iridium [sadly block other included "Google-Tracking" brick browsers-funktions])
