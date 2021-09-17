@@ -5,7 +5,7 @@
 #
 ## Prevent filter-bypassing with https requests as Apple like to do
 #
-#||*^$dnstype=HTTPS,dnsrewrite=SERVFAIL,important !ALWAYS SET IN MAIN LIST         
+#||*^$dnstype=HTTPS,dnsrewrite=REFUSED,important !ALWAYS SET IN MAIN LIST         
 ||doh.dns.apple.com^$dnsrewrite=NOERROR;TXT;ShutUp,important
 ||doh.dns.apple.com.v.aaplimg.com^$dnsrewrite=NOERROR;TXT;ShutUp,important
 #
