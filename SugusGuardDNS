@@ -207,4 +207,3 @@
 ||sas.apple.com^$dnsrewrite=NOERROR;TXT;GoodBye,important
 ||gsas.apple.com^$dnsrewrite=NOERROR;TXT;GoodBye,important
 ||configuration.ls.apple.com^$dnsrewrite=NOERROR;TXT;GoodBye,important
-||bag.itunes.com^$dnsrewrite=NOERROR;TXT;GoodBye,important
