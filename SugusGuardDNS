@@ -102,8 +102,8 @@
 #
 ## DoH, DoT Servers that seems to be forced in some Software
 #
-||doh.dns.apple.com^$important
-||doh.dns.apple.com.v.aaplimg.com^$important
+||doh.dns.apple.com^$dnsrewrite=REFUSED,important
+||doh.dns.apple.com.v.aaplimg.com^$dnsrewrite=REFUSED,important
 ||dns.google.com^$dnsrewrite=REFUSED,important
 ||cloudflare-dns.com^$dnsrewrite=REFUSED,important
 #
