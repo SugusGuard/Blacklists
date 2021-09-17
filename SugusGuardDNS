@@ -92,6 +92,7 @@
 ||embeds.driftcdn.com^$important
 ||bootstrap.api.drift.com^$important
 ||marketo.clearbit.com^$important
+||stats-*.crsend.com^$important
 #
 ## Ads missing in other lists
 #
