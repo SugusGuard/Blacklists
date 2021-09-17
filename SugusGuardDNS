@@ -6,7 +6,6 @@
 ## Prevent filter-bypassing with https requests as Apple like to do
 #
 ||use-application-dns.net^$dnsrewrite=REFUSED,important
-||*^$dnstype=HTTPS,dnsrewrite=REFUSED,important
 #
 ## Whitelist
 #
