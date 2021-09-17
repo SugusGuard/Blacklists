@@ -31,21 +31,17 @@
 ||metrics.mzstatic.com^$dnsrewrite=NOERROR;TXT;ShutUp,important
 ||metrics.icloud.com^$dnsrewrite=NOERROR;TXT;ShutUp,important
 ||metrics.fe.apple-dns.net$dnsrewrite=NOERROR;TXT;ShutUp,important
-||messaging.metrics.icloud.com^$dnsrewrite=NOERROR;TXT;ShutUp,important
 ||dzc-metrics.mzstatic.com^$dnsrewrite=NOERROR;TXT;ShutUp,important
 ||securemetrics.apple.com^$important
 ||supportmetrics.apple.com^$important
-||books-analytics-events.apple.com^$important
-||books-analytics-events.news.apple-dns.net^$important
-||stocks-analytics-events.apple.com^$important
-||stocks-analytics-events.news.apple-dns.net^$important
+||*-analytics-events.apple.com^$important
+||*-analytics-events.news.apple-dns.net^$important
 ||idiagnostics.apple.com^$dnsrewrite=NOERROR;TXT;Damaged,important
 ||idiagnostics.apple.com.akadns.net^$dnsrewrite=NOERROR;TXT;Damaged,important
 ! Telemetry - MDCrashReportTool even you've disabled Telemetry
-||iphonesubmissions.apple.com^$dnsrewrite=NOERROR;TXT;Uups,important
-||iphonesubmissions.v.aaplimg.com^$dnsrewrite=NOERROR;TXT;Uups,important
-||radarsubmissions.apple.com^$dnsrewrite=NOERROR;TXT;Uups,important
-||radarsubmissions.apple.com.akadns.net^$dnsrewrite=NOERROR;TXT;Uups,important
+||*submissions.apple.com^$dnsrewrite=NOERROR;TXT;Uups,important
+||*submissions.v.aaplimg.com^$dnsrewrite=NOERROR;TXT;Uups,important
+||*submissions.apple.com.akadns.net^$dnsrewrite=NOERROR;TXT;Uups,important
 ! Telemetry and leaks your location to Apple even you've disabled both
 !! Maybe brick some functions as SIRI, Maps, Places, Find my
 ||gsp*.apple.com^$dnsrewrite=NOERROR;TXT;PlanetEarth,important
@@ -210,3 +206,4 @@
 ||sas.apple.com^$dnsrewrite=NOERROR;TXT;GoodBye,important
 ||gsas.apple.com^$dnsrewrite=NOERROR;TXT;GoodBye,important
 ||configuration.ls.apple.com^$dnsrewrite=NOERROR;TXT;GoodBye,important
+||bag.itunes.com^$dnsrewrite=NOERROR;TXT;GoodBye,important
