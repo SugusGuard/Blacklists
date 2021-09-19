@@ -72,6 +72,8 @@
 ! Find my iPhone even you've disabled
 ||fmip.icloud.com^$dnsrewrite=NOERROR;TXT;TimHasIt,important
 ||fmip.fe.apple-dns.net^$dnsrewrite=NOERROR;TXT;TimHasIt,important
+! Health
+||health.apple.com^$dnsrewrite=NOERROR;TXT;Thanks,important
 #! KDE Bullshit "kuserfeeback" shame on you KDE!
 ||telemetry.kde.org^$important
 ||entypes.kde.org^$important
@@ -137,6 +139,7 @@
 #! Google Misc
 ||www.google.com^$important
 ||news.google.com^$important
+||landing.google.com^$important
 ||pki-goog.l.google.com^$important
 ||ocsp.pki.goog^$important
 ||ogs.google.com^$important
@@ -159,7 +162,7 @@
 ||metric.gstatic.com^$important
 #
 ## Browsers, missing on other lists
-#! General (Vivaldi, Iridium [sadly block other included "Google-Tracking" brick browsers-funktions])
+#! General (Vivaldi, sadly block other included "Google-Tracking" brick browsers-funktions)
 ||safebrowsing.googleapis.com^$important
 ||safebrowsing.clients.google.com^$important
 ||sb-ssl.google.com^$important
@@ -168,11 +171,19 @@
 #! Brave
 ||variations.brave.com^$important
 ||p3a.brave.com^$important
+||laptop-updates.brave.com^$important
+||safebrowsing.brave.com^$important
 #! Firefox, *fox
 ||detectportal.firefox.com^$important # Don't use this if you use public WLan's
 ||push.services.mozilla.com^$important
 ||incoming.telemetry.mozilla.org^$important
+||input.mozilla.org^$important
+||crash-stats.mozilla.com^$important
 ||location.services.mozilla.com^$important
+||telemetry-coverage.mozilla.org^$important
+||telemetry-experiment.cdn.mozilla.net^$important
+||telemetry.mozilla.org^$important
+||experiments.mozilla.org^$important
 !||mozilla.cloudflare-dns.com^$important 
 #! Opera, just to be safe, but don't use this pos browser it's spyware
 ||speeddials.opera.com^$important
