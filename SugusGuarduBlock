@@ -33,7 +33,10 @@ www.20min.ch##article.Teaser_insideQuarterPos__3qgu9.Teaser_siteAreaNews__Kz7OG.
 www.20min.ch##article.Teaser_insideQuarterPos__3qgu9.Teaser_siteAreaNews__Kz7OG.Teaser_ad__KRil1.Teaser_teaser__3rdot
 www.20min.ch##section.TeaserSection_siteAreaNews__3nlOO.TeaserSection_section__E44Cv:nth-of-type(2)
 ||myshop.20min.ch^$important
-||deal.cpstatic.ch/iframewidget/zwanzigmin$subdocument
+||deal.cpstatic.ch/iframewidget/zwanzigmin$subdocument,important
+||api.20min.ch/user-journey/*$important
+||www.20min.ch/static-assets/shop-widget.html$generichide,important
+||tdn.da-services.ch/libs/oil/*$important
 !
 ! Blick
 !
@@ -41,6 +44,7 @@ www.20min.ch##section.TeaserSection_siteAreaNews__3nlOO.TeaserSection_section__E
 ||php.blick.ch/static/2021_blickdeal/$subdocument
 www.blick.ch##.embedded-content-container
 www.blick.ch##.video-wrapper
+www.blick.ch##.blick-tv-teaser__wrapper
 www.blick.ch##div.multiline.tunaK.sc-1m16myc-0:nth-of-type(15)
 www.blick.ch##div.nFDyy.p1mwtc-0
 www.blick.ch##div.multiline.tunaK.sc-1m16myc-0
@@ -51,7 +55,32 @@ www.blick.ch##.placement-articleTopAd.data-slot-code-mobile-MMR_1.data-slot-code
 www.blick.ch###blick-tv-pop-out
 www.blick.ch##.video-player-wrapper
 ||players.brightcove.net^$domain=www.blick.ch,important
-www.blick.ch##.blick-tv-teaser__wrapper.fMcCzb.sc-151zy08-0
+www.blick.ch##div.flexitem.gDldmf.sc-1elypw2-0:nth-of-type(3)
+www.blick.ch##div.flexitem.gDldmf.sc-1elypw2-0:nth-of-type(4)
+www.blick.ch##div.multiline.hrtFkR.sc-1m16myc-0:nth-of-type(13)
+www.blick.ch##div.multiline.hrtFkR.sc-1m16myc-0:nth-of-type(16)
+www.blick.ch##.papi-sidebar.YKtUJ.sc-jxt9a-1
+www.blick.ch##div.flexitem.dQpCwF.sc-1elypw2-0:nth-of-type(1)
+www.blick.ch##div.multiline.hrtFkR.sc-1m16myc-0:nth-of-type(36) > div.flexitem.gDldmf.sc-1elypw2-0:nth-of-type(7)
+www.blick.ch##div.multiline.hrtFkR.sc-1m16myc-0:nth-of-type(39)
+www.blick.ch##div.dCfMQY.sc-p1mwtc-0:nth-of-type(38)
+www.blick.ch##div.multiline.hrtFkR.sc-1m16myc-0:nth-of-type(49)
+www.blick.ch##div.dCfMQY.sc-p1mwtc-0:nth-of-type(48)
+www.blick.ch##div.multiline.hrtFkR.sc-1m16myc-0:nth-of-type(54)
+www.blick.ch##div.dCfMQY.sc-p1mwtc-0:nth-of-type(53)
+www.blick.ch##div.dCfMQY.sc-p1mwtc-0:nth-of-type(55)
+www.blick.ch##div.multiline.GLPUe.sc-1m16myc-0:nth-of-type(56)
+www.blick.ch##div.dCfMQY.sc-p1mwtc-0:nth-of-type(57)
+www.blick.ch##div.multiline.hrtFkR.sc-1m16myc-0:nth-of-type(58)
+www.blick.ch##div.dCfMQY.sc-p1mwtc-0:nth-of-type(50)
+www.blick.ch##div.multiline.hrtFkR.sc-1m16myc-0:nth-of-type(51)
+www.blick.ch##div.flexitem.gDldmf.sc-1elypw2-0:nth-of-type(7)
+www.blick.ch##div.multiline.cVJcth.sc-1m16myc-0:nth-of-type(26)
+www.blick.ch##div.iRBQTE.sc-p1mwtc-0:nth-of-type(25)
+www.blick.ch##div.multiline.cVJcth.sc-1m16myc-0:nth-of-type(15)
+www.blick.ch##div.iRBQTE.sc-p1mwtc-0:nth-of-type(14)
+www.blick.ch##div.multiline.hrtFkR.sc-1m16myc-0:nth-of-type(2)
+www.blick.ch##.eVRuCT.sc-1l0p5o1-1 > .withViewportContainer
 !
 ! Computerbase
 !
