@@ -227,4 +227,5 @@
 ! Game Center??
 ||commnat-cohort-gc.ess.apple.com^$dnsrewrite=NOERROR;TXT;GoodBye,important
 ||commnat-cohort-gc.ess-apple.com.akadns.net^$dnsrewrite=NOERROR;TXT;GoodBye,important
-||commnat-main.ess.apple.com^$dnsrewrite=NOERROR;TXT;GoodBye,important
+!||commnat-main.ess.apple.com^$dnsrewrite=NOERROR;TXT;GoodBye,important
+||commnat-main-gc.ess.apple.com^$dnsrewrite=NOERROR;TXT;GoodBye,important
