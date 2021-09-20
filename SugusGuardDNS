@@ -41,6 +41,8 @@
 ||*submissions.apple.com^$dnsrewrite=NOERROR;TXT;Uups,important
 ||*submissions.v.aaplimg.com^$dnsrewrite=NOERROR;TXT;Uups,important
 ||*submissions.apple.com.akadns.net^$dnsrewrite=NOERROR;TXT;Uups,important
+! Safari and maybe others
+||api-glb-dub.smoot.apple.com^$dnsrewrite=NOERROR;TXT;Blackhole,important
 ! Telemetry and leaks your location to Apple even you've disabled both
 !! Maybe brick some functions as SIRI, Maps, Places, Find my
 ||gsp*.apple.com^$dnsrewrite=NOERROR;TXT;PlanetEarth,important
@@ -53,7 +55,6 @@
 ! Siri and telemetry even you've both disabled
 ||smoot.apple.com^$dnsrewrite=NOERROR;TXT;NoSiri,important
 ||bag-smoot.v.aaplimg.com^$dnsrewrite=NOERROR;TXT;NoSiri,important
-||api-glb-dub.smoot.apple.com^$dnsrewrite=NOERROR;TXT;NoSiri,important
 ||guzzoni.apple.com^$dnsrewrite=NOERROR;TXT;NoSiri,important
 ||guzzoni-apple-com.v.aaplimg.com^$dnsrewrite=NOERROR;TXT;NoSiri,important
 ||dejavu.apple.com^$dnsrewrite=NOERROR;TXT;NoSiri,important
@@ -160,6 +161,7 @@
 ||fcmatch.google.com^$important
 ||bandaid-redirector.l.google.com^$important
 ||metric.gstatic.com^$important
+||identitytoolkit.googleapis.com^$important
 #
 ## Browsers, missing on other lists
 #! General (Vivaldi, sadly block other included "Google-Tracking" brick browsers-funktions)
@@ -168,6 +170,9 @@
 ||sb-ssl.google.com^$important
 ||sb-ssl.l.google.com^$important
 ||content-autofill.googleapis.com^$important
+||clientservices.googleapis.com^$important
+||clients1.google.com^$important
+||clients4.google.com^$important
 #! Brave
 ||variations.brave.com^$important
 ||p3a.brave.com^$important
@@ -219,3 +224,7 @@
 ||gsas.apple.com^$dnsrewrite=NOERROR;TXT;GoodBye,important
 ||configuration.ls.apple.com^$dnsrewrite=NOERROR;TXT;GoodBye,important
 ||apps.itunes-nocookie.com^$dnsrewrite=NOERROR;TXT;GoodBye,important
+! Game Center??
+||commnat-cohort-gc.ess.apple.com^$dnsrewrite=NOERROR;TXT;GoodBye,important
+||commnat-cohort-gc.ess-apple.com.akadns.net^$dnsrewrite=NOERROR;TXT;GoodBye,important
+||commnat-main.ess.apple.com^$dnsrewrite=NOERROR;TXT;GoodBye,important
