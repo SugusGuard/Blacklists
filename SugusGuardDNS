@@ -38,13 +38,13 @@
 ||*-analytics-events.news.apple-dns.net^$important
 ||idiagnostics.apple.com^$dnsrewrite=NOERROR;TXT;Damaged,important
 ||idiagnostics.apple.com.akadns.net^$dnsrewrite=NOERROR;TXT;Damaged,important
-||safebrowsing-proxy.g.aaplimg.com^$dnsrewrite=NOERROR;TXT;NoList,important
-||proxy.safebrowsing.apple^$dnsrewrite=NOERROR;TXT;NoList,important
 ! Telemetry - MDCrashReportTool even you've disabled Telemetry
 ||*submissions.apple.com^$dnsrewrite=NOERROR;TXT;Uups,important
 ||*submissions.v.aaplimg.com^$dnsrewrite=NOERROR;TXT;Uups,important
 ||*submissions.apple.com.akadns.net^$dnsrewrite=NOERROR;TXT;Uups,important
 ! Safari and maybe others
+||safebrowsing-proxy.g.aaplimg.com^$dnsrewrite=NOERROR;TXT;NoList,important
+||proxy.safebrowsing.apple^$dnsrewrite=NOERROR;TXT;NoList,important
 ||api-glb-dub.smoot.apple.com^$dnsrewrite=NOERROR;TXT;Blackhole,important
 ! Telemetry and leaks your location to Apple even you've disabled both
 !! Maybe brick some functions as SIRI, Maps, Places, Find my
