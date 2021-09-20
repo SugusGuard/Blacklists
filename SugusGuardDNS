@@ -5,6 +5,7 @@
 #
 ## Prevent filter-bypassing with https requests as Apple like to do
 #
+!||*^$dnstype=HTTPS,dnsrewrite=REFUSED,important
 ||use-application-dns.net^$dnsrewrite=REFUSED,important
 #
 ## Whitelist
@@ -37,6 +38,8 @@
 ||*-analytics-events.news.apple-dns.net^$important
 ||idiagnostics.apple.com^$dnsrewrite=NOERROR;TXT;Damaged,important
 ||idiagnostics.apple.com.akadns.net^$dnsrewrite=NOERROR;TXT;Damaged,important
+||safebrowsing-proxy.g.aaplimg.com^$dnsrewrite=NOERROR;TXT;NoList,important
+||proxy.safebrowsing.apple^$dnsrewrite=NOERROR;TXT;NoList,important
 ! Telemetry - MDCrashReportTool even you've disabled Telemetry
 ||*submissions.apple.com^$dnsrewrite=NOERROR;TXT;Uups,important
 ||*submissions.v.aaplimg.com^$dnsrewrite=NOERROR;TXT;Uups,important
@@ -47,6 +50,7 @@
 !! Maybe brick some functions as SIRI, Maps, Places, Find my
 ||gsp*.apple.com^$dnsrewrite=NOERROR;TXT;PlanetEarth,important
 ||gsp*.apple.com.edgekey.net^$dnsrewrite=NOERROR;TXT;PlanetEarth,important
+||configuration.ls.apple.com^$dnsrewrite=NOERROR;TXT;GoodBye,important
 ||iphone-ld.apple.com^$dnsrewrite=NOERROR;TXT;PlanetEarth,important
 ||iphone-ld.origin-apple.com.akadns.net^$dnsrewrite=NOERROR;TXT;PlanetEarth,important
 ||iphone-ld.apple.com-v1.edgesuite.net^$dnsrewrite=NOERROR;TXT;PlanetEarth,important
@@ -96,6 +100,9 @@
 ||bootstrap.api.drift.com^$important
 ||marketo.clearbit.com^$important
 ||stats-*.crsend.com^$important
+||gigya.com^$important
+||altmetric.com^$important
+||geolocation.onetrust.com^$important
 #
 ## Ads missing in other lists
 #
@@ -222,10 +229,11 @@
 #! Apple testing
 ||sas.apple.com^$dnsrewrite=NOERROR;TXT;GoodBye,important
 ||gsas.apple.com^$dnsrewrite=NOERROR;TXT;GoodBye,important
-||configuration.ls.apple.com^$dnsrewrite=NOERROR;TXT;GoodBye,important
 ||apps.itunes-nocookie.com^$dnsrewrite=NOERROR;TXT;GoodBye,important
 ! Game Center??
 ||commnat-cohort-gc.ess.apple.com^$dnsrewrite=NOERROR;TXT;GoodBye,important
 ||commnat-cohort-gc.ess-apple.com.akadns.net^$dnsrewrite=NOERROR;TXT;GoodBye,important
 !||commnat-main.ess.apple.com^$dnsrewrite=NOERROR;TXT;GoodBye,important
 ||commnat-main-gc.ess.apple.com^$dnsrewrite=NOERROR;TXT;GoodBye,important
+||lcdn-locator.apple.com^$dnsrewrite=NOERROR;TXT;ShutUp,important
+||lcdn-locator-usnkq.apple.com.akadns.net^$dnsrewrite=NOERROR;TXT;ShutUp,important
