@@ -167,5 +167,4 @@
 ||gsas.apple.com^$dnsrewrite=NOERROR;TXT;GoodBye,important
 ||apps.itunes-nocookie.com^$dnsrewrite=NOERROR;TXT;GoodBye,important
 !||commnat-main.ess.apple.com^$dnsrewrite=NOERROR;TXT;GoodBye,important
-||bag.itunes.apple.com^$dnsrewrite=NOERROR;TXT;GoodBye,important
 ||basejumper.apple.com^$dnsrewrite=NOERROR;TXT;GoodBye,important
