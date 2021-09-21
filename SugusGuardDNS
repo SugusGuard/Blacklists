@@ -172,14 +172,3 @@
 ||fcmtoken.googleapis.com^$important
 ||iid.googleapis.com^$important
 ||device-provisioning.googleapis.com^$important
-#! Apple testing
-||sas.apple.com^$dnsrewrite=NOERROR;TXT;GoodBye,important
-||gsas.apple.com^$dnsrewrite=NOERROR;TXT;GoodBye,important
-||apps.itunes-nocookie.com^$dnsrewrite=NOERROR;TXT;GoodBye,important
-! Game Center??
-||commnat-cohort-gc.ess.apple.com^$dnsrewrite=NOERROR;TXT;GoodBye,important
-||commnat-cohort-gc.ess-apple.com.akadns.net^$dnsrewrite=NOERROR;TXT;GoodBye,important
-!||commnat-main.ess.apple.com^$dnsrewrite=NOERROR;TXT;GoodBye,important
-||commnat-main-gc.ess.apple.com^$dnsrewrite=NOERROR;TXT;GoodBye,important
-||lcdn-locator.apple.com^$dnsrewrite=NOERROR;TXT;ShutUp,important
-||lcdn-locator-usnkq.apple.com.akadns.net^$dnsrewrite=NOERROR;TXT;ShutUp,important
