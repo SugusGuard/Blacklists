@@ -25,60 +25,6 @@
 ||1e100.net^$important
 # 
 ## Specific Telemetry & Analytics missing in other lists
-#! Apple/iOS (for some we return "NOERROR" but give them nothing.. devices seems to be more happy with than just blocking)
-! The Mother of Apple telemetry
-||xp.apple.com^$dnsrewrite=NOERROR;TXT;ShutUp,important
-||metrics.mzstatic.com^$dnsrewrite=NOERROR;TXT;ShutUp,important
-||metrics.icloud.com^$dnsrewrite=NOERROR;TXT;ShutUp,important
-||metrics.fe.apple-dns.net$dnsrewrite=NOERROR;TXT;ShutUp,important
-||dzc-metrics.mzstatic.com^$dnsrewrite=NOERROR;TXT;ShutUp,important
-||securemetrics.apple.com^$important
-||supportmetrics.apple.com^$important
-||*-analytics-events.apple.com^$important
-||*-analytics-events.news.apple-dns.net^$important
-||idiagnostics.apple.com^$dnsrewrite=NOERROR;TXT;Damaged,important
-||idiagnostics.apple.com.akadns.net^$dnsrewrite=NOERROR;TXT;Damaged,important
-! Telemetry - MDCrashReportTool even you've disabled Telemetry
-||*submissions.apple.com^$dnsrewrite=NOERROR;TXT;Uups,important
-||*submissions.v.aaplimg.com^$dnsrewrite=NOERROR;TXT;Uups,important
-||*submissions.apple.com.akadns.net^$dnsrewrite=NOERROR;TXT;Uups,important
-! Safari and maybe others
-||safebrowsing-proxy.g.aaplimg.com^$dnsrewrite=NOERROR;TXT;NoList,important
-||proxy.safebrowsing.apple^$dnsrewrite=NOERROR;TXT;NoList,important
-||api-glb-dub.smoot.apple.com^$dnsrewrite=NOERROR;TXT;Blackhole,important
-! Telemetry and leaks your location to Apple even you've disabled both
-!! Maybe brick some functions as SIRI, Maps, Places, Find my
-||gsp*.apple.com^$dnsrewrite=NOERROR;TXT;PlanetEarth,important
-||gsp*.apple.com.edgekey.net^$dnsrewrite=NOERROR;TXT;PlanetEarth,important
-||configuration.ls.apple.com^$dnsrewrite=NOERROR;TXT;GoodBye,important
-||iphone-ld.apple.com^$dnsrewrite=NOERROR;TXT;PlanetEarth,important
-||iphone-ld.origin-apple.com.akadns.net^$dnsrewrite=NOERROR;TXT;PlanetEarth,important
-||iphone-ld.apple.com-v1.edgesuite.net^$dnsrewrite=NOERROR;TXT;PlanetEarth,important
-||a1931.dscgi3.akamai.net^$dnsrewrite=NOERROR;TXT;PlanetEarth,important
-||gs-loc.apple.com^$dnsrewrite=NOERROR;TXT;PlanetEarth,important
-! Siri and telemetry even you've both disabled
-||smoot.apple.com^$dnsrewrite=NOERROR;TXT;NoSiri,important
-||bag-smoot.v.aaplimg.com^$dnsrewrite=NOERROR;TXT;NoSiri,important
-||guzzoni.apple.com^$dnsrewrite=NOERROR;TXT;NoSiri,important
-||guzzoni-apple-com.v.aaplimg.com^$dnsrewrite=NOERROR;TXT;NoSiri,important
-||dejavu.apple.com^$dnsrewrite=NOERROR;TXT;NoSiri,important
-||siri.apple.com^$dnsrewrite=NOERROR;TXT;NoSiri,important
-||swallow.apple.com^$dnsrewrite=NOERROR;TXT;NoSiri,important
-! Game Center even you've disabled
-||gc.apple. com^$dnsrewrite=NOERROR;TXT;NoGaming,important
-! Family sharing even you don't use
-||pancake.apple.com^$dnsrewrite=NOERROR;TXT;Blubb,important
-||pancake.g.aaplimg.com^$dnsrewrite=NOERROR;TXT;Blubb,important
-! Find my Friends even you don't use it
-||fmf.icloud.com^$dnsrewrite=NOERROR;TXT;TheyHide,important
-||fmfmobile.icloud.com^$dnsrewrite=NOERROR;TXT;TheyHide,important
-||fmfmobile.fe.apple-dns.net^$dnsrewrite=NOERROR;TXT;TheyHide,important
-||fmf.fe.apple-dns.net^$dnsrewrite=NOERROR;TXT;TheyHide,important
-! Find my iPhone even you've disabled
-||fmip.icloud.com^$dnsrewrite=NOERROR;TXT;TimHasIt,important
-||fmip.fe.apple-dns.net^$dnsrewrite=NOERROR;TXT;TimHasIt,important
-! Health
-||health.apple.com^$dnsrewrite=NOERROR;TXT;Thanks,important
 #! KDE Bullshit "kuserfeeback" shame on you KDE!
 ||telemetry.kde.org^$important
 ||entypes.kde.org^$important
