@@ -45,6 +45,7 @@
 #
 # APPSTORE, ITUNES
 #
+||bookkeeper.itunes.apple.com^$dnsrewrite=NOERROR;TXT;GoodBye,important
 ! Media Streaming
 ||play.itunes.apple.com^$dnsrewrite=NOERROR;TXT;GoodBye,important
 ||play.itunes.apple.com.edgesuite.net^$dnsrewrite=NOERROR;TXT;GoodBye,important
