@@ -1,0 +1,171 @@
+# Title: SugusGuardGAB General Apple Blocklist
+# Description: SugusGuard's Apple filterlist for AdGuard Home / AdGuard Pro App
+# Description: Be warned: This will brick some - for us anyway unnecessary - functions
+# List-URL: https://raw.githubusercontent.com/SugusGuard/Blocklists/main/SugusGuardGAB
+#
+## Prevent filter-bypassing with https requests as Apple like to do
+#
+!||*^$dnstype=HTTPS,dnsrewrite=REFUSED,important
+||use-application-dns.net^$dnsrewrite=REFUSED,important
+#
+## Whitelist
+#
+! Nothing whitelisted yet
+#
+## Blacklist
+#
+# NTP
+#
+||time.apple.com^$dnsrewrite=NOERROR;CNAME;1.ch.pool.ntp.org
+||time-ios.apple.com^$dnsrewrite=NOERROR;CNAME;1.ch.pool.ntp.org
+||time-osx.g.aaplimg.com^$dnsrewrite=NOERROR;CNAME;1.ch.pool.ntp.org
+||time-macos.apple.com^$dnsrewrite=NOERROR;CNAME;1.ch.pool.ntp.org
+#
+# TELEMETRY, ANALYTICS, CRASHREPORT
+#
+||xp.apple.com^$dnsrewrite=NOERROR;TXT;GoodBye,important
+||metrics.mzstatic.com^$dnsrewrite=NOERROR;TXT;GoodBye,important
+||metrics.icloud.com^$dnsrewrite=NOERROR;TXT;GoodBye,important
+||metrics.fe.apple-dns.net$dnsrewrite=NOERROR;TXT;GoodBye,important
+||dzc-metrics.mzstatic.com^$dnsrewrite=NOERROR;TXT;GoodBye,important
+||securemetrics.apple.com^$dnsrewrite=NOERROR;TXT;GoodBye,important
+||supportmetrics.apple.com^$dnsrewrite=NOERROR;TXT;GoodBye,important
+||*-analytics-events.apple.com^$dnsrewrite=NOERROR;TXT;GoodBye,important
+||*-analytics-events.news.apple-dns.net^$dnsrewrite=NOERROR;TXT;GoodBye,important
+||idiagnostics.apple.com^$dnsrewrite=NOERROR;TXT;GoodBye,important
+||idiagnostics.apple.com.akadns.net^$dnsrewrite=NOERROR;TXT;GoodBye,important
+||*submissions.apple.com^$dnsrewrite=NOERROR;TXT;GoodBye,important
+||*submissions.v.aaplimg.com^$dnsrewrite=NOERROR;TXT;GoodBye,important
+||*submissions.apple.com.akadns.net^$dnsrewrite=NOERROR;TXT;GoodBye,important
+||diagassets.apple.com^$dnsrewrite=NOERROR;TXT;GoodBye,important
+#
+# APPLE ADS
+#
+||iadsdk.apple.com^$dnsrewrite=NOERROR;TXT;GoodBye,important
+#
+# APPSTORE, ITUNES
+#
+! Media Streaming
+||play.itunes.apple.com^$dnsrewrite=NOERROR;TXT;GoodBye,important
+||play.itunes.apple.com.edgesuite.net^$dnsrewrite=NOERROR;TXT;GoodBye,important
+||play-cdn.itunes-apple.com.akadns.net^$dnsrewrite=NOERROR;TXT;GoodBye,important
+#
+# ICLOUD
+#
+||apple-cloudkit.com^$dnsrewrite=NOERROR;TXT;GoodBye,important
+||apple-livephotoskit.com^$dnsrewrite=NOERROR;TXT;GoodBye,important
+||apzones.com^$dnsrewrite=NOERROR;TXT;GoodBye,important
+!||cdn-apple.com^$dnsrewrite=NOERROR;TXT;GoodBye,important  !AppleID
+!||gc.apple.com^$dnsrewrite=NOERROR;TXT;GoodBye,important !Double GameCenter
+||icloud.com^$dnsrewrite=NOERROR;TXT;GoodBye,important
+||icloud.com.cn^$dnsrewrite=NOERROR;TXT;GoodBye,important
+||icloud.apple.com^$dnsrewrite=NOERROR;TXT;GoodBye,important
+||icloud-content.com^$dnsrewrite=NOERROR;TXT;GoodBye,important
+||iwork.apple.com^$dnsrewrite=NOERROR;TXT;GoodBye,important
+#
+# SAFARI, SPOTLIGHT
+#
+||safebrowsing-proxy.g.aaplimg.com^$dnsrewrite=NOERROR;TXT;NoList,important
+||proxy.safebrowsing.apple^$dnsrewrite=NOERROR;TXT;NoList,important
+||api-glb-dub.smoot.apple.com^$dnsrewrite=NOERROR;TXT;Goodbye,important
+#
+# LOCATION SERVICE
+# 
+||ls.apple.com^$dnsrewrite=NOERROR;TXT;GoodBye,important
+!||gsp*.apple.com^$dnsrewrite=NOERROR;TXT;GoodBye,important
+!||gsp*.apple.com.edgekey.net^$dnsrewrite=NOERROR;TXT;GoodBye,important
+!||configuration.ls.apple.com^$dnsrewrite=NOERROR;TXT;GoodBye,important
+||iphone-ld.apple.com^$dnsrewrite=NOERROR;TXT;GoodBye,important
+||iphone-ld.origin-apple.com.akadns.net^$dnsrewrite=NOERROR;TXT;GoodBye,important
+||iphone-ld.apple.com-v1.edgesuite.net^$dnsrewrite=NOERROR;TXT;GoodBye,important
+||a1931.dscgi3.akamai.net^$dnsrewrite=NOERROR;TXT;GoodBye,important
+||gs-loc.apple.com^$dnsrewrite=NOERROR;TXT;GoodBye,important
+#
+# SIRI, SPOTLIGHT SUGGESTIONS
+#
+||smoot.apple.com^$dnsrewrite=NOERROR;TXT;NoSiri,important
+||bag-smoot.v.aaplimg.com^$dnsrewrite=NOERROR;TXT;NoSiri,important
+||guzzoni.apple.com^$dnsrewrite=NOERROR;TXT;NoSiri,important
+||guzzoni-apple-com.v.aaplimg.com^$dnsrewrite=NOERROR;TXT;NoSiri,important
+||dejavu.apple.com^$dnsrewrite=NOERROR;TXT;NoSiri,important
+||siri.apple.com^$dnsrewrite=NOERROR;TXT;NoSiri,important
+||swallow.apple.com^$dnsrewrite=NOERROR;TXT;NoSiri,important
+#
+# GAMECENTER
+#
+||gc.apple.com^$dnsrewrite=NOERROR;TXT;GoodBye,important
+||*gc.ess.apple.com^$dnsrewrite=NOERROR;TXT;GoodBye,important
+||*gc.ess-apple.com.akadns.net^$dnsrewrite=NOERROR;TXT;GoodBye,important
+!||commnat-cohort-gc.ess.apple.com^$dnsrewrite=NOERROR;TXT;GoodBye,important
+!||commnat-cohort-gc.ess-apple.com.akadns.net^$dnsrewrite=NOERROR;TXT;GoodBye,important
+!||commnat-main-gc.ess.apple.com^$dnsrewrite=NOERROR;TXT;GoodBye,important
+#
+# FAMILY SHARING
+#
+||pancake.apple.com^$dnsrewrite=NOERROR;TXT;GoodBye,important
+||pancake.g.aaplimg.com^$dnsrewrite=NOERROR;TXT;GoodBye,important
+#
+# FIND MY FRIENS
+#
+||fmf.icloud.com^$dnsrewrite=NOERROR;TXT;TheyHide,important
+||fmfmobile.icloud.com^$dnsrewrite=NOERROR;TXT;TheyHide,important
+||fmfmobile.fe.apple-dns.net^$dnsrewrite=NOERROR;TXT;TheyHide,important
+||fmf.fe.apple-dns.net^$dnsrewrite=NOERROR;TXT;TheyHide,important
+#
+# FIND MY IPHONE
+#
+||fmip.icloud.com^$dnsrewrite=NOERROR;TXT;TimHasIt,important
+||fmip.fe.apple-dns.net^$dnsrewrite=NOERROR;TXT;TimHasIt,important
+#
+# Health
+#
+||health.apple.com^$dnsrewrite=NOERROR;TXT;GoodBye,important
+#
+# CONTENT CACHING
+#
+||lcdn-locator.apple.com^$dnsrewrite=NOERROR;TXT;GoodBye,important
+||lcdn-locator-usnkq.apple.com.akadns.net^$dnsrewrite=NOERROR;TXT;GoodBye,important
+||lcdn-registration.apple.com^$dnsrewrite=NOERROR;TXT;GoodBye,important
+||serverstatus.apple.com^$dnsrewrite=NOERROR;TXT;GoodBye,important
+||xp-cdn.apple.com^$dnsrewrite=NOERROR;TXT;GoodBye,important
+||suconfig.apple.com^$dnsrewrite=NOERROR;TXT;GoodBye,important
+#
+# MOBILE DEVICE MANAGEMENT (MDM)
+#
+||deviceenrollment.apple.com^$dnsrewrite=NOERROR;TXT;GoodBye,important
+||deviceservices-external.apple.com^$dnsrewrite=NOERROR;TXT;GoodBye,important
+||gdmf.apple.com^$dnsrewrite=NOERROR;TXT;GoodBye,important
+||iprofiles.apple.com^$dnsrewrite=NOERROR;TXT;GoodBye,important
+||mdmenrollment.apple.com^$dnsrewrite=NOERROR;TXT;GoodBye,important
+||setup.icloud.com^$dnsrewrite=NOERROR;TXT;GoodBye,important
+||vpp.itunes.apple.com^$dnsrewrite=NOERROR;TXT;GoodBye,important
+#
+# APPLE SCHOOL AND BUSINESS MANAGER
+#
+||business.apple.com^$dnsrewrite=NOERROR;TXT;GoodBye,important
+||school.apple.com^$dnsrewrite=NOERROR;TXT;GoodBye,important
+||isu.apple.com^$dnsrewrite=NOERROR;TXT;GoodBye,important
+||ws-ee-maidsvc.icloud.com^$dnsrewrite=NOERROR;TXT;GoodBye,important
+#
+# GARAGEBAND, XCODE, SWIFT PLAYGROUND, APPLE TV SCREENSAVERS
+#
+||audiocontentdownload.apple.com^$dnsrewrite=NOERROR;TXT;GoodBye,important
+||devimages-cdn.apple.com^$dnsrewrite=NOERROR;TXT;GoodBye,important
+||download.developer.apple.com^$dnsrewrite=NOERROR;TXT;GoodBye,important
+||playgrounds-assets-cdn.apple.com^$dnsrewrite=NOERROR;TXT;GoodBye,important
+||playgrounds-cdn.apple.com^$dnsrewrite=NOERROR;TXT;GoodBye,important
+||sylvan.apple.com^$dnsrewrite=NOERROR;TXT;GoodBye,important
+#
+# MISC AND TESTING - NOT OR UNPROPER EXPLAINED/DOCUMENTED
+#
+||apple-dns.net^$dnsrewrite=NOERROR;TXT;GoodBye,important
+||apple-dns.com^$dnsrewrite=NOERROR;TXT;GoodBye,important
+||captive.apple.com^$dnsrewrite=NOERROR;TXT;GoodBye,important
+||captive.g.aaplimg.com^$dnsrewrite=NOERROR;TXT;GoodBye,important
+! No idea what goes on here
+||sas.apple.com^$dnsrewrite=NOERROR;TXT;GoodBye,important
+||gsas.apple.com^$dnsrewrite=NOERROR;TXT;GoodBye,important
+||apps.itunes-nocookie.com^$dnsrewrite=NOERROR;TXT;GoodBye,important
+!||commnat-main.ess.apple.com^$dnsrewrite=NOERROR;TXT;GoodBye,important
+||bag.itunes.apple.com^$dnsrewrite=NOERROR;TXT;GoodBye,important
+||basejumper.apple.com^$dnsrewrite=NOERROR;TXT;GoodBye,important
