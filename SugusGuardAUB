@@ -34,7 +34,7 @@
 ||configuration.apple.com.akadns.net^$dnsrewrite=NOERROR;TXT;NoUpdate,important
 ||configuration.apple.com.edgekey.net^$dnsrewrite=NOERROR;TXT;NoUpdate,important
 ||updates.cdn-apple.com^$dnsrewrite=NOERROR;TXT;NoUpdate,important
-||xp.apple.com^$dnsrewrite=NOERROR;TXT;NoUpdate,important
+!||xp.apple.com^$dnsrewrite=NOERROR;TXT;NoUpdate,important  !Double with SugusGuardGAB
 #! macOS only
 ||gnf-mdn.apple.com^$dnsrewrite=NOERROR;TXT;NoUpdate,important
 ||configuration.apple.com^$dnsrewrite=NOERROR;TXT;NoUpdate,important
