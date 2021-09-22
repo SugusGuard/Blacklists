@@ -10,7 +10,7 @@
 #
 ## Whitelist
 #
-@@cs9.wac.phicdn.net^$important
+! Nothing whitelisted yet
 #
 ## General Garbage
 #
@@ -23,6 +23,7 @@
 ||fooby.ch^$important
 ||savor-app.ch^$important
 ||1e100.net^$important
+||app-measurement.com^$important
 # 
 ## Specific Telemetry & Analytics missing in other lists
 #! KDE Bullshit "kuserfeeback" shame on you KDE!
@@ -49,6 +50,8 @@
 ||gigya.com^$important
 ||altmetric.com^$important
 ||geolocation.onetrust.com^$important
+||static.addtoany.com^$important
+||oblique-telemetry.bit.admin.ch^$important
 #
 ## Ads missing in other lists
 #
