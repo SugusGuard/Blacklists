@@ -33,7 +33,7 @@
 ||inapp.gonitro.com^$important
 ||desktop.gonitro.com^$important
 #
-## Tracking, missing in other lists
+## Tracking, Analaytics missing in other lists
 #
 ||comscoreresearch.*^$important
 ||secure.gravatar.com^$important
@@ -52,6 +52,8 @@
 ||geolocation.onetrust.com^$important
 ||static.addtoany.com^$important
 ||oblique-telemetry.bit.admin.ch^$important
+||webstats.zh.ch^$important
+||static.addtoany.com^$important
 #
 ## Ads missing in other lists
 #
