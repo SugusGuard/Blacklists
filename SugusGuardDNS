@@ -102,7 +102,7 @@
 ||firebasedynamiclinks-ipv6.googleapis.com^$important
 ||firebaseremoteconfig.googleapis.com^$important
 ||firebaseinstallations.googleapis.com^$important
-#! Google DNS (should block all at once)
+#! Google DNS (should many at once)
 ||metric.gstatic.com^$important
 #! Google Fonts
 ||fonts.gstatic.com^$important
@@ -115,11 +115,9 @@
 ||landing.google.com^$important
 ||play.google.com^$important
 ||pki-goog.l.google.com^$important
-||ocsp.pki.goog^$important
 ||ogs.google.com^$important
 ||accounts.google.com^$important
 ||plus.l.google.com^$important
-||dnsotls-ds.metric.gstatic.com^$important
 ||mtalk.google.com^$important
 ||aa.google.com^$important
 ||cse.google.com^$important
@@ -133,7 +131,6 @@
 ||dai.google.com^$important
 ||fcmatch.google.com^$important
 ||bandaid-redirector.l.google.com^$important
-||metric.gstatic.com^$important
 ||identitytoolkit.googleapis.com^$important
 #
 ## Browsers, missing on other lists
@@ -147,8 +144,8 @@
 ||clients1.google.com^$important
 ||clients4.google.com^$important
 #! Safari
-||token.safebrowsing.apple^$important
-||safebrowsing.g.aaplimg.com^$important
+||token.safebrowsing.apple^$dnsrewrite=NXDOMAIN,important
+||safebrowsing.g.aaplimg.com^$dnsrewrite=NXDOMAIN,important
 #! Brave
 ||variations.brave.com^$important
 ||p3a.brave.com^$important
