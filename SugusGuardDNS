@@ -195,3 +195,4 @@
 ||fcmtoken.googleapis.com^$important
 ||iid.googleapis.com^$important
 ||device-provisioning.googleapis.com^$important
+||www.gstatic.com^$important
