@@ -20,10 +20,15 @@
 ||tinypass.com^$important
 ||deal.cpstatic.ch^$important
 ||php.blick.ch^$important
+||myshop.20min.ch^$important
+||recommendations.ws.blick.ch^$important
+||auth.ws.blick.ch^$important
 ||fooby.ch^$important
 ||savor-app.ch^$important
 ||1e100.net^$important
 ||app-measurement.com^$important
+||yahoo.com^$important
+||yahoodns.net^$important
 # 
 ## Specific Telemetry & Analytics missing in other lists
 #! KDE Bullshit "kuserfeeback" shame on you KDE!
@@ -54,6 +59,10 @@
 ||oblique-telemetry.bit.admin.ch^$important
 ||webstats.zh.ch^$important
 ||static.addtoany.com^$important
+||otelwebtelemetry.com^$important
+||widgets.shopvote.de^$important
+||s.w.org^$important
+||assets.adobedtm.com^$important
 #
 ## Ads missing in other lists
 #
@@ -95,10 +104,16 @@
 ||firebaseinstallations.googleapis.com^$important
 #! Google DNS (should block all at once)
 ||metric.gstatic.com^$important
+#! Google Fonts
+||fonts.gstatic.com^$important
+||fonts.googleapis.com^$important
 #! Google Misc
+||*.google^$important
+||*.goog^$important
 ||www.google.com^$important
 ||news.google.com^$important
 ||landing.google.com^$important
+||play.google.com^$important
 ||pki-goog.l.google.com^$important
 ||ocsp.pki.goog^$important
 ||ogs.google.com^$important
@@ -131,6 +146,9 @@
 ||clientservices.googleapis.com^$important
 ||clients1.google.com^$important
 ||clients4.google.com^$important
+#! Safari
+||token.safebrowsing.apple^$important
+||safebrowsing.g.aaplimg.com^$important
 #! Brave
 ||variations.brave.com^$important
 ||p3a.brave.com^$important
