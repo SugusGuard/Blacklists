@@ -37,6 +37,11 @@
 #! Nitro Software
 ||inapp.gonitro.com^$important
 ||desktop.gonitro.com^$important
+#! Adobe
+||geo2.adobe.com^$important
+||geo.adobe.com^$important
+||adobejanus.com^$important
+||services.adobe.com^$important
 #
 ## Tracking, Analaytics missing in other lists
 #
@@ -63,6 +68,10 @@
 ||widgets.shopvote.de^$important
 ||s.w.org^$important
 ||assets.adobedtm.com^$important
+||responder.wt.heise.de^$important
+||privacy-mgmt.com^$important
+||sgqcvfjvr.onet.pl^$important
+||usercentrics.eu^$important
 #
 ## Ads missing in other lists
 #
@@ -107,6 +116,10 @@
 #! Google Fonts
 ||fonts.gstatic.com^$important
 ||fonts.googleapis.com^$important
+#! Google Push
+||fcmtoken.googleapis.com^$important
+||iid.googleapis.com^$important
+||device-provisioning.googleapis.com^$important
 #! Google Misc
 ||*.google^$important
 ||*.goog^$important
@@ -132,6 +145,7 @@
 ||fcmatch.google.com^$important
 ||bandaid-redirector.l.google.com^$important
 ||identitytoolkit.googleapis.com^$important
+||www3.l.google.com^$important
 #
 ## Browsers, missing on other lists
 #! General (Vivaldi, sadly block other included "Google-Tracking" brick browsers-funktions)
@@ -187,9 +201,9 @@
 ||srtb.msn.com^$important
 #
 ## Specials (Testing! is maybe to much)
-#! Google Testing
-||www3.l.google.com^$important
-||fcmtoken.googleapis.com^$important
-||iid.googleapis.com^$important
-||device-provisioning.googleapis.com^$important
-||www.gstatic.com^$important
+#! No idea why we see unexpected connections to web.archive.org, needs further investigation whats going on
+||web.archive.org^$important
+#! wp.com Site Analytics
+||i2.wp.com^$important
+||i0.wp.com^$important
+||i1.wp.com^$important
