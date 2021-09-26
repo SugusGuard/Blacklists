@@ -241,3 +241,17 @@
 !
 ! Enhanced - We don't use enhanced rules here, if necessary use a separeted "full" list
 #
+## Gravatar
+#
+! Basic
+||gravatar.com^$important
+!
+! Enhanced - We don't use enhanced rules here, if necessary use a separeted "full" list
+#
+## OnlyFriends
+#
+! Basic
+||onlyfriends.com^$important
+!
+! Enhanced - We don't use enhanced rules here, if necessary use a separeted "full" list
+#
