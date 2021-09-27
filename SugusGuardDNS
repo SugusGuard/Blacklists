@@ -162,6 +162,7 @@
 ||token.safebrowsing.apple^$important
 ||safebrowsing.g.aaplimg.com^$important
 ||proxy.safebrowsing.apple^$important
+||safebrowsing-proxy.g.aaplimg.com^$important
 #! Brave
 ||variations.brave.com^$important
 ||p3a.brave.com^$important
