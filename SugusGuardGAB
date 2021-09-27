@@ -66,8 +66,6 @@
 #
 # SAFARI, SPOTLIGHT
 #
-||safebrowsing-proxy.g.aaplimg.com^$dnsrewrite=NOERROR;TXT;NoList,important
-||proxy.safebrowsing.apple^$dnsrewrite=NOERROR;TXT;NoList,important
 ||api-glb-dub.smoot.apple.com^$dnsrewrite=NOERROR;TXT;Goodbye,important
 #
 # LOCATION SERVICE
