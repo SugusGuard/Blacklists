@@ -158,8 +158,9 @@
 ||clients1.google.com^$important
 ||clients4.google.com^$important
 #! Safari
-||token.safebrowsing.apple^$dnsrewrite=NXDOMAIN,important
-||safebrowsing.g.aaplimg.com^$dnsrewrite=NXDOMAIN,important
+||token.safebrowsing.apple^$important
+||safebrowsing.g.aaplimg.com^$important
+||proxy.safebrowsing.apple^$important
 #! Brave
 ||variations.brave.com^$important
 ||p3a.brave.com^$important
