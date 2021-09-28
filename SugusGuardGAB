@@ -16,10 +16,10 @@
 #
 # NTP
 #
-||time.apple.com^$dnsrewrite=NOERROR;CNAME;1.ch.pool.ntp.org
-||time-ios.apple.com^$dnsrewrite=NOERROR;CNAME;1.ch.pool.ntp.org
-||time-osx.g.aaplimg.com^$dnsrewrite=NOERROR;CNAME;1.ch.pool.ntp.org
-||time-macos.apple.com^$dnsrewrite=NOERROR;CNAME;1.ch.pool.ntp.org
+||time.apple.com^$dnsrewrite=NOERROR;CNAME;europe.pool.ntp.org
+||time-ios.apple.com^$dnsrewrite=NOERROR;CNAME;europe.pool.ntp.org
+||time-osx.g.aaplimg.com^$dnsrewrite=NOERROR;CNAME;europe.pool.ntp.org
+||time-macos.apple.com^$dnsrewrite=NOERROR;CNAME;europe.pool.ntp.org
 #
 # TELEMETRY, ANALYTICS, CRASHREPORT
 #
