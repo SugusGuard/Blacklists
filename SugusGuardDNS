@@ -73,12 +73,14 @@
 ||privacy-mgmt.com^$important
 ||sgqcvfjvr.onet.pl^$important
 ||usercentrics.eu^$important
+||lib.onet.pl^$important
 #
 ## Ads missing in other lists
 #
 ||gstaticadssl.l.google.com^$important
 ||imasdk.googleapis.com^$important
 ||a-msedge.net^$important
+||cs41.wac.edgecastcdn.net^$important
 #
 ## DoH, DoT Servers that seems to be forced in some Software
 #
@@ -124,7 +126,6 @@
 #! Google Misc
 ||*.google^$important
 ||*.goog^$important
-||www.google.com^$important
 ||news.google.com^$important
 ||landing.google.com^$important
 ||play.google.com^$important
