@@ -47,7 +47,6 @@
 ## Tracking, Analaytics missing in other lists
 #
 ||comscoreresearch.*^$important
-||secure.gravatar.com^$important
 ||tagger.opecloud.com^$important
 ||ingest.sentry.io^$important
 ||sentry.dev^$important
