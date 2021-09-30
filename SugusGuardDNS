@@ -1,7 +1,7 @@
 # Title: SugusGuard DNS filter
 # Description: SugusGuard's additional filterlist for AdGuard Home / AdGuard Pro App
+# Don't use this List if you're not sure what you're doing, it will brick some "services"
 # List-URL: https://raw.githubusercontent.com/SugusGuard/Blocklists/main/SugusGuardDNS
-#
 #
 ## Prevent filter-bypassing with https requests as Apple like to do
 #
@@ -124,10 +124,10 @@
 ||device-provisioning.googleapis.com^$important
 #! Google Misc
 ||maps.google.com^$dnsrewrite=NOERROR;CNAME;www.openstreetmap.org,important
+||www.gstatic.com^$dnsrewrite=NOERROR;TXT;Hello,important
 ||*.google^$important
 ||*.goog^$important
 ||www.google.com^$important
-||www.gstatic.com^$important
 ||news.google.com^$important
 ||landing.google.com^$important
 ||play.google.com^$important
@@ -218,3 +218,4 @@
 ||i2.wp.com^$important
 ||i0.wp.com^$important
 ||i1.wp.com^$important
+||c0.wp.com^$important
