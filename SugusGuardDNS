@@ -124,8 +124,11 @@
 ||iid.googleapis.com^$important
 ||device-provisioning.googleapis.com^$important
 #! Google Misc
+||maps.google.com^$dnsrewrite=NOERROR;CNAME;www.openstreetmap.org,important
 ||*.google^$important
 ||*.goog^$important
+||www.google.com^$important
+||www.gstatic.com^$important
 ||news.google.com^$important
 ||landing.google.com^$important
 ||play.google.com^$important
@@ -150,7 +153,7 @@
 ||www3.l.google.com^$important
 #
 ## Browsers, missing on other lists
-#! General (Vivaldi, sadly block other included "Google-Tracking" brick browsers-funktions)
+#! General
 ||safebrowsing.googleapis.com^$important
 ||safebrowsing.clients.google.com^$important
 ||sb-ssl.google.com^$important
@@ -164,11 +167,16 @@
 ||safebrowsing.g.aaplimg.com^$important
 ||proxy.safebrowsing.apple^$important
 ||safebrowsing-proxy.g.aaplimg.com^$important
-#! Brave
+#! Brave (Anyway.. Nobody should use this pos browser)
 ||variations.brave.com^$important
 ||p3a.brave.com^$important
 ||laptop-updates.brave.com^$important
 ||safebrowsing.brave.com^$important
+||api.rewards.brave.com^$important
+||rewards.brave.com^$important
+#! Vivaldi - Nobody should use this to "Google-Near" browser, sad but true...
+! But hey, at least you'll become a plenty of useless function and a lot of privacy promising marketing words, but in the end, it is just another a (little bit better) Google Browser
+! Some included above, but you can't stop Vivaldi talking to Google without brick his functionality
 #! Firefox, *fox
 ||detectportal.firefox.com^$important # Don't use this if you use public WLan's
 ||push.services.mozilla.com^$important
