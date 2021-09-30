@@ -123,8 +123,8 @@
 ||iid.googleapis.com^$important
 ||device-provisioning.googleapis.com^$important
 #! Google Misc
-||maps.google.com^$dnsrewrite=NOERROR;CNAME;www.openstreetmap.org,important
-||www.gstatic.com^$dnsrewrite=NOERROR;TXT;Hello,important
+||maps.google.com^$dnsrewrite=NXDOMAIN;;,important
+||www.gstatic.com^$dnsrewrite=NXDOMAIN;;,important
 ||*.google^$important
 ||*.goog^$important
 ||www.google.com^$important
