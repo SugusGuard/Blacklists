@@ -73,6 +73,9 @@
 ||sgqcvfjvr.onet.pl^$important
 ||usercentrics.eu^$important
 ||lib.onet.pl^$important
+||tracker.customersaas.com^$important
+||friendlyanalytics.io^$important
+||plausible.io^$important
 #
 ## Ads missing in other lists
 #
@@ -214,8 +217,3 @@
 ## Specials (Testing! is maybe to much)
 #! No idea why we see unexpected connections to web.archive.org, needs further investigation whats going on
 ||web.archive.org^$important
-#! wp.com Site Analytics
-||i2.wp.com^$important
-||i0.wp.com^$important
-||i1.wp.com^$important
-||c0.wp.com^$important
