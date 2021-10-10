@@ -1,0 +1,17 @@
+# Title: SugusGuard IP Blacklist
+# Description: SugusGuard's IP Blacklist to block some unsolid or at least unexplaind connections
+# List-URL: https://raw.githubusercontent.com/SugusGuard/Blocklists/main/SugusGuardIPB
+#
+## Apple Network - Hardcoded unexplained connections (No Reverse DNS)
+#
+17.57.146.23
+17.57.146.167
+17.57.146.52
+#
+## Adobe - Hardcoded unexplained connections (No Reverse DNS)
+#
+192.150.18.108
+#
+## Misc unwanted connections
+#
+34.107.221.82
