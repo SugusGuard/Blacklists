@@ -1,0 +1,51 @@
+# Title: SugusGuardMAB Minimal Apple Blocklist
+# Description: SugusGuard's minimal Apple filterlist for AdGuard Home / AdGuard Pro App
+# This list contains only a minimal set of domains from shitty, lying Apple Inc.
+# List-URL: https://raw.githubusercontent.com/SugusGuard/Blocklists/main/SugusGuardMAB
+#
+## PREVENT FILTER-BYPASSING WITH HTTPS REQUESTS AS APPLE LIKE TO DO
+#
+||use-application-dns.net^$dnsrewrite=REFUSED;;,important
+! Uncomment if you don't use a separate DoH Blocklist
+!||doh.dns.apple.com^$dnsrewrite=REFUSED,important
+!||doh.dns.apple.com.v.aaplimg.com^$dnsrewrite=REFUSED,important
+#
+## Whitelist
+#
+! Nothing whitelisted yet
+#
+## Blacklist
+#
+# NTP
+#
+||time.apple.com^$dnsrewrite=NOERROR;CNAME;europe.pool.ntp.org
+||time-ios.apple.com^$dnsrewrite=NOERROR;CNAME;europe.pool.ntp.org
+||time-osx.g.aaplimg.com^$dnsrewrite=NOERROR;CNAME;europe.pool.ntp.org
+||time-macos.apple.com^$dnsrewrite=NOERROR;CNAME;europe.pool.ntp.org
+#
+# TELEMETRY, ANALYTICS, CRASHREPORT
+#
+||xp.apple.com^$$dnsrewrite=REFUSED;;,important
+||metrics.mzstatic.com^$$dnsrewrite=REFUSED;;,important
+||metrics.icloud.com^$$dnsrewrite=REFUSED;;,important
+||metrics.fe.apple-dns.net$$dnsrewrite=REFUSED;;,important
+||dzc-metrics.mzstatic.com^$$dnsrewrite=REFUSED;;,important
+||securemetrics.apple.com^$$dnsrewrite=REFUSED;;,important
+||supportmetrics.apple.com^$$dnsrewrite=REFUSED;;,important
+||*-analytics-events.apple.com^$$dnsrewrite=REFUSED;;,important
+||*-analytics-events.news.apple-dns.net^$$dnsrewrite=REFUSED;;,important
+||idiagnostics.apple.com^$$dnsrewrite=REFUSED;;,important
+||idiagnostics.apple.com.akadns.net^$$dnsrewrite=REFUSED;;,important
+||*submissions.apple.com^$$dnsrewrite=REFUSED;;,important
+||*submissions.v.aaplimg.com^$$dnsrewrite=REFUSED;;,important
+||*submissions.apple.com.akadns.net^$$dnsrewrite=REFUSED;;,important
+||diagassets.apple.com^$$dnsrewrite=REFUSED;;,important
+#
+# APPLE ADS
+#
+||iadsdk.apple.com^$$dnsrewrite=REFUSED;;,important
+#
+# MISC AND TESTING - NOT OR UNPROPER EXPLAINED/DOCUMENTED
+#
+||apple-dns.net^$$dnsrewrite=REFUSED;;,important
+||apple-dns.com^$$dnsrewrite=REFUSED;;,important
