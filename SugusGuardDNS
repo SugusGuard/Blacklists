@@ -122,6 +122,9 @@
 ||firebasedynamiclinks-ipv6.googleapis.com^$important
 ||firebaseremoteconfig.googleapis.com^$important
 ||firebaseinstallations.googleapis.com^$important
+||firestore.googleapis.com^$important
+||firebasestorage.googleapis.com^$important
+||firebase.googleapis.com^$important
 #! Google DNS (should many at once)
 ||metric.gstatic.com^$important
 #! Google Fonts
