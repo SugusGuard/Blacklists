@@ -82,6 +82,7 @@
 ||raygun.com^$important
 ||raygun-api-vpc-1415992523.us-east-1.elb.amazonaws.com^$important
 ||rapidzebra.io^$important
+||tiqcdn.com^$important
 #
 ## Ads missing in other lists
 #
@@ -225,4 +226,5 @@
 ||srtb.msn.com^$important
 #
 ## Specials (Testing! is maybe to much)
-#!
+#! Heise
+||11931-3.s.cdn13.com^$important
