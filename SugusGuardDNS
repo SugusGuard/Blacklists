@@ -126,7 +126,7 @@
 ||firestore.googleapis.com^$important
 ||firebasestorage.googleapis.com^$important
 ||firebase.googleapis.com^$important
-#! Google DNS (should many at once)
+#! Google DNS (should block many at once)
 ||metric.gstatic.com^$important
 #! Google Fonts
 ||fonts.gstatic.com^$important
@@ -136,14 +136,12 @@
 ||iid.googleapis.com^$important
 ||device-provisioning.googleapis.com^$important
 #! Google Misc
-||maps.google.com^$dnsrewrite=NXDOMAIN;;,important
-||www.gstatic.com^$dnsrewrite=NXDOMAIN;;,important
 ||*.google^$important
 ||*.goog^$important
 ||www.google.com^$important
 ||news.google.com^$important
 ||landing.google.com^$important
-||play.google.com^$important
+||play.googleapis.com^$important
 ||pki-goog.l.google.com^$important
 ||ogs.google.com^$important
 ||accounts.google.com^$important
