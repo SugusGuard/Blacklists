@@ -161,7 +161,6 @@
 ||fcmatch.google.com^$important
 ||bandaid-redirector.l.google.com^$important
 ||identitytoolkit.googleapis.com^$important
-||www3.l.google.com^$important
 #
 ## Browsers, missing on other lists
 #! General
