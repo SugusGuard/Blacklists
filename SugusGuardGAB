@@ -10,7 +10,7 @@
 #
 ## Whitelist
 #
-! Nothing whitelisted yet
+@@|tr.iadsdk.apple.com^$important
 #
 ## Blacklist
 #
@@ -41,7 +41,7 @@
 #
 # APPLE ADS
 #
-||iadsdk.apple.com^$dnsrewrite=NOERROR;TXT;Hello,important
+||iadsdk.apple.com^$dnsrewrite=NOERROR;TXT;Hello
 #
 # APPSTORE, ITUNES
 #
