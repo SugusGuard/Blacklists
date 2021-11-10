@@ -10,7 +10,7 @@
 #
 ## Whitelist
 #
-@@tr.iadsdk.apple.com^$important
+!Nothing yet
 #
 ## Blacklist
 #
@@ -46,10 +46,9 @@
 # APPSTORE, ITUNES
 #
 ||bookkeeper.itunes.apple.com^$dnsrewrite=NOERROR;TXT;Hello,important
-! Media Streaming
-||play.itunes.apple.com^$dnsrewrite=NOERROR;TXT;Hello,important
-||play.itunes.apple.com.edgesuite.net^$dnsrewrite=NOERROR;TXT;Hello,important
-||play-cdn.itunes-apple.com.akadns.net^$dnsrewrite=NOERROR;TXT;Hello,important
+!||play.itunes.apple.com^$dnsrewrite=NOERROR;TXT;Hello,important
+!||play.itunes.apple.com.edgesuite.net^$dnsrewrite=NOERROR;TXT;Hello,important
+!||play-cdn.itunes-apple.com.akadns.net^$dnsrewrite=NOERROR;TXT;Hello,important
 #
 # ICLOUD
 #
