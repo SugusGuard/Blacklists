@@ -23,62 +23,62 @@
 #
 # TELEMETRY, ANALYTICS, CRASHREPORT
 #
-||xp.apple.com^$dnsrewrite=REFUSED;;,important
-||metrics.mzstatic.com^$dnsrewrite=REFUSED;;,important
-||metrics.icloud.com^$dnsrewrite=REFUSED;;,important
-||metrics.fe.apple-dns.net$dnsrewrite=REFUSED;;,important
-||dzc-metrics.mzstatic.com^$dnsrewrite=REFUSED;;,important
-||securemetrics.apple.com^$dnsrewrite=REFUSED;;,important
-||supportmetrics.apple.com^$dnsrewrite=REFUSED;;,important
-||*-analytics-events.apple.com^$dnsrewrite=REFUSED;;,important
-||*-analytics-events.news.apple-dns.net^$dnsrewrite=REFUSED;;,important
-||idiagnostics.apple.com^$dnsrewrite=REFUSED;;,important
-||idiagnostics.apple.com.akadns.net^$dnsrewrite=REFUSED;;,important
-||*submissions.apple.com^$dnsrewrite=REFUSED;;,important
-||*submissions.v.aaplimg.com^$dnsrewrite=REFUSED;;,important
-||*submissions.apple.com.akadns.net^$dnsrewrite=REFUSED;;,important
-||diagassets.apple.com^$dnsrewrite=REFUSED;;,important
+||xp.apple.com^$dnsrewrite=NOERROR;TXT;Hello,important
+||metrics.mzstatic.com^$dnsrewrite=NOERROR;TXT;Hello,important
+||metrics.icloud.com^$dnsrewrite=NOERROR;TXT;Hello,important
+||metrics.fe.apple-dns.net$dnsrewrite=NOERROR;TXT;Hello,important
+||dzc-metrics.mzstatic.com^$dnsrewrite=NOERROR;TXT;Hello,important
+||securemetrics.apple.com^$dnsrewrite=NOERROR;TXT;Hello,important
+||supportmetrics.apple.com^$dnsrewrite=NOERROR;TXT;Hello,important
+||*-analytics-events.apple.com^$dnsrewrite=NOERROR;TXT;Hello,important
+||*-analytics-events.news.apple-dns.net^$dnsrewrite=NOERROR;TXT;Hello,important
+||idiagnostics.apple.com^$dnsrewrite=NOERROR;TXT;Hello,important
+||idiagnostics.apple.com.akadns.net^$dnsrewrite=NOERROR;TXT;Hello,important
+||*submissions.apple.com^$dnsrewrite=NOERROR;TXT;Hello,important
+||*submissions.v.aaplimg.com^$dnsrewrite=NOERROR;TXT;Hello,important
+||*submissions.apple.com.akadns.net^$dnsrewrite=NOERROR;TXT;Hello,important
+||diagassets.apple.com^$dnsrewrite=NOERROR;TXT;Hello,important
 #
 # APPLE ADS
 #
-||iadsdk.apple.com^$dnsrewrite=REFUSED;;,important
+||iadsdk.apple.com^$dnsrewrite=NOERROR;TXT;Hello,important
 #
 # APPSTORE, ITUNES
 #
-||bookkeeper.itunes.apple.com^$dnsrewrite=REFUSED;;,important
+||bookkeeper.itunes.apple.com^$dnsrewrite=NOERROR;TXT;Hello,important
 ! Media Streaming
-||play.itunes.apple.com^$dnsrewrite=REFUSED;;,important
-||play.itunes.apple.com.edgesuite.net^$dnsrewrite=REFUSED;;,important
-||play-cdn.itunes-apple.com.akadns.net^$dnsrewrite=REFUSED;;,important
+||play.itunes.apple.com^$dnsrewrite=NOERROR;TXT;Hello,important
+||play.itunes.apple.com.edgesuite.net^$dnsrewrite=NOERROR;TXT;Hello,important
+||play-cdn.itunes-apple.com.akadns.net^$dnsrewrite=NOERROR;TXT;Hello,important
 #
 # ICLOUD
 #
-||apple-cloudkit.com^$dnsrewrite=REFUSED;;,important
-||apple-livephotoskit.com^$dnsrewrite=REFUSED;;,important
-||apzones.com^$dnsrewrite=REFUSED;;,important
-!||cdn-apple.com^$dnsrewrite=REFUSED;;,important      !AppleID
-!||gc.apple.com^$dnsrewrite=REFUSED;;,important       !Double GameCenter
-||icloud.com^$dnsrewrite=REFUSED;;,important
-||icloud.com.cn^$dnsrewrite=REFUSED;;,important
-||icloud.apple.com^$dnsrewrite=REFUSED;;,important
-||icloud-content.com^$dnsrewrite=REFUSED;;,important
-||iwork.apple.com^$dnsrewrite=REFUSED;;,important
+||apple-cloudkit.com^$dnsrewrite=NOERROR;TXT;Hello,important
+||apple-livephotoskit.com^$dnsrewrite=NOERROR;TXT;Hello,important
+||apzones.com^$dnsrewrite=NOERROR;TXT;Hello,important
+!||cdn-apple.com^$dnsrewrite=NOERROR;TXT;Hello,important      !AppleID
+!||gc.apple.com^$dnsrewrite=NOERROR;TXT;Hello,important       !Double GameCenter
+||icloud.com^$dnsrewrite=NOERROR;TXT;Hello,important
+||icloud.com.cn^$dnsrewrite=NOERROR;TXT;Hello,important
+||icloud.apple.com^$dnsrewrite=NOERROR;TXT;Hello,important
+||icloud-content.com^$dnsrewrite=NOERROR;TXT;Hello,important
+||iwork.apple.com^$dnsrewrite=NOERROR;TXT;Hello,important
 #
 # SAFARI, SPOTLIGHT
 #
-||api-glb-dub.smoot.apple.com^$dnsrewrite=REFUSED;;,important
+||api-glb-dub.smoot.apple.com^$dnsrewrite=NOERROR;TXT;Hello,important
 #
 # LOCATION SERVICE
 # 
-||ls.apple.com^$dnsrewrite=REFUSED;;,important
-!||gsp*.apple.com^$dnsrewrite=REFUSED;;,important
-!||gsp*.apple.com.edgekey.net^$dnsrewrite=REFUSED;;,important
-!||configuration.ls.apple.com^$dnsrewrite=REFUSED;;,important
-||iphone-ld.apple.com^$dnsrewrite=REFUSED;;,important
-||iphone-ld.origin-apple.com.akadns.net^$dnsrewrite=REFUSED;;,important
-||iphone-ld.apple.com-v1.edgesuite.net^$dnsrewrite=REFUSED;;,important
-||a1931.dscgi3.akamai.net^$dnsrewrite=REFUSED;;,important
-||gs-loc.apple.com^$dnsrewrite=REFUSED;;,important
+||ls.apple.com^$dnsrewrite=NOERROR;TXT;Hello,important
+!||gsp*.apple.com^$dnsrewrite=NOERROR;TXT;Hello,important
+!||gsp*.apple.com.edgekey.net^$dnsrewrite=NOERROR;TXT;Hello,important
+!||configuration.ls.apple.com^$dnsrewrite=NOERROR;TXT;Hello,important
+||iphone-ld.apple.com^$dnsrewrite=NOERROR;TXT;Hello,important
+||iphone-ld.origin-apple.com.akadns.net^$dnsrewrite=NOERROR;TXT;Hello,important
+||iphone-ld.apple.com-v1.edgesuite.net^$dnsrewrite=NOERROR;TXT;Hello,important
+||a1931.dscgi3.akamai.net^$dnsrewrite=NOERROR;TXT;Hello,important
+||gs-loc.apple.com^$dnsrewrite=NOERROR;TXT;Hello,important
 #
 # SIRI, SPOTLIGHT SUGGESTIONS
 #
@@ -92,17 +92,17 @@
 #
 # GAMECENTER
 #
-||gc.apple.com^$dnsrewrite=REFUSED;;,important
-||*gc.ess.apple.com^$dnsrewrite=REFUSED;;,important
-||*gc.ess-apple.com.akadns.net^$dnsrewrite=REFUSED;;,important
-!||commnat-cohort-gc.ess.apple.com^$dnsrewrite=REFUSED;;,important
-!||commnat-cohort-gc.ess-apple.com.akadns.net^$dnsrewrite=REFUSED;;,important
-!||commnat-main-gc.ess.apple.com^$dnsrewrite=REFUSED;;,important
+||gc.apple.com^$dnsrewrite=NOERROR;TXT;Hello,important
+||*gc.ess.apple.com^$dnsrewrite=NOERROR;TXT;Hello,important
+||*gc.ess-apple.com.akadns.net^$dnsrewrite=NOERROR;TXT;Hello,important
+!||commnat-cohort-gc.ess.apple.com^$dnsrewrite=NOERROR;TXT;Hello,important
+!||commnat-cohort-gc.ess-apple.com.akadns.net^$dnsrewrite=NOERROR;TXT;Hello,important
+!||commnat-main-gc.ess.apple.com^$dnsrewrite=NOERROR;TXT;Hello,important
 #
 # FAMILY SHARING
 #
-||pancake.apple.com^$dnsrewrite=REFUSED;;,important
-||pancake.g.aaplimg.com^$dnsrewrite=REFUSED;;,important
+||pancake.apple.com^$dnsrewrite=NOERROR;TXT;Hello,important
+||pancake.g.aaplimg.com^$dnsrewrite=NOERROR;TXT;Hello,important
 #
 # FIND MY FRIENS
 #
@@ -118,52 +118,52 @@
 #
 # Health
 #
-||health.apple.com^$dnsrewrite=REFUSED;;,important
+||health.apple.com^$dnsrewrite=NOERROR;TXT;Hello,important
 #
 # CONTENT CACHING
 #
-||lcdn-locator.apple.com^$dnsrewrite=REFUSED;;,important
-||lcdn-locator-usnkq.apple.com.akadns.net^$dnsrewrite=REFUSED;;,important
-||lcdn-registration.apple.com^$dnsrewrite=REFUSED;;,important
-||serverstatus.apple.com^$dnsrewrite=REFUSED;;,important
-||xp-cdn.apple.com^$dnsrewrite=REFUSED;;,important
-||suconfig.apple.com^$dnsrewrite=REFUSED;;,important
+||lcdn-locator.apple.com^$dnsrewrite=NOERROR;TXT;Hello,important
+||lcdn-locator-usnkq.apple.com.akadns.net^$dnsrewrite=NOERROR;TXT;Hello,important
+||lcdn-registration.apple.com^$dnsrewrite=NOERROR;TXT;Hello,important
+||serverstatus.apple.com^$dnsrewrite=NOERROR;TXT;Hello,important
+||xp-cdn.apple.com^$dnsrewrite=NOERROR;TXT;Hello,important
+||suconfig.apple.com^$dnsrewrite=NOERROR;TXT;Hello,important
 #
 # MOBILE DEVICE MANAGEMENT (MDM)
 #
-||deviceenrollment.apple.com^$dnsrewrite=REFUSED;;,important
-||deviceservices-external.apple.com^$dnsrewrite=REFUSED;;,important
-||gdmf.apple.com^$dnsrewrite=REFUSED;;,important
-||iprofiles.apple.com^$dnsrewrite=REFUSED;;,important
-||mdmenrollment.apple.com^$dnsrewrite=REFUSED;;,important
-||setup.icloud.com^$dnsrewrite=REFUSED;;,important
-||vpp.itunes.apple.com^$dnsrewrite=REFUSED;;,important
+||deviceenrollment.apple.com^$dnsrewrite=NOERROR;TXT;Hello,important
+||deviceservices-external.apple.com^$dnsrewrite=NOERROR;TXT;Hello,important
+||gdmf.apple.com^$dnsrewrite=NOERROR;TXT;Hello,important
+||iprofiles.apple.com^$dnsrewrite=NOERROR;TXT;Hello,important
+||mdmenrollment.apple.com^$dnsrewrite=NOERROR;TXT;Hello,important
+||setup.icloud.com^$dnsrewrite=NOERROR;TXT;Hello,important
+||vpp.itunes.apple.com^$dnsrewrite=NOERROR;TXT;Hello,important
 #
 # APPLE SCHOOL AND BUSINESS MANAGER
 #
-||business.apple.com^$dnsrewrite=REFUSED;;,important
-||school.apple.com^$dnsrewrite=REFUSED;;,important
-||isu.apple.com^$dnsrewrite=REFUSED;;,important
-||ws-ee-maidsvc.icloud.com^$dnsrewrite=REFUSED;;,important
+||business.apple.com^$dnsrewrite=NOERROR;TXT;Hello,important
+||school.apple.com^$dnsrewrite=NOERROR;TXT;Hello,important
+||isu.apple.com^$dnsrewrite=NOERROR;TXT;Hello,important
+||ws-ee-maidsvc.icloud.com^$dnsrewrite=NOERROR;TXT;Hello,important
 #
 # GARAGEBAND, XCODE, SWIFT PLAYGROUND, APPLE TV SCREENSAVERS
 #
-||audiocontentdownload.apple.com^$dnsrewrite=REFUSED;;,important
-||devimages-cdn.apple.com^$dnsrewrite=REFUSED;;,important
-||download.developer.apple.com^$dnsrewrite=REFUSED;;,important
-||playgrounds-assets-cdn.apple.com^$dnsrewrite=REFUSED;;,important
-||playgrounds-cdn.apple.com^$dnsrewrite=REFUSED;;,important
-||sylvan.apple.com^$dnsrewrite=REFUSED;;,important
+||audiocontentdownload.apple.com^$dnsrewrite=NOERROR;TXT;Hello,important
+||devimages-cdn.apple.com^$dnsrewrite=NOERROR;TXT;Hello,important
+||download.developer.apple.com^$dnsrewrite=NOERROR;TXT;Hello,important
+||playgrounds-assets-cdn.apple.com^$dnsrewrite=NOERROR;TXT;Hello,important
+||playgrounds-cdn.apple.com^$dnsrewrite=NOERROR;TXT;Hello,important
+||sylvan.apple.com^$dnsrewrite=NOERROR;TXT;Hello,important
 #
 # MISC AND TESTING - NOT OR UNPROPER EXPLAINED/DOCUMENTED
 #
-||apple-dns.net^$dnsrewrite=REFUSED;;,important
-||apple-dns.com^$dnsrewrite=REFUSED;;,important
-!||captive.apple.com^$dnsrewrite=REFUSED;;,important
-!||captive.g.aaplimg.com^$dnsrewrite=REFUSED;;,important
+||apple-dns.net^$dnsrewrite=NOERROR;TXT;Hello,important
+||apple-dns.com^$dnsrewrite=NOERROR;TXT;Hello,important
+!||captive.apple.com^$dnsrewrite=NOERROR;TXT;Hello,important
+!||captive.g.aaplimg.com^$dnsrewrite=NOERROR;TXT;Hello,important
 ! No idea what goes on here
-||sas.apple.com^$dnsrewrite=REFUSED;;,important
-||gsas.apple.com^$dnsrewrite=REFUSED;;,important
-||apps.itunes-nocookie.com^$dnsrewrite=REFUSED;;,important
-!||commnat-main.ess.apple.com^$dnsrewrite=REFUSED;;,important
-||basejumper.apple.com^$dnsrewrite=REFUSED;;,important
+||sas.apple.com^$dnsrewrite=NOERROR;TXT;Hello,important
+||gsas.apple.com^$dnsrewrite=NOERROR;TXT;Hello,important
+||apps.itunes-nocookie.com^$dnsrewrite=NOERROR;TXT;Hello,important
+!||commnat-main.ess.apple.com^$dnsrewrite=NOERROR;TXT;Hello,important
+||basejumper.apple.com^$dnsrewrite=NOERROR;TXT;Hello,important
