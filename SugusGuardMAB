@@ -43,7 +43,7 @@
 #
 # APPLE ADS
 #
-||iadsdk.apple.com^$$dnsrewrite=REFUSED;;,important
+||iadsdk.apple.com^$dnsrewrite=REFUSED;;,important
 #
 # MISC AND TESTING - NOT OR UNPROPER EXPLAINED/DOCUMENTED
 #
