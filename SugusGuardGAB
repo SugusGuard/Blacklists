@@ -10,7 +10,7 @@
 #
 ## Whitelist
 #
-@@|tr.iadsdk.apple.com^$important
+@@tr.iadsdk.apple.com^$important
 #
 ## Blacklist
 #
