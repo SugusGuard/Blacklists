@@ -8,9 +8,6 @@ Maybe you should first try AdGuard's default Blocklists.
 
 SugusGuardAUB - Apple Update blocklist for AdGuard Home / AdGuard Pro App
 
-SugusGuardAWL - Apple minimal Whitelist for AdGuard Home / AdGuard Pro App  
-**!! EXPERIMENTAL !!**
-
 SugusGuardDNS - SugusGuard's additional filterlist for AdGuard Home / AdGuard Pro App
 
 SugusGuardGAB - SugusGuard's Apple filterlist for AdGuard Home / AdGuard Pro App  
