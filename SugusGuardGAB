@@ -161,6 +161,7 @@
 #
 # MISC AND TESTING - NOT OR UNPROPER EXPLAINED/DOCUMENTED
 #
+||gateway.icloud.com^$dnsrewrite=NXDOMAIN;;,important
 ||apple-dns.net^$dnsrewrite=NXDOMAIN;;,important
 ||apple-dns.com^$dnsrewrite=NXDOMAIN;;,important
 !||captive.apple.com^$dnsrewrite=NXDOMAIN;;,important
