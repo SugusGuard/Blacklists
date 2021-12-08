@@ -83,6 +83,8 @@
 ||raygun-api-vpc-1415992523.us-east-1.elb.amazonaws.com^$important
 ||rapidzebra.io^$important
 ||tiqcdn.com^$important
+||onetrust.*^$important
+||cookielaw.org^$important
 #
 ## Ads missing in other lists
 #
