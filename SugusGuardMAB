@@ -45,6 +45,11 @@
 #
 ||iadsdk.apple.com^$dnsrewrite=REFUSED;;,important
 #
+# ICLOUD PRIVATE RELAY
+#
+||mask.icloud.com^$dnsrewrite=NXDOMAIN;;
+||mask-h2.icloud.com^$dnsrewrite=NXDOMAIN;;
+#
 # MISC AND TESTING - NOT OR UNPROPER EXPLAINED/DOCUMENTED
 #
 ||apple-dns.net^$dnsrewrite=REFUSED;;,important
