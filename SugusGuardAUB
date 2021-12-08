@@ -34,6 +34,7 @@
 ||configuration.apple.com.akadns.net^$dnsrewrite=REFUSED;;,important
 ||configuration.apple.com.edgekey.net^$dnsrewrite=REFUSED;;,important
 ||updates.cdn-apple.com^$dnsrewrite=REFUSED;;,important
+||world-gen.g.aaplimg.com^$dnsrewrite=REFUSED;;,important
 !||xp.apple.com^$dnsrewrite=REFUSED;;,important  !Double with SugusGuardGAB
 #! macOS only
 ||gnf-mdn.apple.com^$dnsrewrite=REFUSED;;,important
