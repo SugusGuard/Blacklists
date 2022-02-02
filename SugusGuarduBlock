@@ -8,7 +8,7 @@
 ||myshop.20min.ch^$important
 ||deal.cpstatic.ch$important
 ||api.20min.ch$important
-||www.20min.ch/static-assets/shop-widget.html$generichide,important
+||www.20min.ch/static-assets/*$important
 ||tdn.da-services.ch/libs/oil/*$important
 !
 ! Blick
