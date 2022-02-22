@@ -30,6 +30,14 @@
 ||app-measurement.com^$important
 ||yahoo.com^$important
 ||yahoodns.net^$important
+||consensu.org^$important
+||cookiepro.com^$important
+||consentmanager.net^$important
+||consentmanager.de^$important
+||usercentrics.com^$important
+||usercentrics.eu^$important
+||cookielaw.org^$important
+||cookiebot.com^$important
 # 
 ## Specific Telemetry & Analytics missing in other lists
 #! KDE Bullshit "kuserfeeback" shame on you KDE!
@@ -84,7 +92,11 @@
 ||rapidzebra.io^$important
 ||tiqcdn.com^$important
 ||onetrust.*^$important
-||cookielaw.org^$important
+||tobit.com^$important
+||etracker.com^$important
+||borlabs.io^$important
+||permaleads.ch^$important
+||app-us1.com^$important
 #
 ## Ads missing in other lists
 #
