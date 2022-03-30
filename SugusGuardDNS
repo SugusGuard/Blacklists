@@ -154,7 +154,7 @@
 #! Google Misc
 ||*.google^$important
 ||*.goog^$important
-||www.google.com^$important
+#||www.google.com^$important
 ||news.google.com^$important
 ||landing.google.com^$important
 ||play.googleapis.com^$important
