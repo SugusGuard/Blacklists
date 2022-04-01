@@ -42,9 +42,13 @@ www.blick.ch##.video-player-wrapper
 !
 ! Youtube
 !
-www.youtube.com##.opened
-www.youtube.com###dialog
+www.youtube.com##ytd-clarification-renderer.ytd-item-section-renderer.style-scope
+www.youtube.com###clarify-box > .ytd-watch-flexy.style-scope
 !
-! Serienjunkies
+! Startpage
 !
-www.serienjunkies.de##amp-ad.i-amphtml-unresolved.amp-unresolved.i-amphtml-layout-size-defined.i-amphtml-layout-fixed.amp-notbuilt.i-amphtml-notbuilt.i-amphtml-element
+||startpage.com/sp/adsense/*$important
+||startpage.com/sp/cdn/scripts/abp.js$important
+||www.startpage.com/sp/cdn/images/privacy-protection-promo/intersect-default.svg$image
+www.startpage.com##.layout-web__sidebar--web.layout-web__sidebar
+www.startpage.com##.ukraine-banner
