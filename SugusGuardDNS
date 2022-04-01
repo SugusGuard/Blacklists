@@ -31,14 +31,17 @@
 ||yahoo.com^$important
 ||yahoodns.net^$important
 ||wearehearken.eu^$important
-||consensu.org^$important
-||cookiepro.com^$important
-||consentmanager.net^$important
-||consentmanager.de^$important
-||usercentrics.com^$important
-||usercentrics.eu^$important
-||cookielaw.org^$important
-||cookiebot.com^$important
+#
+## Cookie Banner
+#! (A plague and mostly includes usertracking from the companies behind the script. But it's a better way to block this with uBo)
+#||consensu.org^$important
+#||cookiepro.com^$important
+#||consentmanager.net^$important
+#||consentmanager.de^$important
+#||usercentrics.com^$important
+#||usercentrics.eu^$important
+#||cookielaw.org^$important
+#||cookiebot.com^$important
 # 
 ## Specific Telemetry & Analytics missing in other lists
 #! KDE Bullshit "kuserfeeback" shame on you KDE!
@@ -106,6 +109,8 @@
 ||imasdk.googleapis.com^$important
 ||a-msedge.net^$important
 ||cs41.wac.edgecastcdn.net^$important
+||addthisedge.com^$important
+||addthis.com^$important
 #
 ## DoH, DoT Servers that seems to be forced in some Software
 #
