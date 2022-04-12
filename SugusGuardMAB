@@ -25,25 +25,25 @@
 #
 # TELEMETRY, ANALYTICS, CRASHREPORT
 #
-||xp.apple.com^$dnsrewrite=REFUSED;;,important
-||metrics.mzstatic.com^$dnsrewrite=REFUSED;;,important
-||metrics.icloud.com^$dnsrewrite=REFUSED;;,important
-||metrics.fe.apple-dns.net$dnsrewrite=REFUSED;;,important
-||dzc-metrics.mzstatic.com^$dnsrewrite=REFUSED;;,important
-||securemetrics.apple.com^$dnsrewrite=REFUSED;;,important
-||supportmetrics.apple.com^$dnsrewrite=REFUSED;;,important
-||*-analytics-events.apple.com^$dnsrewrite=REFUSED;;,important
-||*-analytics-events.news.apple-dns.net^$dnsrewrite=REFUSED;;,important
-||idiagnostics.apple.com^$dnsrewrite=REFUSED;;,important
-||idiagnostics.apple.com.akadns.net^$dnsrewrite=REFUSED;;,important
-||*submissions.apple.com^$dnsrewrite=REFUSED;;,important
-||*submissions.v.aaplimg.com^$dnsrewrite=REFUSED;;,important
-||*submissions.apple.com.akadns.net^$dnsrewrite=REFUSED;;,important
-||diagassets.apple.com^$dnsrewrite=REFUSED;;,important
+||xp.apple.com^$dnsrewrite=NXDOMAIN;;,important
+||metrics.mzstatic.com^$dnsrewrite=NXDOMAIN;;,important
+||metrics.icloud.com^$dnsrewrite=NXDOMAIN;;,important
+||metrics.fe.apple-dns.net$dnsrewrite=NXDOMAIN;;,important
+||dzc-metrics.mzstatic.com^$dnsrewrite=NXDOMAIN;;,important
+||securemetrics.apple.com^$dnsrewrite=NXDOMAIN;;,important
+||supportmetrics.apple.com^$dnsrewrite=NXDOMAIN;;,important
+||*-analytics-events.apple.com^$dnsrewrite=NXDOMAIN;;,important
+||*-analytics-events.news.apple-dns.net^$dnsrewrite=NXDOMAIN;;,important
+||idiagnostics.apple.com^$dnsrewrite=NXDOMAIN;;,important
+||idiagnostics.apple.com.akadns.net^$dnsrewrite=NXDOMAIN;;,important
+||*submissions.apple.com^$dnsrewrite=NXDOMAIN;;,important
+||*submissions.v.aaplimg.com^$dnsrewrite=NXDOMAIN;;,important
+||*submissions.apple.com.akadns.net^$dnsrewrite=NXDOMAIN;;,important
+||diagassets.apple.com^$dnsrewrite=NXDOMAIN;;,important
 #
 # APPLE ADS
 #
-||iadsdk.apple.com^$dnsrewrite=REFUSED;;,important
+||iadsdk.apple.com^$dnsrewrite=NXDOMAIN;;,important
 #
 # Health
 #
@@ -56,5 +56,5 @@
 #
 # MISC AND TESTING - NOT OR UNPROPER EXPLAINED/DOCUMENTED
 #
-||apple-dns.net^$dnsrewrite=REFUSED;;,important
-||apple-dns.com^$dnsrewrite=REFUSED;;,important
+||apple-dns.net^$dnsrewrite=NXDOMAIN;;,important
+||apple-dns.com^$dnsrewrite=NXDOMAIN;;,important
