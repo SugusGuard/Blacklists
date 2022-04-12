@@ -45,6 +45,10 @@
 #
 ||iadsdk.apple.com^$dnsrewrite=REFUSED;;,important
 #
+# Health
+#
+||health.apple.com^$dnsrewrite=NXDOMAIN;;,important
+#
 # ICLOUD PRIVATE RELAY
 #
 ||mask.icloud.com^$dnsrewrite=NXDOMAIN;;
