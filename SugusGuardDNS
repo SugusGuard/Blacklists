@@ -42,6 +42,7 @@
 #||usercentrics.eu^$important
 #||cookielaw.org^$important
 #||cookiebot.com^$important
+||privacy-mgmt.com^$important
 # 
 ## Specific Telemetry & Analytics missing in other lists
 #! KDE Bullshit "kuserfeeback" shame on you KDE!
@@ -81,7 +82,6 @@
 ||s.w.org^$important
 ||assets.adobedtm.com^$important
 ||responder.wt.heise.de^$important
-||privacy-mgmt.com^$important
 ||sgqcvfjvr.onet.pl^$important
 ||usercentrics.eu^$important
 ||lib.onet.pl^$important
@@ -239,7 +239,6 @@
 ||srware-search.com^$important
 ||wisesearches.com^$important
 #! Microsoft Edge, don't use this pos browser it's spyware
-||gstaticadssl.l.google.com^$important
 ||browser.pipe.aria.microsoft.com^$important
 ||config.edge.skype.com^$important
 ||nav.smartscreen.microsoft.com^$important
