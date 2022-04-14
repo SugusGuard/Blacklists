@@ -81,7 +81,7 @@
 ||pancake.apple.com^$dnsrewrite=NXDOMAIN;;,important
 ||pancake.g.aaplimg.com^$dnsrewrite=NXDOMAIN;;,important
 #
-# FIND MY FRIENS
+# FIND MY FRIENDS
 #
 ||fmf.icloud.com^$dnsrewrite=NXDOMAIN;;,important
 ||fmfmobile.icloud.com^$dnsrewrite=NXDOMAIN;;,important
