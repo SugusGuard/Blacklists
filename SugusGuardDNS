@@ -101,6 +101,7 @@
 ||borlabs.io^$important
 ||permaleads.ch^$important
 ||app-us1.com^$important
+||adjust.com^$important
 ||cpstats.hostpoint.ch^$important
 #
 ## Ads missing in other lists
@@ -108,7 +109,6 @@
 ||gstaticadssl.l.google.com^$important
 ||imasdk.googleapis.com^$important
 ||a-msedge.net^$important
-||cs41.wac.edgecastcdn.net^$important
 ||addthisedge.com^$important
 ||addthis.com^$important
 #
