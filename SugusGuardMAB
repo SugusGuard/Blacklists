@@ -45,6 +45,54 @@
 #
 ||iadsdk.apple.com^$dnsrewrite=NXDOMAIN;;,important
 #
+# LOCATION SERVICE
+# 
+||ls.apple.com^$dnsrewrite=NXDOMAIN;;,important
+!||gsp*.apple.com^$dnsrewrite=NXDOMAIN;;,important
+!||gsp*.apple.com.edgekey.net^$dnsrewrite=NXDOMAIN;;,important
+!||configuration.ls.apple.com^$dnsrewrite=NXDOMAIN;;,important
+||iphone-ld.apple.com^$dnsrewrite=NXDOMAIN;;,important
+||iphone-ld.origin-apple.com.akadns.net^$dnsrewrite=NXDOMAIN;;,important
+||iphone-ld.apple.com-v1.edgesuite.net^$dnsrewrite=NXDOMAIN;;,important
+||a1931.dscgi3.akamai.net^$dnsrewrite=NXDOMAIN;;,important
+||gs-loc.apple.com^$dnsrewrite=NXDOMAIN;;,important
+#
+# SIRI, SPOTLIGHT SUGGESTIONS
+#
+||smoot.apple.com^$dnsrewrite=NXDOMAIN;;,important
+||bag-smoot.v.aaplimg.com^$dnsrewrite=NXDOMAIN;;,important
+||guzzoni.apple.com^$dnsrewrite=NXDOMAIN;;,important
+||guzzoni-apple-com.v.aaplimg.com^$dnsrewrite=NXDOMAIN;;,important
+||dejavu.apple.com^$dnsrewrite=NXDOMAIN;;,important
+||siri.apple.com^$dnsrewrite=NXDOMAIN;;,important
+||swallow.apple.com^$dnsrewrite=NXDOMAIN;;,important
+#
+# GAMECENTER
+#
+||gc.apple.com^$dnsrewrite=NXDOMAIN;;,important
+||*gc.ess.apple.com^$dnsrewrite=NXDOMAIN;;,important
+||*gc.ess-apple.com.akadns.net^$dnsrewrite=NXDOMAIN;;,important
+!||commnat-cohort-gc.ess.apple.com^$dnsrewrite=NXDOMAIN;;,important
+!||commnat-cohort-gc.ess-apple.com.akadns.net^$dnsrewrite=NXDOMAIN;;,important
+!||commnat-main-gc.ess.apple.com^$dnsrewrite=NXDOMAIN;;,important
+#
+# FAMILY SHARING
+#
+||pancake.apple.com^$dnsrewrite=NXDOMAIN;;,important
+||pancake.g.aaplimg.com^$dnsrewrite=NXDOMAIN;;,important
+#
+# FIND MY FRIENS
+#
+||fmf.icloud.com^$dnsrewrite=NXDOMAIN;;,important
+||fmfmobile.icloud.com^$dnsrewrite=NXDOMAIN;;,important
+||fmfmobile.fe.apple-dns.net^$dnsrewrite=NXDOMAIN;;,important
+||fmf.fe.apple-dns.net^$dnsrewrite=NXDOMAIN;;,important
+#
+# FIND MY IPHONE
+#
+||fmip.icloud.com^$dnsrewrite=NXDOMAIN;;,important
+||fmip.fe.apple-dns.net^$dnsrewrite=NXDOMAIN;;,important
+#
 # Health
 #
 ||health.apple.com^$dnsrewrite=NXDOMAIN;;,important
@@ -58,3 +106,8 @@
 #
 ||apple-dns.net^$dnsrewrite=NXDOMAIN;;,important
 ||apple-dns.com^$dnsrewrite=NXDOMAIN;;,important
+! No idea what goes on here
+||sas.apple.com^$dnsrewrite=NXDOMAIN;;,important
+||gsas.apple.com^$dnsrewrite=NXDOMAIN;;,important
+||apps.itunes-nocookie.com^$dnsrewrite=NXDOMAIN;;,important
+||basejumper.apple.com^$dnsrewrite=NXDOMAIN;;,important
