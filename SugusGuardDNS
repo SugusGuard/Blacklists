@@ -153,6 +153,9 @@
 ||fcmtoken.googleapis.com^$important
 ||iid.googleapis.com^$important
 ||device-provisioning.googleapis.com^$important
+#! Google Fonts
+||fonts.gstatic.com^$important
+||fonts.googleapis.com^$important
 #! Google Misc
 ||*.google^$important
 ||*.goog^$important
