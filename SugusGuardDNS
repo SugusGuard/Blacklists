@@ -149,9 +149,6 @@
 ||firebase.googleapis.com^$important
 #! Google DNS (should block many at once)
 ||metric.gstatic.com^$important
-#! Google Fonts
-||fonts.gstatic.com^$important
-||fonts.googleapis.com^$important
 #! Google Push
 ||fcmtoken.googleapis.com^$important
 ||iid.googleapis.com^$important
