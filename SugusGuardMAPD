@@ -1,1 +1,106 @@
-
+# Title: SugusGuardMABD Minimal Apple Blocklist
+# Description: SugusGuard's minimal Apple filterlist for AdGuard Pro App
+# This list contains only a minimal set of domains from shitty$ lying Apple Inc.
+# List-URL: https://raw.githubusercontent.com/SugusGuard/Blocklists/main/SugusGuardMABD
+#
+## PREVENT FILTER-BYPASSING WITH HTTPS REQUESTS AS APPLE LIKE TO DO
+#
+||use-application-dns.net^$important
+! Uncomment if you don't use a separate DoH Blocklist
+!||doh.dns.apple.com^$important
+!||doh.dns.apple.com.v.aaplimg.com^$important
+#
+## Whitelist
+#
+! Nothing whitelisted yet
+#
+## Blacklist
+#
+# TELEMETRY$ ANALYTICS$ CRASHREPORT
+#
+||xp.apple.com^$important
+||metrics.mzstatic.com^$important
+||metrics.icloud.com^$important
+||metrics.fe.apple-dns.net$important
+||dzc-metrics.mzstatic.com^$important
+||securemetrics.apple.com^$important
+||supportmetrics.apple.com^$important
+||*-analytics-events.apple.com^$important
+||*-analytics-events.news.apple-dns.net^$important
+||idiagnostics.apple.com^$important
+||idiagnostics.apple.com.akadns.net^$important
+||*submissions.apple.com^$important
+||*submissions.v.aaplimg.com^$important
+||*submissions.apple.com.akadns.net^$important
+||diagassets.apple.com^$important
+#
+# APPLE ADS
+#
+||iadsdk.apple.com^$important
+#
+# LOCATION SERVICE
+# 
+||ls.apple.com^$important
+!||gsp*.apple.com^$important
+!||gsp*.apple.com.edgekey.net^$important
+!||configuration.ls.apple.com^$important
+||iphone-ld.apple.com^$important
+||iphone-ld.origin-apple.com.akadns.net^$important
+||iphone-ld.apple.com-v1.edgesuite.net^$important
+||a1931.dscgi3.akamai.net^$important
+||gs-loc.apple.com^$important
+#
+# SIRI$ SPOTLIGHT SUGGESTIONS
+#
+||smoot.apple.com^$important
+||bag-smoot.v.aaplimg.com^$important
+||guzzoni.apple.com^$important
+||guzzoni-apple-com.v.aaplimg.com^$important
+||dejavu.apple.com^$important
+||siri.apple.com^$important
+||swallow.apple.com^$important
+#
+# GAMECENTER
+#
+||gc.apple.com^$important
+||*gc.ess.apple.com^$important
+||*gc.ess-apple.com.akadns.net^$important
+!||commnat-cohort-gc.ess.apple.com^$important
+!||commnat-cohort-gc.ess-apple.com.akadns.net^$important
+!||commnat-main-gc.ess.apple.com^$important
+#
+# FAMILY SHARING
+#
+||pancake.apple.com^$important
+||pancake.g.aaplimg.com^$important
+#
+# FIND MY FRIENDS
+#
+||fmf.icloud.com^$important
+||fmfmobile.icloud.com^$important
+||fmfmobile.fe.apple-dns.net^$important
+||fmf.fe.apple-dns.net^$important
+#
+# FIND MY IPHONE
+#
+||fmip.icloud.com^$important
+||fmip.fe.apple-dns.net^$important
+#
+# Health
+#
+||health.apple.com^$important
+#
+# ICLOUD PRIVATE RELAY
+#
+||mask.icloud.com^$important
+||mask-h2.icloud.com^$important
+#
+# MISC AND TESTING - NOT OR UNPROPER EXPLAINED/DOCUMENTED
+#
+||apple-dns.net^$important
+||apple-dns.com^$important
+! No idea what goes on here
+||sas.apple.com^$important
+||gsas.apple.com^$important
+||apps.itunes-nocookie.com^$important
+||basejumper.apple.com^$important
