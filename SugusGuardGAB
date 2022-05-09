@@ -65,8 +65,8 @@
 #
 # ICLOUD PRIVATE RELAY
 #
-||mask.icloud.com^$dnsrewrite=NXDOMAIN;;
-||mask-h2.icloud.com^$dnsrewrite=NXDOMAIN;;
+||mask.icloud.com^$dnsrewrite=NXDOMAIN;;,important
+||mask-h2.icloud.com^$dnsrewrite=NXDOMAIN;;,important
 #
 # SAFARI, SPOTLIGHT
 #
