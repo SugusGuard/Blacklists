@@ -106,8 +106,3 @@
 #
 ||apple-dns.net^$dnsrewrite=NXDOMAIN;;,important
 ||apple-dns.com^$dnsrewrite=NXDOMAIN;;,important
-! No idea what goes on here
-||sas.apple.com^$dnsrewrite=NXDOMAIN;;,important
-||gsas.apple.com^$dnsrewrite=NXDOMAIN;;,important
-||apps.itunes-nocookie.com^$dnsrewrite=NXDOMAIN;;,important
-||basejumper.apple.com^$dnsrewrite=NXDOMAIN;;,important
