@@ -97,12 +97,14 @@
 #
 ||health.apple.com^$dnsrewrite=NXDOMAIN;;,important
 #
-# ICLOUD PRIVATE RELAY
+# ICLOUD PRIVATE RELAY, APPLE DNS
 #
 ||mask.icloud.com^$dnsrewrite=NXDOMAIN;;,important
+||mask-api.icloud.com^$dnsrewrite=NXDOMAIN;;,important
 ||mask-h2.icloud.com^$dnsrewrite=NXDOMAIN;;,important
+||apple-dns.net^$dnsrewrite=NXDOMAIN;;,important
+||apple-dns.com^$dnsrewrite=NXDOMAIN;;,important
 #
 # MISC AND TESTING - NOT OR UNPROPER EXPLAINED/DOCUMENTED
 #
-||apple-dns.net^$dnsrewrite=NXDOMAIN;;,important
-||apple-dns.com^$dnsrewrite=NXDOMAIN;;,important
+||experiments.apple.com^$dnsrewrite=NXDOMAIN;;,important
