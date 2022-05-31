@@ -23,4 +23,6 @@ SugusGuardSMB - Social Media basic filterlist for AdGuard Home / AdGuard Pro App
 
 SugusGuardSTM - Swiss Trash Media Blocklist for AdGuard Home / AdGuard Pro App
 
+SugusGuardDOH - DNS Server forced in some Applications
+
 SugusGuarduBlock is just personal testing and experimenting nobody should use this
