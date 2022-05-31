@@ -14,7 +14,7 @@ Maybe you should first try AdGuard's default Blocklists.
 | SugusGuardGPB	| Google proxies blacklist for AdGuard Home / AdGuard Pro App |
 | SugusGuardSMB	| Social Media basic blacklist for AdGuard Home / AdGuard Pro App |
 | SugusGuardSTM	| Swiss Trash Media blacklist for AdGuard Home / AdGuard Pro App |
-| SugusGuardIPB	| IP-Blacklist for Firewallsv
+| SugusGuardIPB	| IP-Blacklist for Firewalls
 | SugusGuardDOHD|	DNS Server forced in some Applications (Pure Domainnames for Firewalls) |
 
 ###########################################################################
