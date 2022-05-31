@@ -17,7 +17,7 @@ Maybe you should first try AdGuard's default Blocklists.
 | SugusGuardIPB	| IP-Blacklist for Firewallsv
 | SugusGuardDOHD|	DNS Server forced in some Applications (Pure Domainnames for Firewalls) |
 
-##############################################################################################
+###########################################################################
 > **Be warned - This lists brick some functions**
 > 
 | Listname | Short Description |
@@ -25,4 +25,4 @@ Maybe you should first try AdGuard's default Blocklists.
 |SugusGuardUAB | Ultimate Apple blacklist for AdGuard Home / AdGuard Pro App |
 |SugusGuarduBlock | This is just personal testing and experimenting nobody should use this
 
-##############################################################################################
+###########################################################################
