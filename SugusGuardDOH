@@ -1,0 +1,57 @@
+# Title: SugusGuard DOH filter
+# Description: SugusGuard's Bad-DNS filterlist for AdGuard Home / AdGuard Pro App
+# DoH, DoT Servers that seems to be forced in some Software or simply unwanted
+# List-URL: https://raw.githubusercontent.com/SugusGuard/Blocklists/main/SugusGuardDOH
+# Date: 2022-05-31
+#
+##  CLOUDFLARE
+#
+||cloudflare-dns.com^$dnsrewrite=REFUSED,important
+||one.one.one.one^$dnsrewrite=REFUSED,important
+#
+##  GOOGLE
+#
+||dns.google.com^$dnsrewrite=REFUSED,important
+||dns.google^$dnsrewrite=REFUSED,important
+||8888.google^$dnsrewrite=REFUSED,important
+||google-public-dns-a.google.com^$dnsrewrite=REFUSED,important
+||google-public-dns-b.google.com^$dnsrewrite=REFUSED,important
+#
+##  COMCAST
+#
+||doh.xfinity.com^$dnsrewrite=REFUSED,important
+||dot.xfinity.com^$dnsrewrite=REFUSED,important
+#
+##  APPLE
+#
+||apple-dns.net^$dnsrewrite=REFUSED,important
+||apple-dns.com^$dnsrewrite=REFUSED,important
+||doh.dns.apple.com^$dnsrewrite=REFUSED,important
+||doh.dns.apple.com.v.aaplimg.com^$dnsrewrite=REFUSED,important
+#
+##  ORACLE
+#
+||dns.eu-frankfurt-1.oraclecloud.com^$dnsrewrite=REFUSED,important
+||dns.uk-london-1.oraclecloud.com^$dnsrewrite=REFUSED,important
+||dns.us-ashburn-1.oraclecloud.com^$dnsrewrite=REFUSED,important
+||dns.us-phoenix-1.oraclecloud.com^$dnsrewrite=REFUSED,important
+#
+##  MISC
+||dns.api.globus.org^$dnsrewrite=REFUSED,important
+||dns.api.preview.globus.org^$dnsrewrite=REFUSED,important
+||dns.api.integration.globuscs.info^$dnsrewrite=REFUSED,important
+||dns.api.sandbox.globuscs.info^$dnsrewrite=REFUSED,important
+||dns.api.staging.globuscs.info^$dnsrewrite=REFUSED,important
+||dns.api.test.globuscs.info^$dnsrewrite=REFUSED,important
+!
+||doh.blahdns.com^$dnsrewrite=REFUSED,important
+||doh-jp.blahdns.com^$dnsrewrite=REFUSED,important
+||doh-de.blahdns.com^$dnsrewrite=REFUSED,important
+||doh-fi.blahdns.com^$dnsrewrite=REFUSED,important
+!
+||dns-over-https.com^$dnsrewrite=REFUSED,important
+||dnsoverhttps.net^$dnsrewrite=REFUSED,important
+||doh.dnswarden.com^$dnsrewrite=REFUSED,important
+||doh.powerdns.org^$dnsrewrite=REFUSED,important
+||doh.securedns.eu^$dnsrewrite=REFUSED,important
+||yahoodns.net^$dnsrewrite=REFUSED,important
