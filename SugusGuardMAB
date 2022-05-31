@@ -2,10 +2,10 @@
 # Description: SugusGuard's minimal Apple filterlist for AdGuard Home / AdGuard Pro App
 # This list contains only a minimal set of domains from shitty, lying Apple Inc.
 # List-URL: https://raw.githubusercontent.com/SugusGuard/Blocklists/main/SugusGuardMAB
+# Date: 2022-05-31
 #
 ## PREVENT FILTER-BYPASSING WITH HTTPS REQUESTS AS APPLE LIKE TO DO
 #
-||use-application-dns.net^$dnsrewrite=REFUSED;;,important
 ! Uncomment if you don't use a separate DoH Blocklist
 !||doh.dns.apple.com^$dnsrewrite=REFUSED;;,important
 !||doh.dns.apple.com.v.aaplimg.com^$dnsrewrite=REFUSED;;,important
@@ -44,6 +44,7 @@
 # APPLE ADS
 #
 ||iadsdk.apple.com^$dnsrewrite=NXDOMAIN;;,important
+||adservices.apple.com^$dnsrewrite=NXDOMAIN;;important
 #
 # LOCATION SERVICE
 # 
@@ -72,9 +73,6 @@
 ||gc.apple.com^$dnsrewrite=NXDOMAIN;;,important
 ||*gc.ess.apple.com^$dnsrewrite=NXDOMAIN;;,important
 ||*gc.ess-apple.com.akadns.net^$dnsrewrite=NXDOMAIN;;,important
-!||commnat-cohort-gc.ess.apple.com^$dnsrewrite=NXDOMAIN;;,important
-!||commnat-cohort-gc.ess-apple.com.akadns.net^$dnsrewrite=NXDOMAIN;;,important
-!||commnat-main-gc.ess.apple.com^$dnsrewrite=NXDOMAIN;;,important
 #
 # FAMILY SHARING
 #
