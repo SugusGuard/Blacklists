@@ -27,6 +27,13 @@ dns.google.com
 8888.google
 dns64.dns.google
 #
+##  APPLE
+#
+apple-dns.net
+apple-dns.com
+doh.dns.apple.com
+doh.dns.apple.com.v.aaplimg.com
+#
 ##	CLEANBROWSING
 #
 doh.cleanbrowsing.org
