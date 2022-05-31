@@ -8,6 +8,8 @@
 #
 ||cloudflare-dns.com^$dnsrewrite=REFUSED,important
 ||one.one.one.one^$dnsrewrite=REFUSED,important
+||ns.cloudflare.com^$dnsrewrite=REFUSED,important
+||dns.cloudflare.com^$dnsrewrite=REFUSED,important
 #
 ##  GOOGLE
 #
