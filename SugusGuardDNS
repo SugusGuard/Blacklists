@@ -2,6 +2,7 @@
 # Description: SugusGuard's additional filterlist for AdGuard Home / AdGuard Pro App
 # Don't use this List if you're not sure what you're doing, it will brick some "services"
 # List-URL: https://raw.githubusercontent.com/SugusGuard/Blocklists/main/SugusGuardDNS
+# Date: 2022-05-31
 #
 ## Prevent filter-bypassing with https requests as Apple like to do
 #
@@ -112,13 +113,6 @@
 ||addthisedge.com^$important
 ||addthis.com^$important
 #
-## DoH, DoT Servers that seems to be forced in some Software
-#
-||doh.dns.apple.com^$dnsrewrite=REFUSED,important
-||doh.dns.apple.com.v.aaplimg.com^$dnsrewrite=REFUSED,important
-||dns.google.com^$dnsrewrite=REFUSED,important
-||cloudflare-dns.com^$dnsrewrite=REFUSED,important
-#
 ## rnFirebase
 #
 ||firebase.flutter.dev^$important
@@ -147,8 +141,6 @@
 ||firestore.googleapis.com^$important
 ||firebasestorage.googleapis.com^$important
 ||firebase.googleapis.com^$important
-#! Google DNS (should block many at once)
-||metric.gstatic.com^$important
 #! Google Push
 ||fcmtoken.googleapis.com^$important
 ||iid.googleapis.com^$important
@@ -157,8 +149,7 @@
 ||fonts.gstatic.com^$important
 ||fonts.googleapis.com^$important
 #! Google Misc
-||*.google^$important
-||*.goog^$important
+||metric.gstatic.com^$important
 ||news.google.com^$important
 ||landing.google.com^$important
 ||play.googleapis.com^$important
