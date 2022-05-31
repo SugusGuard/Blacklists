@@ -1,0 +1,105 @@
+# Title: SugusGuardDOHD DoH, DoT, DNS-Server Blacklist
+# Description: DNS Server forced in some Applications or simply unwanted
+# Pure Domainnames for Firewalls
+# List-URL: https://raw.githubusercontent.com/SugusGuard/Blocklists/main/SugusGuardDOHD
+# Date: 2022-05-31
+#
+## CLOUDFLARE
+#
+dns.cloudflare.com
+cloudflare-dns.com
+1dot1dot1dot1.cloudflare-dns.com
+1001.cloudflare-dns.com
+1111.cloudflare-dns.com
+family.cloudflare-dns.com
+security.cloudflare-dns.com
+azure.cloudflare-dns.com
+dns64.cloudflare-dns.com
+chrome.cloudflare-dns.com
+mozilla.cloudflare-dns.com
+opera.cloudflare-dns.com
+tor.cloudflare-dns.com
+#
+##	GOOGLE
+#
+dns.google
+dns.google.com
+8888.google
+dns64.dns.google
+#
+##	CLEANBROWSING
+#
+doh.cleanbrowsing.org
+family-filter-dns.cleanbrowsing.org
+adult-filter-dns.cleanbrowsing.org
+security-filter-dns.cleanbrowsing.org
+#
+##	COMCAST
+#
+doh.xfinity.com
+dot.xfinity.com
+#
+##	DNS.SB
+#
+doh.dns.sb
+public-dns-a.dns.sb
+public-dns-b.dns.sb
+#
+##	ORACLE
+#
+dns.eu-frankfurt-1.oraclecloud.com
+dns.uk-london-1.oraclecloud.com
+dns.us-ashburn-1.oraclecloud.com
+dns.us-phoenix-1.oraclecloud.com
+#
+##	BLADNS
+#
+doh.blahdns.com
+doh-jp.blahdns.com
+doh-de.blahdns.com
+doh-sg.blahdns.com
+doh-ch.blahdns.com
+doh-de.blahdns.com
+doh-fi.blahdns.com
+#
+## DNS-OVER-HTTPS.COM
+#
+dns.dns-over-https.com
+dns.dnsoverhttps.net
+#
+##	GLOBUS.ORG
+#
+dns.api.globus.org
+dns.api.preview.globus.org
+dns.api.integration.globuscs.info
+dns.api.sandbox.globuscs.info
+dns.api.staging.globuscs.info
+dns.api.test.globuscs.info
+#
+## SWITCH
+#
+dns.switch.ch
+#
+##	MISC
+#
+dns-gcp.aaflalo.me
+dns.aaflalo.me
+dns.api.rackspacecloud.com
+dns.beta.gandi.net
+dns.cloudfiction.eu
+dns.cmrg.net
+dns.islandnet.com
+dns.onp.cloud
+dns.rubyfish.cn
+dns.tuna.tsinghua.edu.cn
+doh.captnemo.in
+doh.crypto.sx
+doh.dnswarden.com
+puredns.org
+doh.powerdns.org
+doh.securedns.eu
+doh.tiar.app
+doh.mullvad.net
+i.233py.com
+doh.360.cn
+dns.tuna.tsinghua.edu.cn
