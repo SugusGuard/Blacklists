@@ -3,7 +3,7 @@
 # List-URL: https://raw.githubusercontent.com/SugusGuard/Blocklists/main/SugusGuardGPB
 # Date: 2022-06-01
 #
-## Google Proxy
+## GOOGLE PROXY
 #
 ||google-proxy-*.google.com^$dnsrewrite=NXDOMAIN;;,important
 ||rate-limited-proxy-*.google.com^$dnsrewrite=NXDOMAIN;;,important
