@@ -4,7 +4,7 @@
 # List-URL: https://raw.githubusercontent.com/SugusGuard/Blocklists/main/SugusGuardDNS
 # Date: 2022-06-01
 #
-## Prevent filter-bypassing with https requests as Apple like to do
+## CANARY
 #
 !||*^$dnstype=HTTPS,dnsrewrite=NXDOMAIN;;,important
 ||use-application-dns.net^$dnsrewrite=REFUSED,important
