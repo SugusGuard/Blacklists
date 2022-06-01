@@ -3,8 +3,9 @@
 # Description: Blocks only the basics, use a separate list to "full" block social media.
 # Description: Not needed if you use AdGuard Home "Blocking specific services" feature.
 # List-URL: https://raw.githubusercontent.com/SugusGuard/Blocklists/main/SugusGuardSMB
+# Date: 2022-06-01
 #
-## Facebook
+## FACEBOOK
 #
 ! Basic
 !
@@ -70,7 +71,7 @@
 ||autodiscover.oculus.com^$important
 ||autodiscover.oculusvr.com^$important
 #
-## WhatsApp
+## WHATSAPP
 #
 ! Basic
 ||whatsapp.net^$important
@@ -78,7 +79,7 @@
 !
 ! Enhanced - We don't use enhanced rules here, if necessary use a separeted "full" list
 #
-## Instagram
+## INSTAGRAM
 #
 ! Basic
 ||instagram.com^$important
@@ -88,14 +89,14 @@
 ||instagramstatic-a.akamaihd.net^$important
 ||instagramstatic-a.akamaihd.net.edgesuite.net^$important
 #
-## Giphy
+## GIPHY
 #
 ! Basic
 ||giphy.com^$important
 !
 ! Enhanced - We don't use enhanced rules here, if necessary use a separeted "full" list
 #
-## Calibra now Novi Facebooks CryptoMoney
+## CALIBRA, NOVI (Facebooks CryptoMoney)
 #
 ! Basic
 ||calibra.com^$important
@@ -103,7 +104,7 @@
 !
 ! Enhanced - We don't use enhanced rules here, if necessary use a separeted "full" list
 #
-## Snapchat
+## SNAPCHAT
 #
 ! Basic
 ||snapchat.com^$important
@@ -115,7 +116,7 @@
 !
 ! Enhanced - We don't use enhanced rules here, if necessary use a separeted "full" list
 #
-## TikTok
+## TIKTOK
 #
 ! Basic
 ||tiktok.com^$important
@@ -161,7 +162,7 @@
 !
 ! Enhanced - We don't use enhanced rules here (it would be huge), if necessary use a separeted "full" list
 #
-## Skype
+## SKYPE
 #
 ! Basic
 ||skype.com^$important
@@ -169,7 +170,7 @@
 !
 ! Enhanced - We don't use enhanced rules here, if necessary use a separeted "full" list
 #
-## Twitch
+## TWITCH
 #
 ! Basic
 ||twitch.tv^$important
@@ -180,7 +181,7 @@
 !
 ! Enhanced - We don't use enhanced rules here, if necessary use a separeted "full" list
 #
-## Twitter
+## TWITTER
 #
 ! Basic
 ||twitter.com^$important
@@ -190,7 +191,7 @@
 !
 ! Enhanced - We don't use enhanced rules here, if necessary use a separeted "full" list
 #
-## Pinterest
+## PINTEREST
 #
 ! Basic
 ||pinterest.*^$important
@@ -198,7 +199,7 @@
 !
 ! Enhanced - We don't use enhanced rules here, if necessary use a separeted "full" list
 #
-## QQ without WeChat
+## QQ (without WeChat)
 #
 ! Basic
 ^(?!weixin|wx)([^.]+\\.)?qq\\.com$
@@ -206,7 +207,7 @@
 !
 ! Enhanced - We don't use enhanced rules here, if necessary use a separeted "full" list
 #
-## WeChat
+## WECHAT
 #
 ! Basic
 ||wechat.com^$important
@@ -215,7 +216,7 @@
 !
 ! Enhanced - We don't use enhanced rules here, if necessary use a separeted "full" list
 #
-## Tinder - We've a network for cheap bitches and stupid notorious horny mens
+## TINDER - We've a network for cheap bitches and stupid notorious horny mens
 #
 ! Basic
 ||gotinder.com^$important
@@ -234,21 +235,14 @@
 !
 ! Enhanced - We don't use enhanced rules here, if necessary use a separeted "full" list
 #
-## Gravatar
+## GRAVATAR
 #
 ! Basic
 ||gravatar.com^$important
 !
 ! Enhanced - We don't use enhanced rules here, if necessary use a separeted "full" list
 #
-## Gravatar
-#
-! Basic
-||gravatar.com^$important
-!
-! Enhanced - We don't use enhanced rules here, if necessary use a separeted "full" list
-#
-## OnlyFriends
+## ONLYFRIENDS
 #
 ! Basic
 ||onlyfriends.com^$important
