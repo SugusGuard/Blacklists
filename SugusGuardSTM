@@ -3,11 +3,11 @@
 #              tendenziöser Berichterstattung, verbreitung von Regierungs- Nato-Propaganda,
 #              gesteuerter Meinungsmache, blosem ungeprüftem Copy'n'Paste, und dergleichen
 #              gesperrter Nonsens
-# Expires:     Days, Weeks or everytime is needed
-# Licence:     Free
+# Date:        2022-06-01
 # Homepage:    https://raw.githubusercontent.com/SugusGuard/Blocklists/main/SugusGuardSTM
 #
-! Block TX Group AG (Tamedia)
+## TX GROUP AG (Tamedia)
+#
 ||20min.ch^$important
 ||tagi.ch^$important
 ||tagesanzeiger.ch^$important
@@ -41,7 +41,8 @@
 ||tribunedesarts.ch^$important
 ||zueritipp.ch^$important
 #
-! Block Ringier AG
+## RINGIER AG
+#
 ||beobachter.ch^$important
 ||bilanz.ch^$important
 ||blick.ch^$important
@@ -64,10 +65,12 @@
 ||usgang.ch^$important
 ||vayamo.ch^$important
 #
-! Block FixxPunkt AG (Watson)
+## FIXXPUNKT AG
+#
 ||watson.ch^$important
 #
-! Block CH Media Holding AG
+## CH MEDIA HOLDING AG
+#
 ||aargauerzeitung.ch^$important
 ||tagblatt.ch^$important
 ||badenertagblatt.ch^$important
@@ -79,7 +82,8 @@
 ||schweizamwochenende.ch^$important
 ||chmedia.ch^$important
 #
-! Block Neue Zürcher Zeitung AG
+## NEUE ZÜRCHER ZEITUNG AG
+#
 ||nzz.ch^$important
 ||domizil.nzz.ch^$important
 ||bellevue.nzz.ch^$important
