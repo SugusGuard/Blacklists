@@ -1,10 +1,11 @@
 # Title: SugusGuard IP Blacklist
 # Description: SugusGuard's IP Blacklist to block some unsolid or at least unexplaind connections
 # List-URL: https://raw.githubusercontent.com/SugusGuard/Blocklists/main/SugusGuardIPB
+# Date: 2022-06-01
 #
-## Adobe - Hardcoded unexplained connections (No Reverse DNS)
+## ADOBE HARDCODED UNEXPLAINED CONNECTIONS (No Reverse DNS)
 #
 192.150.18.108
 #
-## Misc unwanted/unknown connections
+## MISC UNWANTED/UNKNOWN CONNECTIONS
 #
