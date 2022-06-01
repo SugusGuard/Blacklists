@@ -1,7 +1,7 @@
 # Title: SugusGuardPAB Pico Apple Blocklist
 # Description: SugusGuard's Pico Apple filterlist for AdGuard Home / AdGuard Pro App
 # This list contains only a very minimal set of domains from shitty, lying Apple Inc.
-# List-URL: https://raw.githubusercontent.com/SugusGuard/Blocklists/main/SugusGuardMAB
+# List-URL: https://raw.githubusercontent.com/SugusGuard/Blocklists/main/SugusGuardPAB
 # Date: 2022-06-01
 #
 ## TELEMETRY, ANALYTICS, CRASHREPORT
