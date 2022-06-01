@@ -2,244 +2,245 @@
 # Description: SugusGuard's additional filterlist for AdGuard Home / AdGuard Pro App
 # Don't use this List if you're not sure what you're doing, it will brick some "services"
 # List-URL: https://raw.githubusercontent.com/SugusGuard/Blocklists/main/SugusGuardDNS
-# Date: 2022-05-31
+# Date: 2022-06-01
 #
 ## Prevent filter-bypassing with https requests as Apple like to do
 #
-!||*^$dnstype=HTTPS,dnsrewrite=REFUSED,important
+!||*^$dnstype=HTTPS,dnsrewrite=NXDOMAIN;;,important
 ||use-application-dns.net^$dnsrewrite=REFUSED,important
 #
-## Whitelist
+## WHITELIST
 #
 ! Nothing whitelisted yet
 #
-## General Garbage
+## GENERAL GARBAGE MISSING IN OTHER LISTS
 #
-||2o7.net^$important
-||omtrdc.net^$important
-||npttech.com^$important
-||tinypass.com^$important
-||deal.cpstatic.ch^$important
-||php.blick.ch^$important
-||api.20min.ch^$important
-||myshop.20min.ch^$important
-||recommendations.ws.blick.ch^$important
-||auth.ws.blick.ch^$important
-||fooby.ch^$important
-||savor-app.ch^$important
-||1e100.net^$important
-||app-measurement.com^$important
-||yahoo.com^$important
-||yahoodns.net^$important
-||wearehearken.eu^$important
+||2o7.net^$dnsrewrite=NXDOMAIN;;,important
+||omtrdc.net^$dnsrewrite=NXDOMAIN;;,important
+||npttech.com^$dnsrewrite=NXDOMAIN;;,important
+||tinypass.com^$dnsrewrite=NXDOMAIN;;,important
+||fooby.ch^$dnsrewrite=NXDOMAIN;;,important
+||savor-app.ch^$dnsrewrite=NXDOMAIN;;,important
+||1e100.net^$dnsrewrite=NXDOMAIN;;,important
+||app-measurement.com^$dnsrewrite=NXDOMAIN;;,important
+||wearehearken.eu^$dnsrewrite=NXDOMAIN;;,important
 #
-## Cookie Banner
-#! (A plague and mostly includes usertracking from the companies behind the script. But it's a better way to block this with uBo)
-#||consensu.org^$important
-#||cookiepro.com^$important
-#||consentmanager.net^$important
-#||consentmanager.de^$important
-#||usercentrics.com^$important
-#||usercentrics.eu^$important
-#||cookielaw.org^$important
-#||cookiebot.com^$important
-||privacy-mgmt.com^$important
+## COOKIE BANNER
+#
+! (A plague and mostly includes usertracking from the companies behind the script. But it's a better way to block this with uBo)
+!
+!||consensu.org^$dnsrewrite=NXDOMAIN;;,important
+!||cookiepro.com^$dnsrewrite=NXDOMAIN;;,important
+!||consentmanager.net^$dnsrewrite=NXDOMAIN;;,important
+!||consentmanager.de^$dnsrewrite=NXDOMAIN;;,important
+!||usercentrics.com^$dnsrewrite=NXDOMAIN;;,important
+!||usercentrics.eu^$dnsrewrite=NXDOMAIN;;,important
+!||cookielaw.org^$dnsrewrite=NXDOMAIN;;,important
+!||cookiebot.com^$dnsrewrite=NXDOMAIN;;,important
+||onetrust.com^$dnsrewrite=NXDOMAIN;;,important
+||privacy-mgmt.com^$dnsrewrite=NXDOMAIN;;,important
 # 
-## Specific Telemetry & Analytics missing in other lists
-#! KDE Bullshit "kuserfeeback" shame on you KDE!
-||telemetry.kde.org^$important
-||entypes.kde.org^$important
-#! Nitro Software
-||inapp.gonitro.com^$important
-||desktop.gonitro.com^$important
-#! Adobe
-||geo2.adobe.com^$important
-||geo.adobe.com^$important
-||adobejanus.com^$important
-||services.adobe.com^$important
+## SPECIFIC TELEMETRY & ANALYTICS MISSING IN OTHER LISTS
 #
-## Tracking, Analaytics missing in other lists
+! KDE Bullshit "kuserfeeback"
+!
+||telemetry.kde.org^$dnsrewrite=NXDOMAIN;;,important
+||entypes.kde.org^$dnsrewrite=NXDOMAIN;;,important
+!
+! Nitro Software
+!
+||inapp.gonitro.com^$dnsrewrite=NXDOMAIN;;,important
+||desktop.gonitro.com^$dnsrewrite=NXDOMAIN;;,important
+!
+! Adobe
+!
+||geo2.adobe.com^$dnsrewrite=NXDOMAIN;;,important
+||geo.adobe.com^$dnsrewrite=NXDOMAIN;;,important
+||adobejanus.com^$dnsrewrite=NXDOMAIN;;,important
+||services.adobe.com^$dnsrewrite=NXDOMAIN;;,important
 #
-||comscoreresearch.*^$important
-||tagger.opecloud.com^$important
-||ingest.sentry.io^$important
-||sentry.dev^$important
-||cdn.ravenjs.com^$important
-||targeting.api.drift.com^$important
-||presence.api.drift.com^$important
-||embeds.driftcdn.com^$important
-||bootstrap.api.drift.com^$important
-||marketo.clearbit.com^$important
-||stats-*.crsend.com^$important
-||gigya.com^$important
-||altmetric.com^$important
-||geolocation.onetrust.com^$important
-||static.addtoany.com^$important
-||oblique-telemetry.bit.admin.ch^$important
-||webstats.zh.ch^$important
-||static.addtoany.com^$important
-||otelwebtelemetry.com^$important
-||widgets.shopvote.de^$important
-||s.w.org^$important
-||assets.adobedtm.com^$important
-||responder.wt.heise.de^$important
-||sgqcvfjvr.onet.pl^$important
-||usercentrics.eu^$important
-||lib.onet.pl^$important
-||tracker.customersaas.com^$important
-||friendlyanalytics.io^$important
-||plausible.io^$important
-||appdynamics.com^$important
-||akamai.tiqcdn.com^$important
-||raygun.io^$important
-||raygun.com^$important
-||raygun-api-vpc-1415992523.us-east-1.elb.amazonaws.com^$important
-||rapidzebra.io^$important
-||tiqcdn.com^$important
-||onetrust.*^$important
-||tobit.com^$important
-||etracker.com^$important
-||borlabs.io^$important
-||permaleads.ch^$important
-||app-us1.com^$important
-||adjust.com^$important
-||cpstats.hostpoint.ch^$important
+## TRACKING, ANALYTICS MISSING IN OTHER LISTS
 #
-## Ads missing in other lists
+||comscoreresearch.*^$dnsrewrite=NXDOMAIN;;,important
+||tagger.opecloud.com^$dnsrewrite=NXDOMAIN;;,important
+||ingest.sentry.io^$dnsrewrite=NXDOMAIN;;,important
+||sentry.dev^$dnsrewrite=NXDOMAIN;;,important
+||cdn.ravenjs.com^$dnsrewrite=NXDOMAIN;;,important
+||drift.com^$dnsrewrite=NXDOMAIN;;,important
+||driftcdn.com^$dnsrewrite=NXDOMAIN;;,important
+||marketo.clearbit.com^$dnsrewrite=NXDOMAIN;;,important
+||stats-*.crsend.com^$dnsrewrite=NXDOMAIN;;,important
+||gigya.com^$dnsrewrite=NXDOMAIN;;,important
+||altmetric.com^$dnsrewrite=NXDOMAIN;;,important
+||static.addtoany.com^$dnsrewrite=NXDOMAIN;;,important
+||oblique-telemetry.bit.admin.ch^$dnsrewrite=NXDOMAIN;;,important
+||webstats.zh.ch^$dnsrewrite=NXDOMAIN;;,important
+||otelwebtelemetry.com^$dnsrewrite=NXDOMAIN;;,important
+||widgets.shopvote.de^$dnsrewrite=NXDOMAIN;;,important
+||s.w.org^$dnsrewrite=NXDOMAIN;;,important
+||adobedtm.com^$dnsrewrite=NXDOMAIN;;,important
+||responder.wt.heise.de^$dnsrewrite=NXDOMAIN;;,important
+||sgqcvfjvr.onet.pl^$dnsrewrite=NXDOMAIN;;,important
+||lib.onet.pl^$dnsrewrite=NXDOMAIN;;,important
+||tracker.customersaas.com^$dnsrewrite=NXDOMAIN;;,important
+||friendlyanalytics.io^$dnsrewrite=NXDOMAIN;;,important
+||plausible.io^$dnsrewrite=NXDOMAIN;;,important
+||appdynamics.com^$dnsrewrite=NXDOMAIN;;,important
+||tiqcdn.com^$dnsrewrite=NXDOMAIN;;,important
+||raygun.io^$dnsrewrite=NXDOMAIN;;,important
+||raygun.com^$dnsrewrite=NXDOMAIN;;,important
+||raygun-api*.amazonaws.com^$dnsrewrite=NXDOMAIN;;,important
+||rapidzebra.io^$dnsrewrite=NXDOMAIN;;,important
+||etracker.com^$dnsrewrite=NXDOMAIN;;,important
+||permaleads.ch^$dnsrewrite=NXDOMAIN;;,important
+||app-us1.com^$dnsrewrite=NXDOMAIN;;,important
+||adjust.com^$dnsrewrite=NXDOMAIN;;,important
+||cpstats.hostpoint.ch^$dnsrewrite=NXDOMAIN;;,important
 #
-||gstaticadssl.l.google.com^$important
-||imasdk.googleapis.com^$important
-||a-msedge.net^$important
-||addthisedge.com^$important
-||addthis.com^$important
+## ADS MISSING IN OTHER LISTS
 #
-## rnFirebase
+||gstaticadssl.l.google.com^$dnsrewrite=NXDOMAIN;;,important
+||imasdk.googleapis.com^$dnsrewrite=NXDOMAIN;;,important
+||a-msedge.net^$dnsrewrite=NXDOMAIN;;,important
+||addthisedge.com^$dnsrewrite=NXDOMAIN;;,important
+||addthis.com^$dnsrewrite=NXDOMAIN;;,important
 #
-||firebase.flutter.dev^$important
-||flutter-firebase-docs.web.app^$important
-||rnfirebase.io^$important
+## RNFIREBASE
 #
-## Google, missing in other lists or just to generaly block
-#! Google Analytics
-||google-analytics.com^$important
-||googleanalytics.com^$important
-||crashlytics.com^$important
-||googletagmanager.com^$important
-||googletagservices.com^$important
-||tagmanager.google.com^$important
-#! Google Doubleclick
-||doubleclick.net^$important
-||doubleclick.com^$important
-#! Google Firebase
-||firebaseio.com^$important
-||firebase.google.com^$important
-||firebase-dot-google-developers.appspot.com^$important
-||firebasedynamiclinks-ipv4.googleapis.com^$important
-||firebasedynamiclinks-ipv6.googleapis.com^$important
-||firebaseremoteconfig.googleapis.com^$important
-||firebaseinstallations.googleapis.com^$important
-||firestore.googleapis.com^$important
-||firebasestorage.googleapis.com^$important
-||firebase.googleapis.com^$important
-#! Google Push
-||fcmtoken.googleapis.com^$important
-||iid.googleapis.com^$important
-||device-provisioning.googleapis.com^$important
-#! Google Fonts
-||fonts.gstatic.com^$important
-||fonts.googleapis.com^$important
-#! Google Misc
-||metric.gstatic.com^$important
-||news.google.com^$important
-||landing.google.com^$important
-||play.googleapis.com^$important
-||pki-goog.l.google.com^$important
-||ogs.google.com^$important
-||accounts.google.com^$important
-||plus.l.google.com^$important
-||mtalk.google.com^$important
-||mobile-gtalk.l.google.com^$important
-||aa.google.com^$important
-||cse.google.com^$important
-||content-partnersbadge-pa.googleapis.com^$important
-||signaler-pa.clients6.google.com^$important
-||chart.apis.google.com^$important
-||chat-pa.clients6.google.com^$important
-||people-pa.clients6.google.com^$important
-||peoplestackwebexperiments-pa.clients6.google.com^$important
-||addons-pa.clients6.google.com^$important
-||dai.google.com^$important
-||fcmatch.google.com^$important
-||bandaid-redirector.l.google.com^$important
-||identitytoolkit.googleapis.com^$important
-||id.google.*^$important
-||sites.google.com^$important
+||firebase.flutter.dev^$dnsrewrite=NXDOMAIN;;,important
+||flutter-firebase-docs.web.app^$dnsrewrite=NXDOMAIN;;,important
+||rnfirebase.io^$dnsrewrite=NXDOMAIN;;,important
 #
-## Browsers, missing on other lists
-#! General
-||safebrowsing.googleapis.com^$important
-||safebrowsing.clients.google.com^$important
-||sb-ssl.google.com^$important
-||sb-ssl.l.google.com^$important
-||content-autofill.googleapis.com^$important
-||clientservices.googleapis.com^$important
-||clients1.google.com^$important
-||clients4.google.com^$important
-#! Safari
-||token.safebrowsing.apple^$important
-||safebrowsing.g.aaplimg.com^$important
-||proxy.safebrowsing.apple^$important
-||safebrowsing-proxy.g.aaplimg.com^$important
-#! Brave (Anyway.. Nobody should use this pos browser)
-||variations.brave.com^$important
-||p3a.brave.com^$important
-||laptop-updates.brave.com^$important
-||safebrowsing.brave.com^$important
-||api.rewards.brave.com^$important
-||rewards.brave.com^$important
-#! Vivaldi - Nobody should use this to "Google-Near" browser, sad but true...
-! But hey, at least you'll become a plenty of useless function and a lot of privacy promising marketing words, but in the end, it is just another a (little bit better) Google Browser
-! Some included above, but you can't stop Vivaldi talking to Google without brick his functionality
-#! Firefox, *fox
-||detectportal.firefox.com^$important     # Don't use this if you use public WLan's
-||push.services.mozilla.com^$important
-||incoming.telemetry.mozilla.org^$important
-||input.mozilla.org^$important
-||crash-stats.mozilla.com^$important
-||location.services.mozilla.com^$important
-||telemetry-coverage.mozilla.org^$important
-||telemetry-experiment.cdn.mozilla.net^$important
-||telemetry.mozilla.org^$important
-||experiments.mozilla.org^$important
-||shavar.services.mozilla.com^$important
-||tracking-protection.cdn.mozilla.net^$important
-||contile.services.mozilla.com^$important
-||firefox.settings.services.mozilla.com^$important
-||firefox-settings-attachments.cdn.mozilla.net^$important     # Download Language-Packs
-||getpocket.cdn.mozilla.net^$important
-!||mozilla.cloudflare-dns.com^$important 
-#! Opera, just to be safe, but don't use this pos browser it's spyware
-||speeddials.opera.com^$important
-||features.opera-api.com^$important
-||weather.opera-api.com^$important
-||merchandise.opera-api.com^$important
-||android.clients.google.com^$important
-||sitecheck.opera.com^$important
-#! SRWare Iron, don't use this pos browser it's spyware
-||srware.net^$important
-||srware-search.com^$important
-||wisesearches.com^$important
-#! Microsoft Edge, don't use this pos browser it's spyware
-||browser.pipe.aria.microsoft.com^$important
-||config.edge.skype.com^$important
-||nav.smartscreen.microsoft.com^$important
-||browser.events.data.msn.com^$important
-||ntp.msn.com^$important
-||assets.msn.com^$important
-||arc.msn.com^$important
-||img-s-msn-com.akamaized.net^$important
-||srtb.msn.com^$important
+## GOOGLE MISSING IN OTHER LISTS OR JUST GENERALY BLOCK
 #
-## Specials (Testing! is maybe to much)
-#! Heise
-||11931-3.s.cdn13.com^$important
+! Google Analytics
+!
+||google-analytics.com^$dnsrewrite=NXDOMAIN;;,important
+||googleanalytics.com^$dnsrewrite=NXDOMAIN;;,important
+||crashlytics.com^$dnsrewrite=NXDOMAIN;;,important
+||googletagmanager.com^$dnsrewrite=NXDOMAIN;;,important
+||googletagservices.com^$dnsrewrite=NXDOMAIN;;,important
+||tagmanager.google.com^$dnsrewrite=NXDOMAIN;;,important
+!
+! Google Doubleclick
+!
+||doubleclick.*^$dnsrewrite=NXDOMAIN;;,important
+!
+! Google Firebase
+!
+||firebaseio.com^$dnsrewrite=NXDOMAIN;;,important
+||firebase.google.com^$dnsrewrite=NXDOMAIN;;,important
+||firebase-dot-google-developers.appspot.com^$dnsrewrite=NXDOMAIN;;,important
+||firebasedynamiclinks-ipv4.googleapis.com^$dnsrewrite=NXDOMAIN;;,important
+||firebasedynamiclinks-ipv6.googleapis.com^$dnsrewrite=NXDOMAIN;;,important
+||firebaseremoteconfig.googleapis.com^$dnsrewrite=NXDOMAIN;;,important
+||firebaseinstallations.googleapis.com^$dnsrewrite=NXDOMAIN;;,important
+||firestore.googleapis.com^$dnsrewrite=NXDOMAIN;;,important
+||firebasestorage.googleapis.com^$dnsrewrite=NXDOMAIN;;,important
+||firebase.googleapis.com^$dnsrewrite=NXDOMAIN;;,important
+!
+! Google Push
+!
+||fcmtoken.googleapis.com^$dnsrewrite=NXDOMAIN;;,important
+||iid.googleapis.com^$dnsrewrite=NXDOMAIN;;,important
+||device-provisioning.googleapis.com^$dnsrewrite=NXDOMAIN;;,important
+!
+! Google Fonts
+!
+||fonts.gstatic.com^$dnsrewrite=NXDOMAIN;;,important
+||fonts.googleapis.com^$dnsrewrite=NXDOMAIN;;,important
+!
+! Google Misc
+!
+||www.google.com^$dnsrewrite=NXDOMAIN;;,important
+||metric.gstatic.com^$dnsrewrite=NXDOMAIN;;,important
+||news.google.com^$dnsrewrite=NXDOMAIN;;,important
+||landing.google.com^$dnsrewrite=NXDOMAIN;;,important
+||play.googleapis.com^$dnsrewrite=NXDOMAIN;;,important
+||pki-goog.l.google.com^$dnsrewrite=NXDOMAIN;;,important
+||ogs.google.com^$dnsrewrite=NXDOMAIN;;,important
+||accounts.google.com^$dnsrewrite=NXDOMAIN;;,important
+||plus.l.google.com^$dnsrewrite=NXDOMAIN;;,important
+||mtalk.google.com^$dnsrewrite=NXDOMAIN;;,important
+||mobile-gtalk.l.google.com^$dnsrewrite=NXDOMAIN;;,important
+||aa.google.com^$dnsrewrite=NXDOMAIN;;,important
+||cse.google.com^$dnsrewrite=NXDOMAIN;;,important
+||content-partnersbadge-pa.googleapis.com^$dnsrewrite=NXDOMAIN;;,important
+||signaler-pa.clients6.google.com^$dnsrewrite=NXDOMAIN;;,important
+||chart.apis.google.com^$dnsrewrite=NXDOMAIN;;,important
+||chat-pa.clients6.google.com^$dnsrewrite=NXDOMAIN;;,important
+||people-pa.clients6.google.com^$dnsrewrite=NXDOMAIN;;,important
+||peoplestackwebexperiments-pa.clients6.google.com^$dnsrewrite=NXDOMAIN;;,important
+||addons-pa.clients6.google.com^$dnsrewrite=NXDOMAIN;;,important
+||dai.google.com^$dnsrewrite=NXDOMAIN;;,important
+||fcmatch.google.com^$dnsrewrite=NXDOMAIN;;,important
+||bandaid-redirector.l.google.com^$dnsrewrite=NXDOMAIN;;,important
+||identitytoolkit.googleapis.com^$dnsrewrite=NXDOMAIN;;,important
+||id.google.*^$dnsrewrite=NXDOMAIN;;,important
+||sites.google.com^$dnsrewrite=NXDOMAIN;;,important
+#
+## BROWSERS
+#
+! General
+!
+||safebrowsing.googleapis.com^$dnsrewrite=NXDOMAIN;;,important
+||safebrowsing.clients.google.com^$dnsrewrite=NXDOMAIN;;,important
+||sb-ssl.google.com^$dnsrewrite=NXDOMAIN;;,important
+||sb-ssl.l.google.com^$dnsrewrite=NXDOMAIN;;,important
+||content-autofill.googleapis.com^$dnsrewrite=NXDOMAIN;;,important
+||clientservices.googleapis.com^$dnsrewrite=NXDOMAIN;;,important
+||clients1.google.com^$dnsrewrite=NXDOMAIN;;,important
+||clients4.google.com^$dnsrewrite=NXDOMAIN;;,important
+!
+! Safari
+!
+||token.safebrowsing.apple^$dnsrewrite=NXDOMAIN;;,important
+||safebrowsing.g.aaplimg.com^$dnsrewrite=NXDOMAIN;;,important
+||proxy.safebrowsing.apple^$dnsrewrite=NXDOMAIN;;,important
+||safebrowsing-proxy.g.aaplimg.com^$dnsrewrite=NXDOMAIN;;,important
+!
+! Brave (Anyway.. Nobody should use this pos browser)
+!
+||variations.brave.com^$dnsrewrite=NXDOMAIN;;,important
+||p3a.brave.com^$dnsrewrite=NXDOMAIN;;,important
+||laptop-updates.brave.com^$dnsrewrite=NXDOMAIN;;,important
+||safebrowsing.brave.com^$dnsrewrite=NXDOMAIN;;,important
+||api.rewards.brave.com^$dnsrewrite=NXDOMAIN;;,important
+||rewards.brave.com^$dnsrewrite=NXDOMAIN;;,important
+!
+! Firefox, *fox
+!
+||detectportal.firefox.com^$dnsrewrite=NXDOMAIN;;,important     # Don't use this if you use public WLan's
+||push.services.mozilla.com^$dnsrewrite=NXDOMAIN;;,important
+||incoming.telemetry.mozilla.org^$dnsrewrite=NXDOMAIN;;,important
+||input.mozilla.org^$dnsrewrite=NXDOMAIN;;,important
+||crash-stats.mozilla.com^$dnsrewrite=NXDOMAIN;;,important
+||location.services.mozilla.com^$dnsrewrite=NXDOMAIN;;,important
+||telemetry-coverage.mozilla.org^$dnsrewrite=NXDOMAIN;;,important
+||telemetry-experiment.cdn.mozilla.net^$dnsrewrite=NXDOMAIN;;,important
+||telemetry.mozilla.org^$dnsrewrite=NXDOMAIN;;,important
+||experiments.mozilla.org^$dnsrewrite=NXDOMAIN;;,important
+||shavar.services.mozilla.com^$dnsrewrite=NXDOMAIN;;,important
+||tracking-protection.cdn.mozilla.net^$dnsrewrite=NXDOMAIN;;,important
+||contile.services.mozilla.com^$dnsrewrite=NXDOMAIN;;,important
+||firefox.settings.services.mozilla.com^$dnsrewrite=NXDOMAIN;;,important
+||firefox-settings-attachments.cdn.mozilla.net^$dnsrewrite=NXDOMAIN;;,important     # Download Language-Packs
+||getpocket.cdn.mozilla.net^$dnsrewrite=NXDOMAIN;;,important
+!||mozilla.cloudflare-dns.com^$dnsrewrite=NXDOMAIN;;,important
+!
+! Microsoft Edge, don't use this pos browser it's spyware
+!
+||browser.pipe.aria.microsoft.com^$dnsrewrite=NXDOMAIN;;,important
+||config.edge.skype.com^$dnsrewrite=NXDOMAIN;;,important
+||nav.smartscreen.microsoft.com^$dnsrewrite=NXDOMAIN;;,important
+||browser.events.data.msn.com^$dnsrewrite=NXDOMAIN;;,important
+||ntp.msn.com^$dnsrewrite=NXDOMAIN;;,important
+||assets.msn.com^$dnsrewrite=NXDOMAIN;;,important
+||arc.msn.com^$dnsrewrite=NXDOMAIN;;,important
+||img-s-msn-com.akamaized.net^$dnsrewrite=NXDOMAIN;;,important
+||srtb.msn.com^$dnsrewrite=NXDOMAIN;;,important
+#
+## SPECIALS
+#
+! Heise
+||11931-3.s.cdn13.com^$dnsrewrite=NXDOMAIN;;,important
