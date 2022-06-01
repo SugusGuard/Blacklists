@@ -1,5 +1,5 @@
 # Title: SugusGuardMAB Minimal Apple Blocklist
-# Description: SugusGuard's minimal Apple filterlist for AdGuard Home / AdGuard Pro App
+# Description: SugusGuard's Minimal Apple filterlist for AdGuard Home / AdGuard Pro App
 # This list contains only a minimal set of domains from shitty, lying Apple Inc.
 # List-URL: https://raw.githubusercontent.com/SugusGuard/Blocklists/main/SugusGuardMAB
 # Date: 2022-06-01
@@ -10,20 +10,16 @@
 !||doh.dns.apple.com^$dnsrewrite=REFUSED;;,important
 !||doh.dns.apple.com.v.aaplimg.com^$dnsrewrite=REFUSED;;,important
 #
-## Whitelist
-#
-! Nothing whitelisted yet
-#
 ## Blacklist
 #
-# NTP
+## NTP
 #
 ||time.apple.com^$dnsrewrite=NOERROR;CNAME;europe.pool.ntp.org
 ||time-ios.apple.com^$dnsrewrite=NOERROR;CNAME;europe.pool.ntp.org
 ||time-osx.g.aaplimg.com^$dnsrewrite=NOERROR;CNAME;europe.pool.ntp.org
 ||time-macos.apple.com^$dnsrewrite=NOERROR;CNAME;europe.pool.ntp.org
 #
-# TELEMETRY, ANALYTICS, CRASHREPORT
+## TELEMETRY, ANALYTICS, CRASHREPORT
 #
 ||xp.apple.com^$dnsrewrite=NXDOMAIN;;,important
 ||metrics.mzstatic.com^$dnsrewrite=NXDOMAIN;;,important
@@ -41,12 +37,12 @@
 ||*submissions.apple.com.akadns.net^$dnsrewrite=NXDOMAIN;;,important
 ||diagassets.apple.com^$dnsrewrite=NXDOMAIN;;,important
 #
-# APPLE ADS
+## APPLE ADS
 #
 ||iadsdk.apple.com^$dnsrewrite=NXDOMAIN;;,important
 ||adservices.apple.com^$dnsrewrite=NXDOMAIN;;important
 #
-# LOCATION SERVICE
+## LOCATION SERVICE
 # 
 ||ls.apple.com^$dnsrewrite=NXDOMAIN;;,important
 !||gsp*.apple.com^$dnsrewrite=NXDOMAIN;;,important
@@ -58,7 +54,7 @@
 ||a1931.dscgi3.akamai.net^$dnsrewrite=NXDOMAIN;;,important
 ||gs-loc.apple.com^$dnsrewrite=NXDOMAIN;;,important
 #
-# SIRI, SPOTLIGHT SUGGESTIONS
+## SIRI, SPOTLIGHT SUGGESTIONS
 #
 ||smoot.apple.com^$dnsrewrite=NXDOMAIN;;,important
 ||bag-smoot.v.aaplimg.com^$dnsrewrite=NXDOMAIN;;,important
@@ -68,40 +64,40 @@
 ||siri.apple.com^$dnsrewrite=NXDOMAIN;;,important
 ||swallow.apple.com^$dnsrewrite=NXDOMAIN;;,important
 #
-# GAMECENTER
+## GAMECENTER
 #
 ||gc.apple.com^$dnsrewrite=NXDOMAIN;;,important
 ||*gc.ess.apple.com^$dnsrewrite=NXDOMAIN;;,important
 ||*gc.ess-apple.com.akadns.net^$dnsrewrite=NXDOMAIN;;,important
 #
-# FAMILY SHARING
+## FAMILY SHARING
 #
 ||pancake.apple.com^$dnsrewrite=NXDOMAIN;;,important
 ||pancake.g.aaplimg.com^$dnsrewrite=NXDOMAIN;;,important
 #
-# FIND MY FRIENDS
+## FIND MY FRIENDS
 #
 ||fmf.icloud.com^$dnsrewrite=NXDOMAIN;;,important
 ||fmfmobile.icloud.com^$dnsrewrite=NXDOMAIN;;,important
 ||fmfmobile.fe.apple-dns.net^$dnsrewrite=NXDOMAIN;;,important
 ||fmf.fe.apple-dns.net^$dnsrewrite=NXDOMAIN;;,important
 #
-# FIND MY IPHONE
+## FIND MY IPHONE
 #
 ||fmip.icloud.com^$dnsrewrite=NXDOMAIN;;,important
 ||fmip.fe.apple-dns.net^$dnsrewrite=NXDOMAIN;;,important
 #
-# Health
+## Health
 #
 ||health.apple.com^$dnsrewrite=NXDOMAIN;;,important
 #
-# ICLOUD PRIVATE RELAY, APPLE DNS
+## ICLOUD PRIVATE RELAY, APPLE DNS
 #
 ||mask.icloud.com^$dnsrewrite=NXDOMAIN;;,important
 ||mask-api.icloud.com^$dnsrewrite=NXDOMAIN;;,important
 ||mask-h2.icloud.com^$dnsrewrite=NXDOMAIN;;,important
 #
-# MISC AND TESTING - NOT OR UNPROPER EXPLAINED/DOCUMENTED
+## MISC AND TESTING - NOT OR UNPROPER EXPLAINED/DOCUMENTED
 #
 ||experiments.apple.com^$dnsrewrite=NXDOMAIN;;,important
 ||passbook-test.aditus.de^$dnsrewrite=NXDOMAIN;;,important
