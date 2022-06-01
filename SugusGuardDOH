@@ -2,58 +2,58 @@
 # Description: SugusGuard's Bad-DNS filterlist for AdGuard Home / AdGuard Pro App
 # DoH, DoT Servers that seems to be forced in some Software or simply unwanted
 # List-URL: https://raw.githubusercontent.com/SugusGuard/Blocklists/main/SugusGuardDOH
-# Date: 2022-05-31
+# Date: 2022-06-01
 #
 ##  CLOUDFLARE
 #
-||cloudflare-dns.com^$dnsrewrite=REFUSED,important
-||one.one.one.one^$dnsrewrite=REFUSED,important
-||ns.cloudflare.com^$dnsrewrite=REFUSED,important
-||dns.cloudflare.com^$dnsrewrite=REFUSED,important
+||cloudflare-dns.com^$dnsrewrite=NXDOMAIN;;,important
+||one.one.one.one^$dnsrewrite=NXDOMAIN;;,important
+||ns.cloudflare.com^$dnsrewrite=NXDOMAIN;;,important
+||dns.cloudflare.com^$dnsrewrite=NXDOMAIN;;,important
 #
 ##  GOOGLE
 #
-||dns.google.com^$dnsrewrite=REFUSED,important
-||dns.google^$dnsrewrite=REFUSED,important
-||8888.google^$dnsrewrite=REFUSED,important
-||google-public-dns-a.google.com^$dnsrewrite=REFUSED,important
-||google-public-dns-b.google.com^$dnsrewrite=REFUSED,important
+||dns.google.com^$dnsrewrite=NXDOMAIN;;,important
+||dns.google^$dnsrewrite=NXDOMAIN;;,important
+||8888.google^$dnsrewrite=NXDOMAIN;;,important
+||google-public-dns-a.google.com^$dnsrewrite=NXDOMAIN;;,important
+||google-public-dns-b.google.com^$dnsrewrite=NXDOMAIN;;,important
 #
 ##  COMCAST
 #
-||doh.xfinity.com^$dnsrewrite=REFUSED,important
-||dot.xfinity.com^$dnsrewrite=REFUSED,important
+||doh.xfinity.com^$dnsrewrite=NXDOMAIN;;,important
+||dot.xfinity.com^$dnsrewrite=NXDOMAIN;;,important
 #
 ##  APPLE
 #
-||apple-dns.net^$dnsrewrite=REFUSED,important
-||apple-dns.com^$dnsrewrite=REFUSED,important
-||doh.dns.apple.com^$dnsrewrite=REFUSED,important
-||doh.dns.apple.com.v.aaplimg.com^$dnsrewrite=REFUSED,important
+||apple-dns.net^$dnsrewrite=NXDOMAIN;;,important
+||apple-dns.com^$dnsrewrite=NXDOMAIN;;,important
+||doh.dns.apple.com^$dnsrewrite=NXDOMAIN;;,important
+||doh.dns.apple.com.v.aaplimg.com^$dnsrewrite=NXDOMAIN;;,important
 #
 ##  ORACLE
 #
-||dns.eu-frankfurt-1.oraclecloud.com^$dnsrewrite=REFUSED,important
-||dns.uk-london-1.oraclecloud.com^$dnsrewrite=REFUSED,important
-||dns.us-ashburn-1.oraclecloud.com^$dnsrewrite=REFUSED,important
-||dns.us-phoenix-1.oraclecloud.com^$dnsrewrite=REFUSED,important
+||dns.eu-frankfurt-1.oraclecloud.com^$dnsrewrite=NXDOMAIN;;,important
+||dns.uk-london-1.oraclecloud.com^$dnsrewrite=NXDOMAIN;;,important
+||dns.us-ashburn-1.oraclecloud.com^$dnsrewrite=NXDOMAIN;;,important
+||dns.us-phoenix-1.oraclecloud.com^$dnsrewrite=NXDOMAIN;;,important
 #
 ##  MISC
-||dns.api.globus.org^$dnsrewrite=REFUSED,important
-||dns.api.preview.globus.org^$dnsrewrite=REFUSED,important
-||dns.api.integration.globuscs.info^$dnsrewrite=REFUSED,important
-||dns.api.sandbox.globuscs.info^$dnsrewrite=REFUSED,important
-||dns.api.staging.globuscs.info^$dnsrewrite=REFUSED,important
-||dns.api.test.globuscs.info^$dnsrewrite=REFUSED,important
+||dns.api.globus.org^$dnsrewrite=NXDOMAIN;;,important
+||dns.api.preview.globus.org^$dnsrewrite=NXDOMAIN;;,important
+||dns.api.integration.globuscs.info^$dnsrewrite=NXDOMAIN;;,important
+||dns.api.sandbox.globuscs.info^$dnsrewrite=NXDOMAIN;;,important
+||dns.api.staging.globuscs.info^$dnsrewrite=NXDOMAIN;;,important
+||dns.api.test.globuscs.info^$dnsrewrite=NXDOMAIN;;,important
 !
-||doh.blahdns.com^$dnsrewrite=REFUSED,important
-||doh-jp.blahdns.com^$dnsrewrite=REFUSED,important
-||doh-de.blahdns.com^$dnsrewrite=REFUSED,important
-||doh-fi.blahdns.com^$dnsrewrite=REFUSED,important
+||doh.blahdns.com^$dnsrewrite=NXDOMAIN;;,important
+||doh-jp.blahdns.com^$dnsrewrite=NXDOMAIN;;,important
+||doh-de.blahdns.com^$dnsrewrite=NXDOMAIN;;,important
+||doh-fi.blahdns.com^$dnsrewrite=NXDOMAIN;;,important
 !
-||dns-over-https.com^$dnsrewrite=REFUSED,important
-||dnsoverhttps.net^$dnsrewrite=REFUSED,important
-||doh.dnswarden.com^$dnsrewrite=REFUSED,important
-||doh.powerdns.org^$dnsrewrite=REFUSED,important
-||doh.securedns.eu^$dnsrewrite=REFUSED,important
-||yahoodns.net^$dnsrewrite=REFUSED,important
+||dns-over-https.com^$dnsrewrite=NXDOMAIN;;,important
+||dnsoverhttps.net^$dnsrewrite=NXDOMAIN;;,important
+||doh.dnswarden.com^$dnsrewrite=NXDOMAIN;;,important
+||doh.powerdns.org^$dnsrewrite=NXDOMAIN;;,important
+||doh.securedns.eu^$dnsrewrite=NXDOMAIN;;,important
+||yahoodns.net^$dnsrewrite=NXDOMAIN;;,important
