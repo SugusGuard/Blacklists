@@ -26,8 +26,6 @@
 #
 ##  APPLE
 #
-||apple-dns.net^$dnsrewrite=NXDOMAIN;;,important
-||apple-dns.com^$dnsrewrite=NXDOMAIN;;,important
 ||doh.dns.apple.com^$dnsrewrite=NXDOMAIN;;,important
 ||doh.dns.apple.com.v.aaplimg.com^$dnsrewrite=NXDOMAIN;;,important
 #
