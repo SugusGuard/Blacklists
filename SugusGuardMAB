@@ -2,7 +2,7 @@
 # Description: SugusGuard's minimal Apple filterlist for AdGuard Home / AdGuard Pro App
 # This list contains only a minimal set of domains from shitty, lying Apple Inc.
 # List-URL: https://raw.githubusercontent.com/SugusGuard/Blocklists/main/SugusGuardMAB
-# Date: 2022-05-31
+# Date: 2022-06-01
 #
 ## PREVENT FILTER-BYPASSING WITH HTTPS REQUESTS AS APPLE LIKE TO DO
 #
@@ -104,3 +104,4 @@
 # MISC AND TESTING - NOT OR UNPROPER EXPLAINED/DOCUMENTED
 #
 ||experiments.apple.com^$dnsrewrite=NXDOMAIN;;,important
+||passbook-test.aditus.de^$dnsrewrite=NXDOMAIN;;,important
