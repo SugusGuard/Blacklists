@@ -38,7 +38,7 @@
 #
 ##  Blahdns
 #
-!||dot-ch.blahdns.com
+!||dot-ch.blahdns.com^$dnsrewrite=NXDOMAIN;;,important
 !||doh-ch.blahdns.com^$dnsrewrite=NXDOMAIN;;,important
 !||dot-jp.blahdns.com^$dnsrewrite=NXDOMAIN;;,important
 !||doh-jp.blahdns.com^$dnsrewrite=NXDOMAIN;;,important
