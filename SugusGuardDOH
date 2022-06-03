@@ -2,7 +2,7 @@
 # Description: SugusGuard's Bad-DNS filterlist for AdGuard Home / AdGuard Pro App
 # DoH, DoT Servers that seems to be forced in some Software or simply unwanted
 # List-URL: https://raw.githubusercontent.com/SugusGuard/Blocklists/main/SugusGuardDOH
-# Date: 2022-06-01
+# Date: 2022-06-03
 #
 ##  CLOUDFLARE
 #
@@ -36,7 +36,33 @@
 ||dns.us-ashburn-1.oraclecloud.com^$dnsrewrite=NXDOMAIN;;,important
 ||dns.us-phoenix-1.oraclecloud.com^$dnsrewrite=NXDOMAIN;;,important
 #
+##  Blahdns
+#
+!||dot-ch.blahdns.com
+!||doh-ch.blahdns.com^$dnsrewrite=NXDOMAIN;;,important
+!||dot-jp.blahdns.com^$dnsrewrite=NXDOMAIN;;,important
+!||doh-jp.blahdns.com^$dnsrewrite=NXDOMAIN;;,important
+!||dot-de.blahdns.com^$dnsrewrite=NXDOMAIN;;,important
+!||doh-de.blahdns.com^$dnsrewrite=NXDOMAIN;;,important
+!||dot-fi.blahdns.com^$dnsrewrite=NXDOMAIN;;,important
+!||doh-fi.blahdns.com^$dnsrewrite=NXDOMAIN;;,important
+!||dot-sg.blahdns.com^$dnsrewrite=NXDOMAIN;;,important
+!||doh-sg.blahdns.com^$dnsrewrite=NXDOMAIN;;,important
+#
+##  CIRA Canadian Shield
+#
+||family.canadianshield.cira.ca^$dnsrewrite=NXDOMAIN;;,important
+||protected.canadianshield.cira.ca^$dnsrewrite=NXDOMAIN;;,important
+||private.canadianshield.cira.ca^$dnsrewrite=NXDOMAIN;;,important
+#
+##  NextDNS
+#
+||dns.nextdns.io^$dnsrewrite=NXDOMAIN;;,important
+||dns1.nextdns.io^$dnsrewrite=NXDOMAIN;;,important
+||dns2.nextdns.io^$dnsrewrite=NXDOMAIN;;,important
+#
 ##  MISC
+#
 ||dns.api.globus.org^$dnsrewrite=NXDOMAIN;;,important
 ||dns.api.preview.globus.org^$dnsrewrite=NXDOMAIN;;,important
 ||dns.api.integration.globuscs.info^$dnsrewrite=NXDOMAIN;;,important
@@ -44,14 +70,13 @@
 ||dns.api.staging.globuscs.info^$dnsrewrite=NXDOMAIN;;,important
 ||dns.api.test.globuscs.info^$dnsrewrite=NXDOMAIN;;,important
 !
-||doh.blahdns.com^$dnsrewrite=NXDOMAIN;;,important
-||doh-jp.blahdns.com^$dnsrewrite=NXDOMAIN;;,important
-||doh-de.blahdns.com^$dnsrewrite=NXDOMAIN;;,important
-||doh-fi.blahdns.com^$dnsrewrite=NXDOMAIN;;,important
-!
 ||dns-over-https.com^$dnsrewrite=NXDOMAIN;;,important
 ||dnsoverhttps.net^$dnsrewrite=NXDOMAIN;;,important
+!
 ||doh.dnswarden.com^$dnsrewrite=NXDOMAIN;;,important
+!
 ||doh.powerdns.org^$dnsrewrite=NXDOMAIN;;,important
+!
 ||doh.securedns.eu^$dnsrewrite=NXDOMAIN;;,important
+!
 ||yahoodns.net^$dnsrewrite=NXDOMAIN;;,important
