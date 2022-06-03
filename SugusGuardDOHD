@@ -2,7 +2,7 @@
 # Description: DNS Server forced in some Applications or simply unwanted
 # Pure Domainnames for Firewalls
 # List-URL: https://raw.githubusercontent.com/SugusGuard/Blocklists/main/SugusGuardDOHD
-# Date: 2022-05-31
+# Date: 2022-06-03
 #
 ## CLOUDFLARE
 #
@@ -59,13 +59,23 @@ dns.us-phoenix-1.oraclecloud.com
 #
 ##	BLADNS
 #
-doh.blahdns.com
-doh-jp.blahdns.com
-doh-de.blahdns.com
-doh-sg.blahdns.com
-doh-ch.blahdns.com
-doh-de.blahdns.com
-doh-fi.blahdns.com
+!||doh-ch.blahdns.com
+!||doh-jp.blahdns.com
+!||doh-de.blahdns.com
+!||doh-fi.blahdns.com
+!||doh-sg.blahdns.com
+#
+##  CIRA Canadian Shield
+#
+family.canadianshield.cira.ca
+protected.canadianshield.cira.ca
+private.canadianshield.cira.ca
+#
+##  NextDNS
+#
+dns.nextdns.io
+dns1.nextdns.io
+dns2.nextdns.io
 #
 ## DNS-OVER-HTTPS.COM
 #
