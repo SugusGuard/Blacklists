@@ -20,44 +20,44 @@ mozilla.cloudflare-dns.com
 opera.cloudflare-dns.com
 tor.cloudflare-dns.com
 #
-##	GOOGLE
+## GOOGLE
 #
 dns.google
 dns.google.com
 8888.google
 dns64.dns.google
 #
-##  APPLE
+## APPLE
 #
 doh.dns.apple.com
 doh.dns.apple.com.v.aaplimg.com
 #
-##	CLEANBROWSING
+## CLEANBROWSING
 #
 doh.cleanbrowsing.org
 family-filter-dns.cleanbrowsing.org
 adult-filter-dns.cleanbrowsing.org
 security-filter-dns.cleanbrowsing.org
 #
-##	COMCAST
+## COMCAST
 #
 doh.xfinity.com
 dot.xfinity.com
 #
-##	DNS.SB
+## DNS.SB
 #
 doh.dns.sb
 public-dns-a.dns.sb
 public-dns-b.dns.sb
 #
-##	ORACLE
+## ORACLE
 #
 dns.eu-frankfurt-1.oraclecloud.com
 dns.uk-london-1.oraclecloud.com
 dns.us-ashburn-1.oraclecloud.com
 dns.us-phoenix-1.oraclecloud.com
 #
-##	BLAHDNS
+## BLAHDNS
 #
 dot-ch.blahdns.com
 dot-jp.blahdns.com
@@ -65,13 +65,13 @@ dot-de.blahdns.com
 dot-fi.blahdns.com
 dot-sg.blahdns.com
 #
-##  CIRA CANADIAN SHIELD
+## CIRA CANADIAN SHIELD
 #
 family.canadianshield.cira.ca
 protected.canadianshield.cira.ca
 private.canadianshield.cira.ca
 #
-##  NextDNS
+## NextDNS
 #
 dns.nextdns.io
 dns1.nextdns.io
@@ -82,7 +82,7 @@ dns2.nextdns.io
 dns.dns-over-https.com
 dns.dnsoverhttps.net
 #
-##	GLOBUS.ORG
+## GLOBUS.ORG
 #
 dns.api.globus.org
 dns.api.preview.globus.org
@@ -95,7 +95,7 @@ dns.api.test.globuscs.info
 #
 dns.switch.ch
 #
-##	MISC
+## MISC
 #
 dns-gcp.aaflalo.me
 dns.aaflalo.me
