@@ -2,7 +2,7 @@
 # Description: SugusGuard's additional filterlist for AdGuard Home / AdGuard Pro App
 # Don't use this List if you're not sure what you're doing, it will brick some "services"
 # List-URL: https://raw.githubusercontent.com/SugusGuard/Blocklists/main/SugusGuardDNS
-# Date: 2022-06-01
+# Date: 2022-06-06
 #
 ## CANARY
 #
@@ -24,6 +24,7 @@
 ||1e100.net^$dnsrewrite=NXDOMAIN;;,important
 ||app-measurement.com^$dnsrewrite=NXDOMAIN;;,important
 ||wearehearken.eu^$dnsrewrite=NXDOMAIN;;,important
+||optanon.blob.core.windows.net^$dnsrewrite=NXDOMAIN;;,important
 #
 ## COOKIE BANNER
 #
