@@ -2,7 +2,7 @@
 # Description: SugusGuard's Bad-DNS filterlist for AdGuard Home / AdGuard Pro App
 # DoH, DoT Servers that seems to be forced in some Software or simply unwanted
 # List-URL: https://raw.githubusercontent.com/SugusGuard/Blocklists/main/SugusGuardDOH
-# Date: 2022-06-06
+# Date: 2022-06-08
 #
 ##  CLOUDFLARE
 #
@@ -11,6 +11,12 @@
 ||ns.cloudflare.com^$dnsrewrite=NXDOMAIN;;,important
 ||dns.cloudflare.com^$dnsrewrite=NXDOMAIN;;,important
 #
+##  NEXTDNS
+#
+!||dns.nextdns.io^$dnsrewrite=NXDOMAIN;;,important
+!||dns1.nextdns.io^$dnsrewrite=NXDOMAIN;;,important
+!||dns2.nextdns.io^$dnsrewrite=NXDOMAIN;;,important
+#
 ##  GOOGLE
 #
 ||dns.google.com^$dnsrewrite=NXDOMAIN;;,important
@@ -18,6 +24,20 @@
 ||8888.google^$dnsrewrite=NXDOMAIN;;,important
 ||google-public-dns-a.google.com^$dnsrewrite=NXDOMAIN;;,important
 ||google-public-dns-b.google.com^$dnsrewrite=NXDOMAIN;;,important
+#
+##  QUAD9
+#
+!||dns.quad9.net^$dnsrewrite=NXDOMAIN;;,important
+dns9.quad9.net^$dnsrewrite=NXDOMAIN;;,important
+dns10.quad9.net^$dnsrewrite=NXDOMAIN;;,important
+!||dns11.quad9.net^$dnsrewrite=NXDOMAIN;;,important
+!||dns12.quad9.net^$dnsrewrite=NXDOMAIN;;,important
+#
+##  OPENDNS
+#
+||dns.opendns.com
+||dns.umbrella.com
+||familyshield.opendns.com
 #
 ##  COMCAST
 #
@@ -36,7 +56,7 @@
 ||dns.us-ashburn-1.oraclecloud.com^$dnsrewrite=NXDOMAIN;;,important
 ||dns.us-phoenix-1.oraclecloud.com^$dnsrewrite=NXDOMAIN;;,important
 #
-##  Blahdns
+##  BlAHDNS
 #
 ||dot-ch.blahdns.com^$dnsrewrite=NXDOMAIN;;,important
 ||dot-jp.blahdns.com^$dnsrewrite=NXDOMAIN;;,important
@@ -44,17 +64,34 @@
 ||dot-fi.blahdns.com^$dnsrewrite=NXDOMAIN;;,important
 ||dot-sg.blahdns.com^$dnsrewrite=NXDOMAIN;;,important
 #
-##  CIRA Canadian Shield
+##  CIRA CANADIAN SHIELD
 #
 ||family.canadianshield.cira.ca^$dnsrewrite=NXDOMAIN;;,important
 ||protected.canadianshield.cira.ca^$dnsrewrite=NXDOMAIN;;,important
 ||private.canadianshield.cira.ca^$dnsrewrite=NXDOMAIN;;,important
 #
-##  NextDNS
+##  MULLVAD
 #
-||dns.nextdns.io^$dnsrewrite=NXDOMAIN;;,important
-||dns1.nextdns.io^$dnsrewrite=NXDOMAIN;;,important
-||dns2.nextdns.io^$dnsrewrite=NXDOMAIN;;,important
+||doh.mullvad.net^$dnsrewrite=NXDOMAIN;;,important
+#
+##  CLEANBROWSING
+#
+||doh.cleanbrowsing.org^$dnsrewrite=NXDOMAIN;;,important
+||adult-filter-dns.cleanbrowsing.org^$dnsrewrite=NXDOMAIN;;,important
+||family-filter-dns.cleanbrowsing.org^$dnsrewrite=NXDOMAIN;;,important
+||security-filter-dns.cleanbrowsing.org^$dnsrewrite=NXDOMAIN;;,important
+#
+##  DIGITALE GESELLSCHAFT SCHWEIZ
+#
+||dns.digitale-gesellschaft.ch^$dnsrewrite=NXDOMAIN;;,important
+||dns1.digitale-gesellschaft.ch^$dnsrewrite=NXDOMAIN;;,important
+||dns2.digitale-gesellschaft.ch^$dnsrewrite=NXDOMAIN;;,important
+#
+## DNS.SB
+#
+||doh.dns.sb^$dnsrewrite=NXDOMAIN;;,important
+||public-dns-a.dns.sb^$dnsrewrite=NXDOMAIN;;,important
+||public-dns-b.dns.sb^$dnsrewrite=NXDOMAIN;;,important
 #
 ##  MISC
 #
@@ -79,3 +116,5 @@
 ||resolver*.dns.watch^$dnsrewrite=NXDOMAIN;;,important
 #
 ||dns.switch.ch^$dnsrewrite=NXDOMAIN;;,important
+#
+||dns.watch^$dnsrewrite=NXDOMAIN;;,important
