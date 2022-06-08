@@ -2,7 +2,7 @@
 # Description: DNS Server forced in some Applications or simply unwanted
 # Pure Domainnames for Firewalls
 # List-URL: https://raw.githubusercontent.com/SugusGuard/Blocklists/main/SugusGuardDOHD
-# Date: 2022-06-06
+# Date: 2022-06-08
 #
 ## CLOUDFLARE
 #
@@ -27,10 +27,29 @@ dns.google.com
 8888.google
 dns64.dns.google
 #
+## QUAD9
+#
+!dns.quad9.net
+!dns9.quad9.net
+!dns10.quad9.net
+!dns11.quad9.net
+!dns12.quad9.net
+#
+## OPENDNS
+#
+dns.opendns.com
+dns.umbrella.com
+familyshield.opendns.com
+#
 ## APPLE
 #
 doh.dns.apple.com
 doh.dns.apple.com.v.aaplimg.com
+#
+##  MULLVAD
+#
+doh.mullvad.net
+adblock.doh.mullvad.net
 #
 ## CLEANBROWSING
 #
@@ -38,6 +57,12 @@ doh.cleanbrowsing.org
 family-filter-dns.cleanbrowsing.org
 adult-filter-dns.cleanbrowsing.org
 security-filter-dns.cleanbrowsing.org
+#
+##  DIGITALE GESELLSCHAFT SCHWEIZ
+#
+dns.digitale-gesellschaft.ch
+dns1.digitale-gesellschaft.ch
+dns2.digitale-gesellschaft.ch
 #
 ## COMCAST
 #
@@ -71,11 +96,11 @@ family.canadianshield.cira.ca
 protected.canadianshield.cira.ca
 private.canadianshield.cira.ca
 #
-## NextDNS
+## NEXTDNS
 #
-dns.nextdns.io
-dns1.nextdns.io
-dns2.nextdns.io
+!dns.nextdns.io
+!dns1.nextdns.io
+!dns2.nextdns.io
 #
 ## DNS-OVER-HTTPS.COM
 #
