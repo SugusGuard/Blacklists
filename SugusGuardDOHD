@@ -2,13 +2,14 @@
 # Description: DNS Server forced in some Applications or simply unwanted
 # Pure Domainnames for Firewalls
 # List-URL: https://raw.githubusercontent.com/SugusGuard/Blocklists/main/SugusGuardDOHD
-# Date: 2022-06-08
+# Date: 2022-06-09
 #
 ## CLOUDFLARE
 #
 dns.cloudflare.com
 cloudflare-dns.com
 1dot1dot1dot1.cloudflare-dns.com
+one.one.one.one
 1001.cloudflare-dns.com
 1111.cloudflare-dns.com
 family.cloudflare-dns.com
@@ -29,11 +30,11 @@ dns64.dns.google
 #
 ## QUAD9
 #
-!dns.quad9.net
-!dns9.quad9.net
-!dns10.quad9.net
-!dns11.quad9.net
-!dns12.quad9.net
+dns.quad9.net
+dns9.quad9.net
+dns10.quad9.net
+dns11.quad9.net
+dns12.quad9.net
 #
 ## OPENDNS
 #
