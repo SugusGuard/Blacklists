@@ -2,7 +2,7 @@
 # Description: SugusGuard's Bad-DNS filterlist for AdGuard Home / AdGuard Pro App
 # DoH, DoT Servers that seems to be forced in some Software or simply unwanted
 # List-URL: https://raw.githubusercontent.com/SugusGuard/Blocklists/main/SugusGuardDOH
-# Date: 2022-06-08
+# Date: 2022-06-09
 #
 ##  CLOUDFLARE
 #
@@ -27,11 +27,11 @@
 #
 ##  QUAD9
 #
-!||dns.quad9.net^$dnsrewrite=NXDOMAIN;;,important
-dns9.quad9.net^$dnsrewrite=NXDOMAIN;;,important
-dns10.quad9.net^$dnsrewrite=NXDOMAIN;;,important
-!||dns11.quad9.net^$dnsrewrite=NXDOMAIN;;,important
-!||dns12.quad9.net^$dnsrewrite=NXDOMAIN;;,important
+||dns.quad9.net^$dnsrewrite=NXDOMAIN;;,important
+||dns9.quad9.net^$dnsrewrite=NXDOMAIN;;,important
+||dns10.quad9.net^$dnsrewrite=NXDOMAIN;;,important
+||dns11.quad9.net^$dnsrewrite=NXDOMAIN;;,important
+||dns12.quad9.net^$dnsrewrite=NXDOMAIN;;,important
 #
 ##  OPENDNS
 #
