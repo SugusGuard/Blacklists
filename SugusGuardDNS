@@ -8,6 +8,10 @@
 #
 ||use-application-dns.net^$dnsrewrite=REFUSED,important
 #
+## SPECIAL ONLY USE IF YOU KNOW WHAT YOU'RE DOING
+#
+||ip6.arpa^$important
+#
 ## WHITELIST
 #
 ! Nothing whitelisted yet
