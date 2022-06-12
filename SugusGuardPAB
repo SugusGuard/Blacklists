@@ -2,50 +2,50 @@
 # Description: SugusGuard's Pico Apple filterlist for AdGuard Home / AdGuard Pro App
 # This list contains only a very minimal set of domains from shitty, lying Apple Inc.
 # List-URL: https://raw.githubusercontent.com/SugusGuard/Blocklists/main/SugusGuardPAB
-# Date: 2022-06-01
+# Date: 2022-06-12
 #
 ## TELEMETRY, ANALYTICS, CRASHREPORT
 #
-||xp.apple.com^$dnsrewrite=NXDOMAIN;;,important
-||metrics.mzstatic.com^$dnsrewrite=NXDOMAIN;;,important
-||metrics.icloud.com^$dnsrewrite=NXDOMAIN;;,important
-||metrics.fe.apple-dns.net$dnsrewrite=NXDOMAIN;;,important
-||dzc-metrics.mzstatic.com^$dnsrewrite=NXDOMAIN;;,important
-||securemetrics.apple.com^$dnsrewrite=NXDOMAIN;;,important
-||supportmetrics.apple.com^$dnsrewrite=NXDOMAIN;;,important
-||*-analytics-events.apple.com^$dnsrewrite=NXDOMAIN;;,important
-||*-analytics-events.news.apple-dns.net^$dnsrewrite=NXDOMAIN;;,important
-||idiagnostics.apple.com^$dnsrewrite=NXDOMAIN;;,important
-||idiagnostics.apple.com.akadns.net^$dnsrewrite=NXDOMAIN;;,important
-||*submissions.apple.com^$dnsrewrite=NXDOMAIN;;,important
-||*submissions.v.aaplimg.com^$dnsrewrite=NXDOMAIN;;,important
-||*submissions.apple.com.akadns.net^$dnsrewrite=NXDOMAIN;;,important
-||diagassets.apple.com^$dnsrewrite=NXDOMAIN;;,important
+||xp.apple.com^$important
+||metrics.mzstatic.com^$important
+||metrics.icloud.com^$important
+||metrics.fe.apple-dns.net$important
+||dzc-metrics.mzstatic.com^$important
+||securemetrics.apple.com^$important
+||supportmetrics.apple.com^$important
+||*-analytics-events.apple.com^$important
+||*-analytics-events.news.apple-dns.net^$important
+||idiagnostics.apple.com^$important
+||idiagnostics.apple.com.akadns.net^$important
+||*submissions.apple.com^$important
+||*submissions.v.aaplimg.com^$important
+||*submissions.apple.com.akadns.net^$important
+||diagassets.apple.com^$important
 #
 ## APPLE ADS
 #
-||iadsdk.apple.com^$dnsrewrite=NXDOMAIN;;,important
+||iadsdk.apple.com^$important
 ||adservices.apple.com^$dnsrewrite=NXDOMAIN;;important
 #
 ## LOCATION SERVICE
 # 
-||ls.apple.com^$dnsrewrite=NXDOMAIN;;,important
-!||gsp*.apple.com^$dnsrewrite=NXDOMAIN;;,important
-!||gsp*.apple.com.edgekey.net^$dnsrewrite=NXDOMAIN;;,important
-!||configuration.ls.apple.com^$dnsrewrite=NXDOMAIN;;,important
-||iphone-ld.apple.com^$dnsrewrite=NXDOMAIN;;,important
-||iphone-ld.origin-apple.com.akadns.net^$dnsrewrite=NXDOMAIN;;,important
-||iphone-ld.apple.com-v1.edgesuite.net^$dnsrewrite=NXDOMAIN;;,important
-||a1931.dscgi3.akamai.net^$dnsrewrite=NXDOMAIN;;,important
-||gs-loc.apple.com^$dnsrewrite=NXDOMAIN;;,important
+||ls.apple.com^$important
+!||gsp*.apple.com^$important
+!||gsp*.apple.com.edgekey.net^$important
+!||configuration.ls.apple.com^$important
+||iphone-ld.apple.com^$important
+||iphone-ld.origin-apple.com.akadns.net^$important
+||iphone-ld.apple.com-v1.edgesuite.net^$important
+||a1931.dscgi3.akamai.net^$important
+||gs-loc.apple.com^$important
 #
 ## ICLOUD PRIVATE RELAY, APPLE DNS
 #
-||mask.icloud.com^$dnsrewrite=NXDOMAIN;;,important
-||mask-api.icloud.com^$dnsrewrite=NXDOMAIN;;,important
-||mask-h2.icloud.com^$dnsrewrite=NXDOMAIN;;,important
+||mask.icloud.com^$important
+||mask-api.icloud.com^$important
+||mask-h2.icloud.com^$important
 #
 ## MISC AND TESTING - NOT OR UNPROPER EXPLAINED/DOCUMENTED
 #
-||experiments.apple.com^$dnsrewrite=NXDOMAIN;;,important
-||passbook-test.aditus.de^$dnsrewrite=NXDOMAIN;;,important
+||experiments.apple.com^$important
+||passbook-test.aditus.de^$important
