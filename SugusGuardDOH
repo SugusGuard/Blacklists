@@ -2,36 +2,36 @@
 # Description: SugusGuard's Bad-DNS filterlist for AdGuard Home / AdGuard Pro App
 # DoH, DoT Servers that seems to be forced in some Software or simply unwanted
 # List-URL: https://raw.githubusercontent.com/SugusGuard/Blocklists/main/SugusGuardDOH
-# Date: 2022-06-09
+# Date: 2022-06-12
 #
 ##  CLOUDFLARE
 #
-||cloudflare-dns.com^$dnsrewrite=NXDOMAIN;;,important
-||one.one.one.one^$dnsrewrite=NXDOMAIN;;,important
-||ns.cloudflare.com^$dnsrewrite=NXDOMAIN;;,important
-||dns.cloudflare.com^$dnsrewrite=NXDOMAIN;;,important
+||cloudflare-dns.com^$important
+||one.one.one.one^$important
+||ns.cloudflare.com^$important
+||dns.cloudflare.com^$important
 #
 ##  NEXTDNS
 #
-!||dns.nextdns.io^$dnsrewrite=NXDOMAIN;;,important
-!||dns1.nextdns.io^$dnsrewrite=NXDOMAIN;;,important
-!||dns2.nextdns.io^$dnsrewrite=NXDOMAIN;;,important
+!||dns.nextdns.io^$important
+!||dns1.nextdns.io^$important
+!||dns2.nextdns.io^$important
 #
 ##  GOOGLE
 #
-||dns.google.com^$dnsrewrite=NXDOMAIN;;,important
-||dns.google^$dnsrewrite=NXDOMAIN;;,important
-||8888.google^$dnsrewrite=NXDOMAIN;;,important
-||google-public-dns-a.google.com^$dnsrewrite=NXDOMAIN;;,important
-||google-public-dns-b.google.com^$dnsrewrite=NXDOMAIN;;,important
+||dns.google.com^$important
+||dns.google^$important
+||8888.google^$important
+||google-public-dns-a.google.com^$important
+||google-public-dns-b.google.com^$important
 #
 ##  QUAD9
 #
-||dns.quad9.net^$dnsrewrite=NXDOMAIN;;,important
-||dns9.quad9.net^$dnsrewrite=NXDOMAIN;;,important
-||dns10.quad9.net^$dnsrewrite=NXDOMAIN;;,important
-||dns11.quad9.net^$dnsrewrite=NXDOMAIN;;,important
-||dns12.quad9.net^$dnsrewrite=NXDOMAIN;;,important
+||dns.quad9.net^$important
+||dns9.quad9.net^$important
+||dns10.quad9.net^$important
+||dns11.quad9.net^$important
+||dns12.quad9.net^$important
 #
 ##  OPENDNS
 #
@@ -41,80 +41,81 @@
 #
 ##  COMCAST
 #
-||doh.xfinity.com^$dnsrewrite=NXDOMAIN;;,important
-||dot.xfinity.com^$dnsrewrite=NXDOMAIN;;,important
+||doh.xfinity.com^$important
+||dot.xfinity.com^$important
 #
 ##  APPLE
 #
-||doh.dns.apple.com^$dnsrewrite=NXDOMAIN;;,important
-||doh.dns.apple.com.v.aaplimg.com^$dnsrewrite=NXDOMAIN;;,important
+||doh.dns.apple.com^$important
+||doh.dns.apple.com.v.aaplimg.com^$important
 #
 ##  ORACLE
 #
-||dns.eu-frankfurt-1.oraclecloud.com^$dnsrewrite=NXDOMAIN;;,important
-||dns.uk-london-1.oraclecloud.com^$dnsrewrite=NXDOMAIN;;,important
-||dns.us-ashburn-1.oraclecloud.com^$dnsrewrite=NXDOMAIN;;,important
-||dns.us-phoenix-1.oraclecloud.com^$dnsrewrite=NXDOMAIN;;,important
+||dns.eu-frankfurt-1.oraclecloud.com^$important
+||dns.uk-london-1.oraclecloud.com^$important
+||dns.us-ashburn-1.oraclecloud.com^$important
+||dns.us-phoenix-1.oraclecloud.com^$important
 #
 ##  BlAHDNS
 #
-||dot-ch.blahdns.com^$dnsrewrite=NXDOMAIN;;,important
-||dot-jp.blahdns.com^$dnsrewrite=NXDOMAIN;;,important
-||dot-de.blahdns.com^$dnsrewrite=NXDOMAIN;;,important
-||dot-fi.blahdns.com^$dnsrewrite=NXDOMAIN;;,important
-||dot-sg.blahdns.com^$dnsrewrite=NXDOMAIN;;,important
+||dot-ch.blahdns.com^$important
+||dot-jp.blahdns.com^$important
+||dot-de.blahdns.com^$important
+||dot-fi.blahdns.com^$important
+||dot-sg.blahdns.com^$important
 #
 ##  CIRA CANADIAN SHIELD
 #
-||family.canadianshield.cira.ca^$dnsrewrite=NXDOMAIN;;,important
-||protected.canadianshield.cira.ca^$dnsrewrite=NXDOMAIN;;,important
-||private.canadianshield.cira.ca^$dnsrewrite=NXDOMAIN;;,important
+||family.canadianshield.cira.ca^$important
+||protected.canadianshield.cira.ca^$important
+||private.canadianshield.cira.ca^$important
 #
 ##  MULLVAD
 #
-||doh.mullvad.net^$dnsrewrite=NXDOMAIN;;,important
+||doh.mullvad.net^$important
+||adblock.doh.mullvad.net^$important
 #
 ##  CLEANBROWSING
 #
-||doh.cleanbrowsing.org^$dnsrewrite=NXDOMAIN;;,important
-||adult-filter-dns.cleanbrowsing.org^$dnsrewrite=NXDOMAIN;;,important
-||family-filter-dns.cleanbrowsing.org^$dnsrewrite=NXDOMAIN;;,important
-||security-filter-dns.cleanbrowsing.org^$dnsrewrite=NXDOMAIN;;,important
+||doh.cleanbrowsing.org^$important
+||adult-filter-dns.cleanbrowsing.org^$important
+||family-filter-dns.cleanbrowsing.org^$important
+||security-filter-dns.cleanbrowsing.org^$important
 #
 ##  DIGITALE GESELLSCHAFT SCHWEIZ
 #
-||dns.digitale-gesellschaft.ch^$dnsrewrite=NXDOMAIN;;,important
-||dns1.digitale-gesellschaft.ch^$dnsrewrite=NXDOMAIN;;,important
-||dns2.digitale-gesellschaft.ch^$dnsrewrite=NXDOMAIN;;,important
+||dns.digitale-gesellschaft.ch^$important
+||dns1.digitale-gesellschaft.ch^$important
+||dns2.digitale-gesellschaft.ch^$important
 #
 ## DNS.SB
 #
-||doh.dns.sb^$dnsrewrite=NXDOMAIN;;,important
-||public-dns-a.dns.sb^$dnsrewrite=NXDOMAIN;;,important
-||public-dns-b.dns.sb^$dnsrewrite=NXDOMAIN;;,important
+||doh.dns.sb^$important
+||public-dns-a.dns.sb^$important
+||public-dns-b.dns.sb^$important
 #
 ##  MISC
 #
-||dns.api.globus.org^$dnsrewrite=NXDOMAIN;;,important
-||dns.api.preview.globus.org^$dnsrewrite=NXDOMAIN;;,important
-||dns.api.integration.globuscs.info^$dnsrewrite=NXDOMAIN;;,important
-||dns.api.sandbox.globuscs.info^$dnsrewrite=NXDOMAIN;;,important
-||dns.api.staging.globuscs.info^$dnsrewrite=NXDOMAIN;;,important
-||dns.api.test.globuscs.info^$dnsrewrite=NXDOMAIN;;,important
+||dns.api.globus.org^$important
+||dns.api.preview.globus.org^$important
+||dns.api.integration.globuscs.info^$important
+||dns.api.sandbox.globuscs.info^$important
+||dns.api.staging.globuscs.info^$important
+||dns.api.test.globuscs.info^$important
 #
-||dns-over-https.com^$dnsrewrite=NXDOMAIN;;,important
-||dnsoverhttps.net^$dnsrewrite=NXDOMAIN;;,important
+||dns-over-https.com^$important
+||dnsoverhttps.net^$important
 #
-||doh.dnswarden.com^$dnsrewrite=NXDOMAIN;;,important
+||doh.dnswarden.com^$important
 #
-||doh.powerdns.org^$dnsrewrite=NXDOMAIN;;,important
+||doh.powerdns.org^$important
 #
-||doh.securedns.eu^$dnsrewrite=NXDOMAIN;;,important
+||doh.securedns.eu^$important
 #
-||yahoodns.net^$dnsrewrite=NXDOMAIN;;,important
+||yahoodns.net^$important
 #
-||resolver*.dns.watch^$dnsrewrite=NXDOMAIN;;,important
+||resolver*.dns.watch^$important
 #
-||dns.switch.ch^$dnsrewrite=NXDOMAIN;;,important
+||dns.switch.ch^$important
 #
-||dns.watch^$dnsrewrite=NXDOMAIN;;,important
+||dns.watch^$important
