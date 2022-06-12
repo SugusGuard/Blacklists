@@ -2,6 +2,7 @@
 # Description: SugusGuard's Apple filterlist for AdGuard Home / AdGuard Pro App
 # Description: Be warned: This will brick some - for us anyway unnecessary - functions
 # List-URL: https://raw.githubusercontent.com/SugusGuard/Blocklists/main/SugusGuardGAB
+# Date: 2022-06-12
 #
 ## Prevent filter-bypassing with https requests as Apple like to do
 #
@@ -23,156 +24,156 @@
 #
 # TELEMETRY, ANALYTICS, CRASHREPORT
 #
-||xp.apple.com^$dnsrewrite=NXDOMAIN;;,important
-||metrics.mzstatic.com^$dnsrewrite=NXDOMAIN;;,important
-||metrics.icloud.com^$dnsrewrite=NXDOMAIN;;,important
-||metrics.fe.apple-dns.net$dnsrewrite=NXDOMAIN;;,important
-||dzc-metrics.mzstatic.com^$dnsrewrite=NXDOMAIN;;,important
-||securemetrics.apple.com^$dnsrewrite=NXDOMAIN;;,important
-||supportmetrics.apple.com^$dnsrewrite=NXDOMAIN;;,important
-||*-analytics-events.apple.com^$dnsrewrite=NXDOMAIN;;,important
-||*-analytics-events.news.apple-dns.net^$dnsrewrite=NXDOMAIN;;,important
-||idiagnostics.apple.com^$dnsrewrite=NXDOMAIN;;,important
-||idiagnostics.apple.com.akadns.net^$dnsrewrite=NXDOMAIN;;,important
-||*submissions.apple.com^$dnsrewrite=NXDOMAIN;;,important
-||*submissions.v.aaplimg.com^$dnsrewrite=NXDOMAIN;;,important
-||*submissions.apple.com.akadns.net^$dnsrewrite=NXDOMAIN;;,important
-||diagassets.apple.com^$dnsrewrite=NXDOMAIN;;,important
+||xp.apple.com^$important
+||metrics.mzstatic.com^$important
+||metrics.icloud.com^$important
+||metrics.fe.apple-dns.net$important
+||dzc-metrics.mzstatic.com^$important
+||securemetrics.apple.com^$important
+||supportmetrics.apple.com^$important
+||*-analytics-events.apple.com^$important
+||*-analytics-events.news.apple-dns.net^$important
+||idiagnostics.apple.com^$important
+||idiagnostics.apple.com.akadns.net^$important
+||*submissions.apple.com^$important
+||*submissions.v.aaplimg.com^$important
+||*submissions.apple.com.akadns.net^$important
+||diagassets.apple.com^$important
 #
 # APPLE ADS
 #
-||iadsdk.apple.com^$dnsrewrite=NXDOMAIN;;,important
+||iadsdk.apple.com^$important
 ||adservices.apple.com^$dnsrewrite=NXDOMAIN;;important
 #
 # APPSTORE, ITUNES
 #
-||bookkeeper.itunes.apple.com^$dnsrewrite=NXDOMAIN;;,important
-!||play.itunes.apple.com^$dnsrewrite=NXDOMAIN;;,important
-!||play.itunes.apple.com.edgesuite.net^$dnsrewrite=NXDOMAIN;;,important
-!||play-cdn.itunes-apple.com.akadns.net^$dnsrewrite=NXDOMAIN;;,important
+||bookkeeper.itunes.apple.com^$important
+!||play.itunes.apple.com^$important
+!||play.itunes.apple.com.edgesuite.net^$important
+!||play-cdn.itunes-apple.com.akadns.net^$important
 #
 # ICLOUD
 #
-||apple-cloudkit.com^$dnsrewrite=NXDOMAIN;;,important
-||apple-livephotoskit.com^$dnsrewrite=NXDOMAIN;;,important
-||apzones.com^$dnsrewrite=NXDOMAIN;;,important
-!||cdn-apple.com^$dnsrewrite=NXDOMAIN;;,important      !AppleID
-!||gc.apple.com^$dnsrewrite=NXDOMAIN;;,important       !Double GameCenter
-||icloud.com^$dnsrewrite=NXDOMAIN;;,important
-||icloud.com.cn^$dnsrewrite=NXDOMAIN;;,important
-||icloud.apple.com^$dnsrewrite=NXDOMAIN;;,important
-||icloud-content.com^$dnsrewrite=NXDOMAIN;;,important
-||iwork.apple.com^$dnsrewrite=NXDOMAIN;;,important
+||apple-cloudkit.com^$important
+||apple-livephotoskit.com^$important
+||apzones.com^$important
+!||cdn-apple.com^$important      !AppleID
+!||gc.apple.com^$important       !Double GameCenter
+||icloud.com^$important
+||icloud.com.cn^$important
+||icloud.apple.com^$important
+||icloud-content.com^$important
+||iwork.apple.com^$important
 #
 # ICLOUD PRIVATE RELAY
 #
-||mask.icloud.com^$dnsrewrite=NXDOMAIN;;,important
-||mask-h2.icloud.com^$dnsrewrite=NXDOMAIN;;,important
-||mask-api.icloud.com^$dnsrewrite=NXDOMAIN;;,important
+||mask.icloud.com^$important
+||mask-h2.icloud.com^$important
+||mask-api.icloud.com^$important
 #
 # SAFARI, SPOTLIGHT
 #
-||api-glb-dub.smoot.apple.com^$dnsrewrite=NXDOMAIN;;,important
+||api-glb-dub.smoot.apple.com^$important
 #
 # LOCATION SERVICE
 # 
-||ls.apple.com^$dnsrewrite=NXDOMAIN;;,important
-!||gsp*.apple.com^$dnsrewrite=NXDOMAIN;;,important
-!||gsp*.apple.com.edgekey.net^$dnsrewrite=NXDOMAIN;;,important
-!||configuration.ls.apple.com^$dnsrewrite=NXDOMAIN;;,important
-||iphone-ld.apple.com^$dnsrewrite=NXDOMAIN;;,important
-||iphone-ld.origin-apple.com.akadns.net^$dnsrewrite=NXDOMAIN;;,important
-||iphone-ld.apple.com-v1.edgesuite.net^$dnsrewrite=NXDOMAIN;;,important
-||a1931.dscgi3.akamai.net^$dnsrewrite=NXDOMAIN;;,important
-||gs-loc.apple.com^$dnsrewrite=NXDOMAIN;;,important
+||ls.apple.com^$important
+!||gsp*.apple.com^$important
+!||gsp*.apple.com.edgekey.net^$important
+!||configuration.ls.apple.com^$important
+||iphone-ld.apple.com^$important
+||iphone-ld.origin-apple.com.akadns.net^$important
+||iphone-ld.apple.com-v1.edgesuite.net^$important
+||a1931.dscgi3.akamai.net^$important
+||gs-loc.apple.com^$important
 #
 # SIRI, SPOTLIGHT SUGGESTIONS
 #
-||smoot.apple.com^$dnsrewrite=NXDOMAIN;;,important
-||bag-smoot.v.aaplimg.com^$dnsrewrite=NXDOMAIN;;,important
-||guzzoni.apple.com^$dnsrewrite=NXDOMAIN;;,important
-||guzzoni-apple-com.v.aaplimg.com^$dnsrewrite=NXDOMAIN;;,important
-||dejavu.apple.com^$dnsrewrite=NXDOMAIN;;,important
-||siri.apple.com^$dnsrewrite=NXDOMAIN;;,important
-||swallow.apple.com^$dnsrewrite=NXDOMAIN;;,important
+||smoot.apple.com^$important
+||bag-smoot.v.aaplimg.com^$important
+||guzzoni.apple.com^$important
+||guzzoni-apple-com.v.aaplimg.com^$important
+||dejavu.apple.com^$important
+||siri.apple.com^$important
+||swallow.apple.com^$important
 #
 # GAMECENTER
 #
-||gc.apple.com^$dnsrewrite=NXDOMAIN;;,important
-||*gc.ess.apple.com^$dnsrewrite=NXDOMAIN;;,important
-||*gc.ess-apple.com.akadns.net^$dnsrewrite=NXDOMAIN;;,important
-!||commnat-cohort-gc.ess.apple.com^$dnsrewrite=NXDOMAIN;;,important
-!||commnat-cohort-gc.ess-apple.com.akadns.net^$dnsrewrite=NXDOMAIN;;,important
-!||commnat-main-gc.ess.apple.com^$dnsrewrite=NXDOMAIN;;,important
+||gc.apple.com^$important
+||*gc.ess.apple.com^$important
+||*gc.ess-apple.com.akadns.net^$important
+!||commnat-cohort-gc.ess.apple.com^$important
+!||commnat-cohort-gc.ess-apple.com.akadns.net^$important
+!||commnat-main-gc.ess.apple.com^$important
 #
 # FAMILY SHARING
 #
-||pancake.apple.com^$dnsrewrite=NXDOMAIN;;,important
-||pancake.g.aaplimg.com^$dnsrewrite=NXDOMAIN;;,important
+||pancake.apple.com^$important
+||pancake.g.aaplimg.com^$important
 #
 # FIND MY FRIENDS
 #
-||fmf.icloud.com^$dnsrewrite=NXDOMAIN;;,important
-||fmfmobile.icloud.com^$dnsrewrite=NXDOMAIN;;,important
-||fmfmobile.fe.apple-dns.net^$dnsrewrite=NXDOMAIN;;,important
-||fmf.fe.apple-dns.net^$dnsrewrite=NXDOMAIN;;,important
+||fmf.icloud.com^$important
+||fmfmobile.icloud.com^$important
+||fmfmobile.fe.apple-dns.net^$important
+||fmf.fe.apple-dns.net^$important
 #
 # FIND MY IPHONE
 #
-||fmip.icloud.com^$dnsrewrite=NXDOMAIN;;,important
-||fmip.fe.apple-dns.net^$dnsrewrite=NXDOMAIN;;,important
+||fmip.icloud.com^$important
+||fmip.fe.apple-dns.net^$important
 #
 # Health
 #
-||health.apple.com^$dnsrewrite=NXDOMAIN;;,important
+||health.apple.com^$important
 #
 # CONTENT CACHING
 #
-||lcdn-locator.apple.com^$dnsrewrite=NXDOMAIN;;,important
-||lcdn-locator-usnkq.apple.com.akadns.net^$dnsrewrite=NXDOMAIN;;,important
-||lcdn-registration.apple.com^$dnsrewrite=NXDOMAIN;;,important
-||serverstatus.apple.com^$dnsrewrite=NXDOMAIN;;,important
-||xp-cdn.apple.com^$dnsrewrite=NXDOMAIN;;,important
-||suconfig.apple.com^$dnsrewrite=NXDOMAIN;;,important
+||lcdn-locator.apple.com^$important
+||lcdn-locator-usnkq.apple.com.akadns.net^$important
+||lcdn-registration.apple.com^$important
+||serverstatus.apple.com^$important
+||xp-cdn.apple.com^$important
+||suconfig.apple.com^$important
 #
 # MOBILE DEVICE MANAGEMENT (MDM)
 #
-||deviceenrollment.apple.com^$dnsrewrite=NXDOMAIN;;,important
-||deviceservices-external.apple.com^$dnsrewrite=NXDOMAIN;;,important
-||gdmf.apple.com^$dnsrewrite=NXDOMAIN;;,important
-||iprofiles.apple.com^$dnsrewrite=NXDOMAIN;;,important
-||mdmenrollment.apple.com^$dnsrewrite=NXDOMAIN;;,important
-||setup.icloud.com^$dnsrewrite=NXDOMAIN;;,important
-||vpp.itunes.apple.com^$dnsrewrite=NXDOMAIN;;,important
+||deviceenrollment.apple.com^$important
+||deviceservices-external.apple.com^$important
+||gdmf.apple.com^$important
+||iprofiles.apple.com^$important
+||mdmenrollment.apple.com^$important
+||setup.icloud.com^$important
+||vpp.itunes.apple.com^$important
 #
 # APPLE SCHOOL AND BUSINESS MANAGER
 #
-||business.apple.com^$dnsrewrite=NXDOMAIN;;,important
-||school.apple.com^$dnsrewrite=NXDOMAIN;;,important
-||isu.apple.com^$dnsrewrite=NXDOMAIN;;,important
-||ws-ee-maidsvc.icloud.com^$dnsrewrite=NXDOMAIN;;,important
+||business.apple.com^$important
+||school.apple.com^$important
+||isu.apple.com^$important
+||ws-ee-maidsvc.icloud.com^$important
 #
 # GARAGEBAND, XCODE, SWIFT PLAYGROUND, APPLE TV SCREENSAVERS
 #
-||audiocontentdownload.apple.com^$dnsrewrite=NXDOMAIN;;,important
-||devimages-cdn.apple.com^$dnsrewrite=NXDOMAIN;;,important
-||download.developer.apple.com^$dnsrewrite=NXDOMAIN;;,important
-||playgrounds-assets-cdn.apple.com^$dnsrewrite=NXDOMAIN;;,important
-||playgrounds-cdn.apple.com^$dnsrewrite=NXDOMAIN;;,important
-||sylvan.apple.com^$dnsrewrite=NXDOMAIN;;,important
+||audiocontentdownload.apple.com^$important
+||devimages-cdn.apple.com^$important
+||download.developer.apple.com^$important
+||playgrounds-assets-cdn.apple.com^$important
+||playgrounds-cdn.apple.com^$important
+||sylvan.apple.com^$important
 #
 # MISC AND TESTING - NOT OR UNPROPER EXPLAINED/DOCUMENTED
 #
-!||gateway.icloud.com^$dnsrewrite=NXDOMAIN;;,important
-!||apple-dns.net^$dnsrewrite=NXDOMAIN;;,important
-!||apple-dns.com^$dnsrewrite=NXDOMAIN;;,important
-!||captive.apple.com^$dnsrewrite=NXDOMAIN;;,important
-!||captive.g.aaplimg.com^$dnsrewrite=NXDOMAIN;;,important
+!||gateway.icloud.com^$important
+!||apple-dns.net^$important
+!||apple-dns.com^$important
+!||captive.apple.com^$important
+!||captive.g.aaplimg.com^$important
 ! No idea what goes on here
-||sas.apple.com^$dnsrewrite=NXDOMAIN;;,important
-||gsas.apple.com^$dnsrewrite=NXDOMAIN;;,important
-||apps.itunes-nocookie.com^$dnsrewrite=NXDOMAIN;;,important
-!||commnat-main.ess.apple.com^$dnsrewrite=NXDOMAIN;;,important
-||basejumper.apple.com^$dnsrewrite=NXDOMAIN;;,important
-||experiments.apple.com^$dnsrewrite=NXDOMAIN;;,important
-||passbook-test.aditus.de^$dnsrewrite=NXDOMAIN;;,important
+||sas.apple.com^$important
+||gsas.apple.com^$important
+||apps.itunes-nocookie.com^$important
+!||commnat-main.ess.apple.com^$important
+||basejumper.apple.com^$important
+||experiments.apple.com^$important
+||passbook-test.aditus.de^$important
