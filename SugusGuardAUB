@@ -1,42 +1,41 @@
 # Title: SugusGuard Apple Update Blocklist
 # Description: Filterlist to block Apple updates for AdGuard Home / AdGuard Pro App
 # List-URL: https://raw.githubusercontent.com/SugusGuard/Blocklists/main/SugusGuardAUB
-# Date: 2022-06-01
-# We use NXDOMAIN;; here, so Apple devices seems to reduce harassing the dns server every few seconds
+# Date: 2022-06-12
 #
 ## APPLE UPDATES & UPDATE-CHECK IOS, IPADOS, TVOS, MACOS
 #
-||appldnld.apple.com^$dnsrewrite=NXDOMAIN;;,important
-||appldnld.apple.com.akadns.net^$dnsrewrite=NXDOMAIN;;,important
-||appldnld-lb.apple.com.akadns.net^$dnsrewrite=NXDOMAIN;;,important
-||appldnld.g.aaplimg.com^$dnsrewrite=NXDOMAIN;;,important
-||mesu.apple.com^$dnsrewrite=NXDOMAIN;;,important
-||mesu-cdn.apple.com.akadns.net^$dnsrewrite=NXDOMAIN;;,important
-||mesu-cdn.origin-apple.com.akadns.net^$dnsrewrite=NXDOMAIN;;,important
-||mesu.apple.com.edgekey.net^$dnsrewrite=NXDOMAIN;;,important
-||mesu.g.aaplimg.com^$dnsrewrite=NXDOMAIN;;,important
-||gdmf.apple.com^$dnsrewrite=NXDOMAIN;;,important
-||gdmf.apple.com.akadns.net^$dnsrewrite=NXDOMAIN;;,important
-||ocsp.apple.com^$dnsrewrite=NXDOMAIN;;,important
-||ocsp-lb.apple.com.akadns.net^$dnsrewrite=NXDOMAIN;;,important
-||ocsp-a.g.aaplimg.com^$dnsrewrite=NXDOMAIN;;,important
-||ocsp2.apple.com^$dnsrewrite=NXDOMAIN;;,important
-||ocsp2-lb.apple.com.akadns.net^$dnsrewrite=NXDOMAIN;;,important
-||ocsp2.g.aaplimg.com^$dnsrewrite=NXDOMAIN;;,important
-||updates-http.cdn-apple.com^$dnsrewrite=NXDOMAIN;;,important
-||gg.apple.com^$dnsrewrite=NXDOMAIN;;,important
-||gs.apple.com^$dnsrewrite=NXDOMAIN;;,important
-||ns.itunes.apple.com^$dnsrewrite=NXDOMAIN;;,important
-||configuration.apple.com.akadns.net^$dnsrewrite=NXDOMAIN;;,important
-||configuration.apple.com.edgekey.net^$dnsrewrite=NXDOMAIN;;,important
-||updates.cdn-apple.com^$dnsrewrite=NXDOMAIN;;,important
-||world-gen.g.aaplimg.com^$dnsrewrite=NXDOMAIN;;,important
-!||xp.apple.com^$dnsrewrite=NXDOMAIN;;,important  !Double with SugusGuardMAB
+||appldnld.apple.com^$important
+||appldnld.apple.com.akadns.net^$important
+||appldnld-lb.apple.com.akadns.net^$important
+||appldnld.g.aaplimg.com^$important
+||mesu.apple.com^$important
+||mesu-cdn.apple.com.akadns.net^$important
+||mesu-cdn.origin-apple.com.akadns.net^$important
+||mesu.apple.com.edgekey.net^$important
+||mesu.g.aaplimg.com^$important
+||gdmf.apple.com^$important
+||gdmf.apple.com.akadns.net^$important
+||ocsp.apple.com^$important
+||ocsp-lb.apple.com.akadns.net^$important
+||ocsp-a.g.aaplimg.com^$important
+||ocsp2.apple.com^$important
+||ocsp2-lb.apple.com.akadns.net^$important
+||ocsp2.g.aaplimg.com^$important
+||updates-http.cdn-apple.com^$important
+||gg.apple.com^$important
+||gs.apple.com^$important
+||ns.itunes.apple.com^$important
+||configuration.apple.com.akadns.net^$important
+||configuration.apple.com.edgekey.net^$important
+||updates.cdn-apple.com^$important
+||world-gen.g.aaplimg.com^$important
+!||xp.apple.com^$important
 #! macOS only
-||gnf-mdn.apple.com^$dnsrewrite=NXDOMAIN;;,important
-||configuration.apple.com^$dnsrewrite=NXDOMAIN;;,important
-||gnf-mr.apple.com^$dnsrewrite=NXDOMAIN;;,important
-||ig.apple.com^$dnsrewrite=NXDOMAIN;;,important
-||oscdn.apple.com^$dnsrewrite=NXDOMAIN;;,important
-||osrecovery.apple.com^$dnsrewrite=NXDOMAIN;;,important
-||skl.apple.com^$dnsrewrite=NXDOMAIN;;,important
+||gnf-mdn.apple.com^$important
+||configuration.apple.com^$important
+||gnf-mr.apple.com^$important
+||ig.apple.com^$important
+||oscdn.apple.com^$important
+||osrecovery.apple.com^$important
+||skl.apple.com^$important
