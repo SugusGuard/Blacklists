@@ -2,7 +2,7 @@
 # Description: SugusGuard's additional filterlist for AdGuard Home / AdGuard Pro App
 # Don't use this List if you're not sure what you're doing, it will brick some "services"
 # List-URL: https://raw.githubusercontent.com/SugusGuard/Blocklists/main/SugusGuardDNS
-# Date: 2022-06-28
+# Date: 2022-07-28
 #
 ## CANARY
 #
@@ -76,7 +76,6 @@
 ||stats-*.crsend.com^$important
 ||gigya.com^$important
 ||altmetric.com^$important
-||static.addtoany.com^$important
 ||oblique-telemetry.bit.admin.ch^$important
 ||webstats.zh.ch^$important
 ||otelwebtelemetry.com^$important
