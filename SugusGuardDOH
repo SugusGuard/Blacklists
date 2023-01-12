@@ -2,7 +2,7 @@
 # Description: SugusGuard's Bad-DNS filterlist for AdGuard Home / AdGuard Pro App
 # DoH, DoT Servers that seems to be forced in some Software or simply unwanted
 # List-URL: https://raw.githubusercontent.com/SugusGuard/Blocklists/main/SugusGuardDOH
-# Date: 2022-07-17
+# Date: 2023-01-12
 #
 ##  CLOUDFLARE
 #
@@ -110,7 +110,7 @@
 #
 ||doh.powerdns.org^$important
 #
-!||doh.securedns.eu^$important
+||doh.securedns.eu^$important
 #
 ||yahoodns.net^$important
 #
