@@ -1,38 +1,6 @@
 ! Title: SugusGuard uBlock Origin
 ! Description: SugusGuard (personal) "Plus-List" for uBlock Origin
 ! List-URL: https://github.com/SugusGuard/Blocklists/raw/main/SugusGuarduBlock
-! 
-! 20min
-!
-||storage.googleapis.com/fooby/*$important
-||myshop.20min.ch^$important
-||deal.cpstatic.ch$important
-||api.20min.ch$important
-||www.20min.ch/static-assets/*$important
-||tdn.da-services.ch/libs/oil/*$important
-!
-! Blick
-!
-||www.npttech.com^$important
-||php.blick.ch/static/2021_blickdeal/$subdocument
-www.blick.ch##.embedded-content-container
-www.blick.ch##.video-wrapper
-www.blick.ch##.blick-tv-teaser__wrapper
-www.blick.ch##div.multiline.tunaK.sc-1m16myc-0:nth-of-type(15)
-www.blick.ch##div.nFDyy.p1mwtc-0
-www.blick.ch##div.multiline.tunaK.sc-1m16myc-0
-www.blick.ch##div.multiline.fzhDwm.sc-1m16myc-0 > .flexitem.euWuia.sc-1elypw2-0 > .withViewportContainer > .koApwW.sc-1xzmqwe-0
-www.blick.ch##div.multiline.fzhDwm.sc-1m16myc-0:nth-of-type(37)
-www.blick.ch##div.iQjzHS.p1mwtc-0:nth-of-type(36)
-www.blick.ch##.placement-articleTopAd.data-slot-code-mobile-MMR_1.data-slot-code-WBM_1.appnexus-container
-www.blick.ch###blick-tv-pop-out
-www.blick.ch##.video-player-wrapper
-||players.brightcove.net^$domain=www.blick.ch,important
-!
-! Computerbase
-!
-||www.computerbase.de/js/dialog-polyfill.20201214.js$script,important
-||www.computerbase.de/js/onetrust/*$domain=www.computerbase.de
 !
 ! Heise
 !
@@ -40,15 +8,8 @@ www.blick.ch##.video-player-wrapper
 ||upscore.com^$script
 ||privacy-mgmt.com^
 !
-! Youtube
-!
-www.youtube.com##ytd-clarification-renderer.ytd-item-section-renderer.style-scope
-www.youtube.com###clarify-box > .ytd-watch-flexy.style-scope
-!
 ! Startpage
 !
 ||startpage.com/sp/adsense/*$important
 ||startpage.com/sp/cdn/scripts/abp.js$important
 ||www.startpage.com/sp/cdn/images/privacy-protection-promo/intersect-default.svg$image
-www.startpage.com##.layout-web__sidebar--web.layout-web__sidebar
-www.startpage.com##.ukraine-banner
