@@ -2,7 +2,7 @@
 # Description: SugusGuard's additional filterlist for AdGuard Home / AdGuard Pro App
 # Don't use this List if you're not sure what you're doing, it will brick some "services"
 # List-URL: https://raw.githubusercontent.com/SugusGuard/Blocklists/main/SugusGuardDNS
-# Date: 2022-07-28
+# Date: 2023-01-12
 #
 ## CANARY
 #
@@ -41,8 +41,7 @@
 !||usercentrics.eu^$important
 !||cookielaw.org^$important
 !||cookiebot.com^$important
-||onetrust.com^$important
-||privacy-mgmt.com^$important
+!||onetrust.com^$important
 # 
 ## SPECIFIC TELEMETRY & ANALYTICS MISSING IN OTHER LISTS
 #
