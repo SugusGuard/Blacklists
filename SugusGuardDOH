@@ -16,6 +16,7 @@
 !||dns.nextdns.io^$important
 !||dns1.nextdns.io^$important
 !||dns2.nextdns.io^$important
+||firefox.dns.nextdns.io^$important
 #
 ##  GOOGLE
 #
@@ -117,3 +118,5 @@
 ||dns.switch.ch^$important
 #
 ||dns.watch^$important
+#
+||ahadns.net^$important
