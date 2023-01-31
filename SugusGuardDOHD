@@ -2,7 +2,7 @@
 # Description: DNS Server forced in some Applications or simply unwanted
 # Pure Domainnames for Firewalls
 # List-URL: https://raw.githubusercontent.com/SugusGuard/Blocklists/main/SugusGuardDOHD
-# Date: 2022-07-17
+# Date: 2023-01-31
 #
 ## CLOUDFLARE
 #
@@ -123,26 +123,10 @@ dns.switch.ch
 #
 ## MISC
 #
-dns-gcp.aaflalo.me
-dns.aaflalo.me
-dns.api.rackspacecloud.com
-dns.beta.gandi.net
-dns.cloudfiction.eu
-dns.cmrg.net
-dns.islandnet.com
-!dns.onp.cloud
-dns.rubyfish.cn
-dns.tuna.tsinghua.edu.cn
-doh.captnemo.in
-doh.crypto.sx
 doh.dnswarden.com
 puredns.org
 doh.powerdns.org
 !doh.securedns.eu
 doh.tiar.app
-doh.mullvad.net
-i.233py.com
-doh.360.cn
-dns.tuna.tsinghua.edu.cn
 resolver1.dns.watch
 resolver2.dns.watch
