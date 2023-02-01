@@ -9,6 +9,7 @@
 ||privacy-mgmt.com^
 ||cmp.heise.de/index.html?message_id=760088&consentUUID=*$subdocument,domain=www.heise.de
 ||www.heise.de/assets/akwa/v24/js/vendors~prebid.38db07.ltc.js$script,domain=www.heise.de
+www.heise.de##.bg-gray-50.-mx-3.p-3
 !
 ! Startpage
 !
@@ -25,3 +26,4 @@ www.youtube.com###clarify-box
 weltwoche.ch###werbungTop
 weltwoche.ch##div.werbungWideHome
 weltwoche.ch##div.werbungSmallHome.werbungSmall
+weltwoche.ch##.cookie-notice-container
