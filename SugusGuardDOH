@@ -95,6 +95,10 @@
 ||public-dns-a.dns.sb^$important
 ||public-dns-b.dns.sb^$important
 #
+## Control D
+#
+||freedns.controld.com^$dnsrewrite=NXDOMAIN;;,important
+#
 ##  MISC
 #
 ||dns.api.globus.org^$important
