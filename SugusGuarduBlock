@@ -7,9 +7,21 @@
 ||cdn13.com^$script
 ||upscore.com^$script
 ||privacy-mgmt.com^
+||cmp.heise.de/index.html?message_id=760088&consentUUID=*$subdocument,domain=www.heise.de
+||www.heise.de/assets/akwa/v24/js/vendors~prebid.38db07.ltc.js$script,domain=www.heise.de
 !
 ! Startpage
 !
 ||startpage.com/sp/adsense/*$important
 ||startpage.com/sp/cdn/scripts/abp.js$important
 ||www.startpage.com/sp/cdn/images/privacy-protection-promo/intersect-default.svg$image
+!
+! Youtube
+!
+www.youtube.com###clarify-box
+!
+! Weltwoche
+!
+weltwoche.ch###werbungTop
+weltwoche.ch##div.werbungWideHome
+weltwoche.ch##div.werbungSmallHome.werbungSmall
