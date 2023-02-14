@@ -2,7 +2,7 @@
 # Description: SugusGuard's additional filterlist for AdGuard Home / AdGuard Pro App
 # Don't use this List if you're not sure what you're doing, it will brick some "services"
 # List-URL: https://raw.githubusercontent.com/SugusGuard/Blocklists/main/SugusGuardDNS
-# Date: 2023-02-01
+# Date: 2023-02-14
 #
 ## CANARY
 #
@@ -61,6 +61,54 @@
 ||geo.adobe.com^$important
 ||adobejanus.com^$important
 ||services.adobe.com^$important
+!
+! Synology External IP Analyzer
+!
+||checkip.synology.com^$important
+||checkipv6.synology.com^$important
+||checkip.dyndns.org^$important
+!
+! Synology Active Insight
+!
+||insight.synology.com^$important
+||collectorupdate7.synology.com^$important
+||collectorautoupdate7.synology.com^$important
+||collectorautoupdate7.synology.cn^$important
+||supapi.synology.com^$important
+!
+! Synology DDNS
+!
+||account.synology.com^$important
+||ddns.synology.com^$important
+||ns1.synology.me^$important
+!
+! Synology File Sharing
+!
+||gofile.me^$important
+!
+! Port Connection Test
+!
+||checkport.synology.com^$important
+!
+! Synology Push Service
+!
+||sns.synology.com^$important
+||notification.synology.com^$important
+!
+! Synology Security Adviser
+!
+||dataupdate.synology.com^$important
+!
+! Synology UPnP Compatibility Result Uploader
+!
+||report.synology.com^$important
+!
+! Synology Quick Connect
+!
+||keepalive.synology.com^$important
+||relayinfo.synology.com^$important
+||quickconnect.to^$important
+||on-ty-punch1.synology.com^$important
 #
 ## TRACKING, ANALYTICS MISSING IN OTHER LISTS
 #
