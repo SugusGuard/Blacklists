@@ -97,7 +97,13 @@
 #
 ## Control D
 #
-||freedns.controld.com^$dnsrewrite=NXDOMAIN;;,important
+||freedns.controld.com^$important
+||dns.controld.com^$important
+#
+## DNS0.EU
+#
+||zero.dns0.eu^$important
+||kids.dns0.eu^$important
 #
 ##  MISC
 #
