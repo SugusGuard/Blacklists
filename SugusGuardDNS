@@ -2,7 +2,7 @@
 # Description: SugusGuard's additional filterlist for AdGuard Home / AdGuard Pro App
 # Don't use this List if you're not sure what you're doing, it will brick some "services"
 # List-URL: https://raw.githubusercontent.com/SugusGuard/Blocklists/main/SugusGuardDNS
-# Date: 2023-02-14
+# Date: 2023-02-18
 #
 ## CANARY
 #
@@ -34,14 +34,14 @@
 ! (A plague and mostly includes usertracking from the companies behind the script. But it's a better way to block this with uBo)
 !
 !||consensu.org^$important
-||cookiepro.com^$important
+!||cookiepro.com^$important
 !||consentmanager.net^$important
 !||consentmanager.de^$important
 !||usercentrics.com^$important
 !||usercentrics.eu^$important
-||cookielaw.org^$important
+!||cookielaw.org^$important
 !||cookiebot.com^$important
-||onetrust.com^$important
+!||onetrust.com^$important
 # 
 ## SPECIFIC TELEMETRY & ANALYTICS MISSING IN OTHER LISTS
 #
@@ -248,7 +248,7 @@
 ||proxy.safebrowsing.apple^$important
 ||safebrowsing-proxy.g.aaplimg.com^$important
 !
-! Brave (Anyway.. Nobody should use this pos browser)
+! Brave
 !
 ||variations.brave.com^$important
 ||p3a.brave.com^$important
@@ -276,7 +276,7 @@
 ||getpocket.cdn.mozilla.net^$important
 !||mozilla.cloudflare-dns.com^$important
 !
-! Microsoft Edge, don't use this pos browser it's spyware
+! Microsoft Edge
 !
 ||browser.pipe.aria.microsoft.com^$important
 ||config.edge.skype.com^$important
