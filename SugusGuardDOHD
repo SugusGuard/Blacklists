@@ -2,7 +2,7 @@
 # Description: DNS Server forced in some Applications or simply unwanted
 # Pure Domainnames for Firewalls
 # List-URL: https://raw.githubusercontent.com/SugusGuard/Blocklists/main/SugusGuardDOHD
-# Date: 2023-01-31
+# Date: 2023-02-18
 #
 ## CLOUDFLARE
 #
@@ -120,6 +120,25 @@ dns.api.test.globuscs.info
 ## SWITCH
 #
 dns.switch.ch
+#
+## DNS0.EU
+#
+dns0.eu
+zero.dns0.eu
+kids.dns0.eu
+#
+## Control D
+#
+freedns.controld.com
+p0.freedns.controld.com
+p1.freedns.controld.com
+p2.freedns.controld.com
+p3.freedns.controld.com
+family.freedns.controld.com
+uncensored.freedns.controld.com
+x-oisd.freedns.controld.com
+x-oisd-basic.freedns.controld.com
+x-stevenblack.freedns.controld.com
 #
 ## MISC
 #
