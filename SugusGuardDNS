@@ -64,9 +64,9 @@
 !
 ! Synology External IP Analyzer
 !
-||checkip.synology.com^$important
-||checkipv6.synology.com^$important
-||checkip.dyndns.org^$important
+||checkip.synology.*^$important
+||checkipv6.synology.*^$important
+||checkip.dyndns.*^$important
 !
 ! Synology Active Insight
 !
@@ -78,10 +78,9 @@
 !
 ! Synology DDNS
 !
-||account.synology.com^$important
-||account.synology.com.*^$important
-||myds.synology.com^$important
-||ddns.synology.com^$important
+||account.synology.*^$important
+||myds.synology.*^$important
+||ddns.synology.*^$important
 ||ns1.synology.me^$important
 !
 ! Synology File Sharing
@@ -109,7 +108,7 @@
 !
 ||keepalive.synology.com^$important
 ||relayinfo.synology.com^$important
-||quickconnect.to^$important
+||quickconnect.*^$important
 ||on-ty-punch1.synology.com^$important
 #
 ## TRACKING, ANALYTICS MISSING IN OTHER LISTS
