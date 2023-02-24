@@ -2,7 +2,7 @@
 # Description: SugusGuard's additional filterlist for AdGuard Home / AdGuard Pro App
 # Don't use this List if you're not sure what you're doing, it will brick some "services"
 # List-URL: https://raw.githubusercontent.com/SugusGuard/Blocklists/main/SugusGuardDNS
-# Date: 2023-02-20
+# Date: 2023-02-24
 #
 ## CANARY
 #
@@ -10,11 +10,11 @@
 #
 ## SPECIAL ONLY USE IF YOU KNOW WHAT YOU'RE DOING
 #
-||ip6.arpa^$important
+||ip6.arpa^$dnsrewrite=REFUSED,important
 #
 ## WHITELIST
 #
-! Nothing whitelisted yet
+@@||adtidy.org^$important
 #
 ## GENERAL GARBAGE MISSING IN OTHER LISTS
 #
@@ -79,7 +79,6 @@
 ! Synology DDNS
 !
 ||account.synology.*^$important
-||myds.synology.*^$important
 ||ddns.synology.*^$important
 ||ns1.synology.me^$important
 !
