@@ -4,7 +4,7 @@ This lists include only additional personal rules and does not replace other nec
 
 Maybe you should first try AdGuard's default Blocklists.
 
-> ***It's strongly recommended that your server is configured to response with NXDOMAIN or empty NOERROR instead of 127 or 0/0 especially for Apple devices!***
+> ***It's strongly recommended that your server is configured to response with NXDOMAIN or empty NOERROR instead of 127 or 0/0 for Apple devices!***
 
 | Listname | Short Description |
 | ------------- | ---------------------------------------------------------------------------- |
