@@ -18,30 +18,10 @@
 #
 ## GENERAL GARBAGE MISSING IN OTHER LISTS
 #
-||2o7.net^$important
-||omtrdc.net^$important
-||npttech.com^$important
-||tinypass.com^$important
+||jubbie.de^$important
 ||fooby.ch^$important
 ||savor-app.ch^$important
-||1e100.net^$important
-||app-measurement.com^$important
 ||wearehearken.eu^$important
-||optanon.blob.core.windows.net^$important
-#
-## COOKIE BANNER
-#
-! (A plague and mostly includes usertracking from the companies behind the script. But it's a better way to block this with uBo)
-!
-!||consensu.org^$important
-!||cookiepro.com^$important
-!||consentmanager.net^$important
-!||consentmanager.de^$important
-!||usercentrics.com^$important
-!||usercentrics.eu^$important
-!||cookielaw.org^$important
-!||cookiebot.com^$important
-!||onetrust.com^$important
 # 
 ## SPECIFIC TELEMETRY & ANALYTICS MISSING IN OTHER LISTS
 #
@@ -112,48 +92,24 @@
 #
 ## TRACKING, ANALYTICS MISSING IN OTHER LISTS
 #
-||comscoreresearch.*^$important
-||tagger.opecloud.com^$important
 ||ingest.sentry.io^$important
-||sentry.dev^$important
 ||cdn.ravenjs.com^$important
-||drift.com^$important
 ||driftcdn.com^$important
-||marketo.clearbit.com^$important
-||stats-*.crsend.com^$important
-||gigya.com^$important
-||altmetric.com^$important
 ||oblique-telemetry.bit.admin.ch^$important
 ||webstats.zh.ch^$important
 ||otelwebtelemetry.com^$important
-||widgets.shopvote.de^$important
-||s.w.org^$important
-||adobedtm.com^$important
-||responder.wt.heise.de^$important
-||sgqcvfjvr.onet.pl^$important
-||lib.onet.pl^$important
 ||tracker.customersaas.com^$important
 ||friendlyanalytics.io^$important
-||plausible.io^$important
-||appdynamics.com^$important
-||tiqcdn.com^$important
-||raygun.io^$important
 ||raygun.com^$important
 ||raygun-api*.amazonaws.com^$important
 ||rapidzebra.io^$important
-||etracker.com^$important
-||permaleads.ch^$important
-||app-us1.com^$important
-||adjust.com^$important
 ||cpstats.hostpoint.ch^$important
+||a-0003.a-msedge.net^$important
 #
 ## ADS MISSING IN OTHER LISTS
 #
 ||gstaticadssl.l.google.com^$important
 ||imasdk.googleapis.com^$important
-||a-msedge.net^$important
-||addthisedge.com^$important
-||addthis.com^$important
 #
 ## RNFIREBASE
 #
@@ -163,18 +119,6 @@
 #
 ## GOOGLE MISSING IN OTHER LISTS OR JUST GENERALY BLOCK
 #
-! Google Analytics
-!
-||google-analytics.com^$important
-||googleanalytics.com^$important
-||crashlytics.com^$important
-||googletagmanager.com^$important
-||googletagservices.com^$important
-||tagmanager.google.com^$important
-!
-! Google Doubleclick
-!
-||doubleclick.*^$important
 !
 ! Google Firebase
 !
