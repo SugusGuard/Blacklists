@@ -1,0 +1,104 @@
+# Title: SugusGuard / Calling Home
+# Description: SugusGuard's additional Blacklist for AdGuard Home / AdGuard Pro App
+# This Blacklist can interrupt some services and/or some website functionalities you
+# may use or like to use. Take care that you've your personal Whitelist in place.
+# List-URL: https://raw.githubusercontent.com/SugusGuard/Blacklists/main/Calling-Home
+# Date: 2023-03-07
+#
+## KDE BULLSHIT "kuserfeeback"
+#
+||telemetry.kde.org^$important
+||entypes.kde.org^$important
+#
+## NITRO SOFTWARE
+#
+||inapp.gonitro.com^$important
+||desktop.gonitro.com^$important
+#
+## ADOBE
+#
+||geo2.adobe.com^$important
+||geo.adobe.com^$important
+||adobejanus.com^$important
+||services.adobe.com^$important
+#
+## SYNOLOGY DSM 7.X (this connections send back data, even you dont use these services and opt-out from telemetry)
+#  SYNOLOGY EXTERNAL IP ANALYZER
+||checkip.synology.*^$important
+||checkipv6.synology.*^$important
+||checkip.dyndns.*^$important
+#  SYNOLOGY ACTIVE INSIGHT
+||insight.synology.com^$important
+||collectorupdate7.synology.com^$important
+||collectorautoupdate7.synology.com^$important
+||collectorautoupdate7.synology.cn^$important
+||supapi.synology.com^$important
+#  SYNOLOGY DDNS
+||account.synology.*^$important
+||ddns.synology.*^$important
+||ns1.synology.me^$important
+#  SYNOLOGY FILE SHARING
+||gofile.me^$important
+#  SYNOLOGY PORT CONNECTION TEST
+||checkport.synology.com^$important
+#  SYNOLOGY PUSH SERVICE
+||sns.synology.com^$important
+||notification.synology.com^$important
+#  SYNOLOGY SECURITY ADVISER
+||dataupdate.synology.com^$important
+#  SYNOLOGY UPNP COMPATIBILITY RESULT UPLOADER
+||report.synology.com^$important
+#  SYNOLOGY QUICK CONNECT
+||keepalive.synology.com^$important
+||relayinfo.synology.com^$important
+||quickconnect.*^$important
+||on-ty-punch1.synology.com^$important
+#
+## BROWSERS
+#  GENERAL
+||safebrowsing.googleapis.com^$important
+||safebrowsing.clients.google.com^$important
+||sb-ssl.google.com^$important
+||sb-ssl.l.google.com^$important
+||content-autofill.googleapis.com^$important
+||clientservices.googleapis.com^$important
+||clients1.google.com^$important
+||clients4.google.com^$important
+#  SAFARI
+||token.safebrowsing.apple^$important
+||safebrowsing.g.aaplimg.com^$important
+||proxy.safebrowsing.apple^$important
+||safebrowsing-proxy.g.aaplimg.com^$important
+#  BRAVE
+||variations.brave.com^$important
+||p3a.brave.com^$important
+||safebrowsing.brave.com^$important
+||api.rewards.brave.com^$important
+||rewards.brave.com^$important
+#  FIREFOX, *FOX
+||detectportal.firefox.com^$important     # Don't use this if you use public WLan's
+||push.services.mozilla.com^$important
+||incoming.telemetry.mozilla.org^$important
+||input.mozilla.org^$important
+||crash-stats.mozilla.com^$important
+||location.services.mozilla.com^$important
+||telemetry-coverage.mozilla.org^$important
+||telemetry-experiment.cdn.mozilla.net^$important
+||telemetry.mozilla.org^$important
+||experiments.mozilla.org^$important
+||shavar.services.mozilla.com^$important
+||tracking-protection.cdn.mozilla.net^$important
+||contile.services.mozilla.com^$important
+||firefox.settings.services.mozilla.com^$important
+||firefox-settings-attachments.cdn.mozilla.net^$important     # Download Language-Packs
+||getpocket.cdn.mozilla.net^$important
+#  EDGE MICROSOFTS GARBAGE-BROWSER
+||browser.pipe.aria.microsoft.com^$important
+||config.edge.skype.com^$important
+||nav.smartscreen.microsoft.com^$important
+||browser.events.data.msn.com^$important
+||ntp.msn.com^$important
+||assets.msn.com^$important
+||arc.msn.com^$important
+||img-s-msn-com.akamaized.net^$important
+||srtb.msn.com^$important
