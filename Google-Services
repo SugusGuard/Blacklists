@@ -67,3 +67,8 @@
 #
 ||fonts.gstatic.com^$important
 ||fonts.googleapis.com^$important
+#
+## GOOGLE PROXY
+#
+||google-proxy-*.google.com^$important
+||rate-limited-proxy-*.google.com^$important
