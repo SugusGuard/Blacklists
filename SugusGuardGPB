@@ -1,9 +1,0 @@
-# Title: SugusGuard Google Proxy Blocklist
-# Description: Google proxies filterlist for AdGuard Home / AdGuard Pro App
-# List-URL: https://raw.githubusercontent.com/SugusGuard/Blocklists/main/SugusGuardGPB
-# Date: 2022-06-12
-#
-## GOOGLE PROXY
-#
-||google-proxy-*.google.com^$important
-||rate-limited-proxy-*.google.com^$important
