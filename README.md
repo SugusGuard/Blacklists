@@ -8,22 +8,22 @@ Maybe you should first try AdGuard's default Blocklists.
 
 | Listname | Short Description |
 | ------------- | ---------------------------------------------------------------------------- |
-| SugusGuardAUB | Apple Update blacklist for AdGuard Home / AdGuard Pro App |
-| SugusGuardMAB	| Minimal Apple blacklist for AdGuard Home / AdGuard Pro App |
-| SugusGuardPAB	| Pico Apple blacklist for AdGuard Home / AdGuard Pro App |
-| SugusGuardDNS	| SugusGuard's additional blacklist for AdGuard Home / AdGuard Pro App |
-| SugusGuardDOH	| DNS Server blacklist, servers forced in some Applications |
-| SugusGuardGPB	| Google proxies blacklist for AdGuard Home / AdGuard Pro App |
-| SugusGuardSMB	| Social Media basic blacklist for AdGuard Home / AdGuard Pro App |
-| SugusGuardIPB	| IP-Blacklist for Firewalls
-| SugusGuardDOHD|	DNS Server forced in some Applications (Pure Domainnames for Firewalls) |
+| Apple-Update    | Apple Update Blacklist for AdGuard Home / AdGuard Pro App |
+| Apple-Pico    	| Pico Apple Blacklist for AdGuard Home / AdGuard Pro App |
+| Apple-Mini	    | Minimal Apple Blacklist for AdGuard Home / AdGuard Pro App |
+| Apple-Full  	  | Full Apple Blacklist for AdGuard Home / AdGuard Pro App |
+| AdGuard-Strict  | SugusGuard's additional blacklist for AdGuard Home / AdGuard Pro App |
+| AdGuard-DoHTQ	  | DNS Server blacklist, servers forced in some Applications |
+| Google-Services | Google proxies blacklist for AdGuard Home / AdGuard Pro App |
+| Social-Services | Social Media basic blacklist for AdGuard Home / AdGuard Pro App |
+| IP-Blacklist	  | IP-Blacklist for Firewalls
+| Domains-DoHTQ   |	DNS Server forced in some Applications (Pure Domainnames for Firewalls) |
 
 ###########################################################################
 > **Be warned - This lists brick some functions**
 > 
 | Listname | Short Description |
 | ------------- | ---------------------------------------------------------------------------- |
-|SugusGuardUAB | Ultimate Apple blacklist for AdGuard Home / AdGuard Pro App |
 |SugusGuarduBlock | This is just personal testing and experimenting nobody should use this
 
 ###########################################################################
