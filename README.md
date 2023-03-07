@@ -16,6 +16,7 @@ Maybe you should first try AdGuard's default Blocklists.
 | AdGuard-DoHTQ	  | DNS Server blacklist, servers forced in some Applications |
 | Google-Services | Google proxies blacklist for AdGuard Home / AdGuard Pro App |
 | Social-Services | Social Media basic blacklist for AdGuard Home / AdGuard Pro App |
+| Calling-Home    | Calling Home targets and/or unwanted connections |
 | IP-Blacklist	  | IP-Blacklist for Firewalls
 | Domains-DoHTQ   |	DNS Server forced in some Applications (Pure Domainnames for Firewalls) |
 
