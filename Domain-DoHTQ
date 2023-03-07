@@ -1,8 +1,9 @@
-# Title: SugusGuardDOHD DoH, DoT, DNS-Server Blacklist
-# Description: DNS Server forced in some Applications or simply unwanted
-# Pure Domainnames for Firewalls
-# List-URL: https://raw.githubusercontent.com/SugusGuard/Blocklists/main/SugusGuardDOHD
-# Date: 2023-02-18
+# Title: SugusGuard / Domain-DoHTQ
+# Description: SugusGuard's additional DoH, DoT, Quic DNS Resolver Blacklist
+# This Blacklist can interrupt some services and/or some website functionalities you
+# may use or like to use. Take care that you've your personal Whitelist in place.
+# List-URL: https://raw.githubusercontent.com/SugusGuard/Blacklists/main/Domain-DoHTQ
+# Date: 2023-03-07
 #
 ## CLOUDFLARE
 #
