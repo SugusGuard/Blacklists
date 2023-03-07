@@ -1,16 +1,15 @@
-# Title: SugusGuardMAB Minimal Apple Blocklist
-# Description: SugusGuard's Minimal Apple filterlist for AdGuard Home / AdGuard Pro App
-# This list contains only a minimal set of domains from shitty, lying Apple Inc.
-# List-URL: https://raw.githubusercontent.com/SugusGuard/Blocklists/main/SugusGuardMAB
-# Date: 2022-06-01
+# Title: SugusGuard / Apple-Mini
+# Description: SugusGuard's additional Blacklist for AdGuard Home / AdGuard Pro App
+# This Blacklist can interrupt some services and/or some website functionalities you
+# may use or like to use. Take care that you've your personal Whitelist in place.
+# List-URL: https://raw.githubusercontent.com/SugusGuard/Blacklists/main/Apple-Mini
+# Date: 2023-03-07
 #
 ## PREVENT FILTER-BYPASSING WITH HTTPS REQUESTS AS APPLE LIKE TO DO
 #
 ! Uncomment if you don't use a separate DoH Blocklist
-!||doh.dns.apple.com^$dnsrewrite=REFUSED;;,important
-!||doh.dns.apple.com.v.aaplimg.com^$dnsrewrite=REFUSED;;,important
-#
-## Blacklist
+!||doh.dns.apple.com^$dnsrewrite=NOERROR;;,important
+!||doh.dns.apple.com.v.aaplimg.com^$dnsrewrite=NOERROR;;,important
 #
 ## NTP
 #
