@@ -1,8 +1,10 @@
-# Title: SugusGuard DOH filter
-# Description: SugusGuard's Bad-DNS filterlist for AdGuard Home / AdGuard Pro App
-# DoH, DoT Servers that seems to be forced in some Software or simply unwanted
-# List-URL: https://raw.githubusercontent.com/SugusGuard/Blocklists/main/SugusGuardDOH
-# Date: 2023-02-18
+# Title: SugusGuard / AdGuard-DoHTQ
+# Description: SugusGuard's additional Blacklist for AdGuard Home / AdGuard Pro App
+# This Blacklist can interrupt some services and/or some website functionalities you
+# may use or like to use. Take care that you've your personal Whitelist in place.
+# List-URL: https://raw.githubusercontent.com/SugusGuard/Blacklists/main/AdGuard-DoHTQ
+# Date: 2023-03-07
+#
 ##  CLOUDFLARE
 #
 ||cloudflare-dns.com^$important
@@ -12,10 +14,10 @@
 #
 ##  NEXTDNS
 #
-!||dns.nextdns.io^$important
-!||dns1.nextdns.io^$important
-!||dns2.nextdns.io^$important
-||firefox.dns.nextdns.io^$important
+||dns.nextdns.io^$important
+||dns1.nextdns.io^$important
+||dns2.nextdns.io^$important
+!||firefox.dns.nextdns.io^$important
 #
 ##  GOOGLE
 #
