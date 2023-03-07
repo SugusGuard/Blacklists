@@ -1,8 +1,9 @@
-# Title: SugusGuardPAB Pico Apple Blocklist
-# Description: SugusGuard's Pico Apple filterlist for AdGuard Home / AdGuard Pro App
-# This list contains only a very minimal set of domains from shitty, lying Apple Inc.
-# List-URL: https://raw.githubusercontent.com/SugusGuard/Blocklists/main/SugusGuardPAB
-# Date: 2022-06-12
+# Title: SugusGuard / Apple-Pico
+# Description: SugusGuard's additional Blacklist for AdGuard Home / AdGuard Pro App
+# This Blacklist can interrupt some services and/or some website functionalities you
+# may use or like to use. Take care that you've your personal Whitelist in place.
+# List-URL: https://raw.githubusercontent.com/SugusGuard/Blacklists/main/AdGuard-Strict
+# Date: 2023-03-07
 #
 ## TELEMETRY, ANALYTICS, CRASHREPORT
 #
@@ -41,9 +42,9 @@
 #
 ## ICLOUD PRIVATE RELAY, APPLE DNS
 #
-||mask.icloud.com^$important
-||mask-api.icloud.com^$important
-||mask-h2.icloud.com^$important
+||mask.icloud.com^$dnsrewrite=NXDOMAIN;;,important
+||mask-api.icloud.com^$dnsrewrite=NXDOMAIN;;,important
+||mask-h2.icloud.com^$dnsrewrite=NXDOMAIN;;,important
 #
 ## MISC AND TESTING - NOT OR UNPROPER EXPLAINED/DOCUMENTED
 #
