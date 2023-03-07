@@ -1,28 +1,23 @@
-# Title: SugusGuardUAB Ultimate Apple Blocklist
-# Description: SugusGuard's Apple filterlist for AdGuard Home / AdGuard Pro App
-# Description: Be warned: This will brick some - for us anyway unnecessary - functions
-# List-URL: https://raw.githubusercontent.com/SugusGuard/Blocklists/main/SugusGuardGAB
-# Date: 2022-06-12
+# Title: SugusGuard / Apple-Full
+# Description: SugusGuard's additional Blacklist for AdGuard Home / AdGuard Pro App
+# This Blacklist can interrupt some services and/or some website functionalities you
+# may use or like to use. Take care that you've your personal Whitelist in place.
+# List-URL: https://raw.githubusercontent.com/SugusGuard/Blacklists/main/Apple-Full
+# Date: 2023-03-07
 #
 ## Prevent filter-bypassing with https requests as Apple like to do
 #
-!||*^$dnstype=HTTPS,dnsrewrite=REFUSED;;,important
+||*^$dnstype=HTTPS,dnsrewrite=REFUSED;;,important
 ||use-application-dns.net^$dnsrewrite=REFUSED;;,important
 #
-## Whitelist
-#
-!Nothing yet
-#
-## Blacklist
-#
-# NTP
+## NTP
 #
 ||time.apple.com^$dnsrewrite=NOERROR;CNAME;europe.pool.ntp.org
 ||time-ios.apple.com^$dnsrewrite=NOERROR;CNAME;europe.pool.ntp.org
 ||time-osx.g.aaplimg.com^$dnsrewrite=NOERROR;CNAME;europe.pool.ntp.org
 ||time-macos.apple.com^$dnsrewrite=NOERROR;CNAME;europe.pool.ntp.org
 #
-# TELEMETRY, ANALYTICS, CRASHREPORT
+## TELEMETRY, ANALYTICS, CRASHREPORT
 #
 ||xp.apple.com^$important
 ||metrics.mzstatic.com^$important
@@ -40,19 +35,19 @@
 ||*submissions.apple.com.akadns.net^$important
 ||diagassets.apple.com^$important
 #
-# APPLE ADS
+## APPLE ADS
 #
 ||iadsdk.apple.com^$important
 ||adservices.apple.com^$dnsrewrite=NXDOMAIN;;important
 #
-# APPSTORE, ITUNES
+## APPSTORE, ITUNES
 #
 ||bookkeeper.itunes.apple.com^$important
 !||play.itunes.apple.com^$important
 !||play.itunes.apple.com.edgesuite.net^$important
 !||play-cdn.itunes-apple.com.akadns.net^$important
 #
-# ICLOUD
+## ICLOUD
 #
 ||apple-cloudkit.com^$important
 ||apple-livephotoskit.com^$important
@@ -65,17 +60,17 @@
 ||icloud-content.com^$important
 ||iwork.apple.com^$important
 #
-# ICLOUD PRIVATE RELAY
+## ICLOUD PRIVATE RELAY
 #
 ||mask.icloud.com^$important
 ||mask-h2.icloud.com^$important
 ||mask-api.icloud.com^$important
 #
-# SAFARI, SPOTLIGHT
+## SAFARI, SPOTLIGHT
 #
 ||api-glb-dub.smoot.apple.com^$important
 #
-# LOCATION SERVICE
+## LOCATION SERVICE
 # 
 ||ls.apple.com^$important
 !||gsp*.apple.com^$important
@@ -87,7 +82,7 @@
 ||a1931.dscgi3.akamai.net^$important
 ||gs-loc.apple.com^$important
 #
-# SIRI, SPOTLIGHT SUGGESTIONS
+## SIRI, SPOTLIGHT SUGGESTIONS
 #
 ||smoot.apple.com^$important
 ||bag-smoot.v.aaplimg.com^$important
@@ -97,7 +92,7 @@
 ||siri.apple.com^$important
 ||swallow.apple.com^$important
 #
-# GAMECENTER
+## GAMECENTER
 #
 ||gc.apple.com^$important
 ||*gc.ess.apple.com^$important
@@ -106,28 +101,28 @@
 !||commnat-cohort-gc.ess-apple.com.akadns.net^$important
 !||commnat-main-gc.ess.apple.com^$important
 #
-# FAMILY SHARING
+## FAMILY SHARING
 #
 ||pancake.apple.com^$important
 ||pancake.g.aaplimg.com^$important
 #
-# FIND MY FRIENDS
+## FIND MY FRIENDS
 #
 ||fmf.icloud.com^$important
 ||fmfmobile.icloud.com^$important
 ||fmfmobile.fe.apple-dns.net^$important
 ||fmf.fe.apple-dns.net^$important
 #
-# FIND MY IPHONE
+## FIND MY IPHONE
 #
 ||fmip.icloud.com^$important
 ||fmip.fe.apple-dns.net^$important
 #
-# Health
+## Health
 #
 ||health.apple.com^$important
 #
-# CONTENT CACHING
+## CONTENT CACHING
 #
 ||lcdn-locator.apple.com^$important
 ||lcdn-locator-usnkq.apple.com.akadns.net^$important
@@ -136,7 +131,7 @@
 ||xp-cdn.apple.com^$important
 ||suconfig.apple.com^$important
 #
-# MOBILE DEVICE MANAGEMENT (MDM)
+## MOBILE DEVICE MANAGEMENT (MDM)
 #
 ||deviceenrollment.apple.com^$important
 ||deviceservices-external.apple.com^$important
@@ -146,14 +141,14 @@
 ||setup.icloud.com^$important
 ||vpp.itunes.apple.com^$important
 #
-# APPLE SCHOOL AND BUSINESS MANAGER
+## APPLE SCHOOL AND BUSINESS MANAGER
 #
 ||business.apple.com^$important
 ||school.apple.com^$important
 ||isu.apple.com^$important
 ||ws-ee-maidsvc.icloud.com^$important
 #
-# GARAGEBAND, XCODE, SWIFT PLAYGROUND, APPLE TV SCREENSAVERS
+## GARAGEBAND, XCODE, SWIFT PLAYGROUND, APPLE TV SCREENSAVERS
 #
 ||audiocontentdownload.apple.com^$important
 ||devimages-cdn.apple.com^$important
@@ -162,7 +157,7 @@
 ||playgrounds-cdn.apple.com^$important
 ||sylvan.apple.com^$important
 #
-# MISC AND TESTING - NOT OR UNPROPER EXPLAINED/DOCUMENTED
+## MISC AND TESTING - NOT OR UNPROPER EXPLAINED/DOCUMENTED
 #
 !||gateway.icloud.com^$important
 !||apple-dns.net^$important
