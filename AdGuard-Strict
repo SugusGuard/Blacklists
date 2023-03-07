@@ -1,0 +1,41 @@
+# Title: SugusGuard / AdGuard-Strict
+# Description: SugusGuard's additional Blacklist for AdGuard Home / AdGuard Pro App
+# This Blacklist can interrupt some services and/or some website functionalities you
+# may use or like to use. Take care that you've your personal Whitelist in place.
+# List-URL: https://raw.githubusercontent.com/SugusGuard/Blacklists/main/AdGuard-Strict
+# Date: 2023-03-07
+#
+## CANARY
+#
+||use-application-dns.net^$dnsrewrite=REFUSED,important
+#
+## SPECIAL ONLY USE IF YOU KNOW WHAT YOU'RE DOING
+#
+/isatap/$dnsrewrite=NXDOMAIN;;,important
+/wpad/$dnsrewrite=NXDOMAIN;;,important
+/lb._dns-sd./$dnsrewrite=NXDOMAIN;;,important
+/aaplcache/$dnsrewrite=NXDOMAIN;;,important
+||ip6.arpa^$dnsrewrite=NXDOMAIN;;,important
+#
+## GENERAL GARBAGE MISSING IN OTHER LISTS
+#
+||jubbie.de^$important
+||fooby.ch^$important
+||savor-app.ch^$important
+||wearehearken.eu^$important
+#
+## TRACKING, ANALYTICS MISSING IN OTHER LISTS
+#
+||ingest.sentry.io^$important
+||cdn.ravenjs.com^$important
+||driftcdn.com^$important
+||oblique-telemetry.bit.admin.ch^$important
+||webstats.zh.ch^$important
+||otelwebtelemetry.com^$important
+||tracker.customersaas.com^$important
+||friendlyanalytics.io^$important
+||raygun.com^$important
+||raygun-api*.amazonaws.com^$important
+||rapidzebra.io^$important
+||cpstats.hostpoint.ch^$important
+||a-0003.a-msedge.net^$important
