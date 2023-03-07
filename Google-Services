@@ -1,0 +1,69 @@
+# Title: SugusGuard / Google Services
+# Description: SugusGuard's additional Blacklist for AdGuard Home / AdGuard Pro App
+# This Blacklist can interrupt some services and/or some website functionalities you
+# may use or like to use. Take care that you've your personal Whitelist in place.
+# List-URL: https://raw.githubusercontent.com/SugusGuard/Blacklists/main/Google-Services
+# Date: 2023-03-07
+#
+## GOOGLE RECAPTCHA
+#
+||www.google.com^$dnsrewrite=NOERROR;;,important
+||www.recaptcha.net^$dnsrewrite=NOERROR;;,important
+#
+## ADS, TRACKING AND GOOGLE GARBAGE MISSING IN OTHER LISTS
+#
+||gstaticadssl.l.google.com^$important
+||imasdk.googleapis.com^$important
+||metric.gstatic.com^$important
+||news.google.com^$important
+||landing.google.com^$important
+||play.googleapis.com^$important
+||pki-goog.l.google.com^$important
+||ogs.google.com^$important
+||accounts.google.com^$important
+||plus.l.google.com^$important
+||mtalk.google.com^$important
+||mobile-gtalk.l.google.com^$important
+||aa.google.com^$important
+||cse.google.com^$important
+||content-partnersbadge-pa.googleapis.com^$important
+||signaler-pa.clients6.google.com^$important
+||chart.apis.google.com^$important
+||chat-pa.clients6.google.com^$important
+||people-pa.clients6.google.com^$important
+||peoplestackwebexperiments-pa.clients6.google.com^$important
+||addons-pa.clients6.google.com^$important
+||dai.google.com^$important
+
+||fcmatch.google.com^$important
+||bandaid-redirector.l.google.com^$important
+||identitytoolkit.googleapis.com^$important
+||id.google.*^$important
+||sites.google.com^$important
+#
+## GOOGLE FIREBASE, RNFIREBASE
+#
+||firebaseio.com^$important
+||firebase.google.com^$important
+||firebase-dot-google-developers.appspot.com^$important
+||firebasedynamiclinks-ipv4.googleapis.com^$important
+||firebasedynamiclinks-ipv6.googleapis.com^$important
+||firebaseremoteconfig.googleapis.com^$important
+||firebaseinstallations.googleapis.com^$important
+||firestore.googleapis.com^$important
+||firebasestorage.googleapis.com^$important
+||firebase.googleapis.com^$important
+||firebase.flutter.dev^$important
+||flutter-firebase-docs.web.app^$important
+||rnfirebase.io^$important
+#
+## GOOGLE PUSH
+#
+||fcmtoken.googleapis.com^$important
+||iid.googleapis.com^$important
+||device-provisioning.googleapis.com^$important
+#
+## GOOGLE FONTS
+#
+||fonts.gstatic.com^$important
+||fonts.googleapis.com^$important
