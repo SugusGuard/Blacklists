@@ -2,7 +2,7 @@
 # Description: SugusGuard's additional Blacklist for AdGuard Home / AdGuard Pro App
 # This Blacklist can interrupt some services and/or some website functionalities you
 # may use or like to use. Take care that you've your personal Whitelist in place.
-# List-URL: https://raw.githubusercontent.com/SugusGuard/Blacklists/main/AdGuard-Strict
+# List-URL: https://raw.githubusercontent.com/SugusGuard/Blacklists/main/Apple-Pico
 # Date: 2023-03-07
 #
 ## TELEMETRY, ANALYTICS, CRASHREPORT
