@@ -37,9 +37,11 @@
 #
 ##  OPENDNS
 #
-||dns.opendns.com
-||dns.umbrella.com
-||familyshield.opendns.com
+||dns.opendns.com^$important
+||dns.umbrella.com^$important
+||familyshield.opendns.com^$important
+||resolver1.opendns.com^$important
+||resolver2.opendns.com^$important
 #
 ##  COMCAST
 #
