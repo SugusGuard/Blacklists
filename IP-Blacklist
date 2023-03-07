@@ -1,0 +1,14 @@
+# Title: SugusGuard / IP-Blacklist
+# Description: SugusGuard's IP Blacklist
+# This Blacklist can interrupt some services and/or some website functionalities you
+# may use or like to use. Take care that you've your personal Whitelist in place.
+# List-URL: https://raw.githubusercontent.com/SugusGuard/Blacklists/main/IP-Blacklist
+# Date: 2023-03-07
+#
+#
+## ADOBE HARDCODED UNEXPLAINED CONNECTIONS (No Reverse DNS)
+#
+192.150.18.108
+#
+## MISC UNWANTED/UNKNOWN CONNECTIONS
+#
