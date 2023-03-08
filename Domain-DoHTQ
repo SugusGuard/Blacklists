@@ -100,9 +100,10 @@ private.canadianshield.cira.ca
 #
 ## NEXTDNS
 #
-#dns.nextdns.io
-#dns1.nextdns.io
-#dns2.nextdns.io
+dns.nextdns.io
+dns1.nextdns.io
+dns2.nextdns.io
+steering.nextdns.io
 #
 ## DNS-OVER-HTTPS.COM
 #
