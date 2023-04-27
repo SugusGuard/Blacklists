@@ -7,8 +7,8 @@
 #
 ## GOOGLE RECAPTCHA
 #
-||www.google.com^$dnsrewrite=NOERROR;;,important
-||www.recaptcha.net^$dnsrewrite=NOERROR;;,important
+#||www.google.com^$dnsrewrite=NOERROR;;,important
+#||www.recaptcha.net^$dnsrewrite=NOERROR;;,important
 #
 ## ADS, TRACKING AND GOOGLE GARBAGE MISSING IN OTHER LISTS
 #
