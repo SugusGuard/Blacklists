@@ -5,7 +5,7 @@
 # List-URL: https://raw.githubusercontent.com/SugusGuard/Blacklists/main/Google-Services
 # Date: 2023-03-07
 #
-## GOOGLE RECAPTCHA
+## GOOGLE RECAPTCHA-SPYWARE
 #
 #||www.google.com^$dnsrewrite=NOERROR;;,important
 #||www.recaptcha.net^$dnsrewrite=NOERROR;;,important
