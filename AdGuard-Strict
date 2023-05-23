@@ -3,7 +3,7 @@
 # This Blacklist can interrupt some services and/or some website functionalities you
 # may use or like to use. Take care that you've your personal Whitelist in place.
 # List-URL: https://raw.githubusercontent.com/SugusGuard/Blacklists/main/AdGuard-Strict
-# Date: 2023-03-07
+# Date: 2023-05-23
 #
 ## CANARY
 #
@@ -39,3 +39,5 @@
 ||rapidzebra.io^$important
 ||cpstats.hostpoint.ch^$important
 ||a-0003.a-msedge.net^$important
+||sentry.io^$important
+||press-tracking-api.sovendus.com^$important
