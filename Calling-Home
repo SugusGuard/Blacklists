@@ -3,7 +3,7 @@
 # This Blacklist can interrupt some services and/or some website functionalities you
 # may use or like to use. Take care that you've your personal Whitelist in place.
 # List-URL: https://raw.githubusercontent.com/SugusGuard/Blacklists/main/Calling-Home
-# Date: 2023-03-07
+# Date: 2023-05-23
 #
 ## KDE BULLSHIT "kuserfeeback"
 #
@@ -64,6 +64,8 @@
 ||clientservices.googleapis.com^$important
 ||clients1.google.com^$important
 ||clients4.google.com^$important
+||getpocket.com^$important
+||webcompat.com^$important
 #  SAFARI
 ||token.safebrowsing.apple^$important
 ||safebrowsing.g.aaplimg.com^$important
@@ -72,6 +74,7 @@
 #  BRAVE
 ||variations.brave.com^$important
 ||p3a.brave.com^$important
+||p3a-json.brave.com^$important
 ||safebrowsing.brave.com^$important
 ||api.rewards.brave.com^$important
 ||rewards.brave.com^$important
@@ -92,6 +95,8 @@
 ||firefox.settings.services.mozilla.com^$important
 ||firefox-settings-attachments.cdn.mozilla.net^$important     # Download Language-Packs
 ||getpocket.cdn.mozilla.net^$important
+||merino.services.mozilla.com^$important
+||merino.nonprod.cloudops.mozgcp.net^$important
 #  EDGE MICROSOFTS GARBAGE-BROWSER
 ||browser.pipe.aria.microsoft.com^$important
 ||config.edge.skype.com^$important
