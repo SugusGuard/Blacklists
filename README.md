@@ -10,7 +10,7 @@ Maybe you should first try AdGuard's default blocklists.
 | Apple-Pico    	| Apple Pico - Block some Telemetry, Analytics |
 | Apple-Mini	    | Apple Mini - Block most Telemetry, Analytics and some Services |
 | Apple-Full  	  | Apple Full - Block many Telemetry, Analytics, Services (not recommended) |
-| AdGuard-Strict  | SugusGuard's additional blacklist (Strict) |
+| AdGuard-Strict  | SugusGuard's additional Blacklist (Strict) |
 | AdGuard-DoHTQ	  | DoH, DoT, Quic DNS resolvers forced in some Applications |
 | Google-Services | Blacklist for some Google-Garbage |
 | Social-Services | Blacklist for some Social Media Services |
