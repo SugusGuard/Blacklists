@@ -23,9 +23,12 @@
 ||xp.apple.com^$dnsrewrite=NXDOMAIN;;,important
 ||metrics.mzstatic.com^$dnsrewrite=NXDOMAIN;;,important
 ||metrics.icloud.com^$dnsrewrite=NXDOMAIN;;,important
+||metrics.apple.com^$dnsrewrite=NXDOMAIN;;,important
+||feedbackws.icloud.com^$dnsrewrite=NXDOMAIN;;,important
 ||metrics.fe.apple-dns.net$dnsrewrite=NXDOMAIN;;,important
 ||dzc-metrics.mzstatic.com^$dnsrewrite=NXDOMAIN;;,important
 ||securemetrics.apple.com^$dnsrewrite=NXDOMAIN;;,important
+||securemvt.apple.com^$dnsrewrite=NXDOMAIN;;,important
 ||supportmetrics.apple.com^$dnsrewrite=NXDOMAIN;;,important
 ||*-analytics-events.apple.com^$dnsrewrite=NXDOMAIN;;,important
 ||*-analytics-events.news.apple-dns.net^$dnsrewrite=NXDOMAIN;;,important
@@ -35,6 +38,8 @@
 ||*submissions.v.aaplimg.com^$dnsrewrite=NXDOMAIN;;,important
 ||*submissions.apple.com.akadns.net^$dnsrewrite=NXDOMAIN;;,important
 ||diagassets.apple.com^$dnsrewrite=NXDOMAIN;;,important
+||acfeedbackws.icloud.com^$dnsrewrite=NXDOMAIN;;,important
+||api-adservices.apple.com^$dnsrewrite=NXDOMAIN;;,important
 #
 ## APPLE ADS
 #
