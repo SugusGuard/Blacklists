@@ -26,7 +26,6 @@
 #
 ## TRACKING, ANALYTICS MISSING IN OTHER LISTS
 #
-||ingest.sentry.io^$important
 ||cdn.ravenjs.com^$important
 ||driftcdn.com^$important
 ||oblique-telemetry.bit.admin.ch^$important
