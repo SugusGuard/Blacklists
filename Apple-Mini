@@ -97,9 +97,9 @@
 #
 ## ICLOUD PRIVATE RELAY, APPLE DNS
 #
-||mask.icloud.com^$dnsrewrite=NOERROR;;,important
-||mask-api.icloud.com^$dnsrewrite=NOERROR;;,important
-||mask-h2.icloud.com^$dnsrewrite=NOERROR;;,important
+||mask.icloud.com^$dnsrewrite=NXDOMAIN;;,important
+||mask-api.icloud.com^$dnsrewrite=NXDOMAIN;;,important
+||mask-h2.icloud.com^$dnsrewrite=NXDOMAIN;;,important
 #
 ## MISC AND TESTING - NOT OR UNPROPER EXPLAINED/DOCUMENTED
 #
