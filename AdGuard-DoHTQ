@@ -3,7 +3,7 @@
 # This Blacklist can interrupt some services and/or some website functionalities you
 # may use or like to use. Take care that you've your personal Whitelist in place.
 # List-URL: https://raw.githubusercontent.com/SugusGuard/Blacklists/main/AdGuard-DoHTQ
-# Date: 2023-03-07
+# Date: 2023-04-08
 #
 ##  CLOUDFLARE
 #
@@ -76,8 +76,8 @@
 #
 ##  MULLVAD
 #
-||doh.mullvad.net^$important
-||adblock.doh.mullvad.net^$important
+!||doh.mullvad.net^$important
+!||adblock.doh.mullvad.net^$important
 #
 ##  CLEANBROWSING
 #
