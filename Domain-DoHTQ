@@ -3,7 +3,7 @@
 # This Blacklist can interrupt some services and/or some website functionalities you
 # may use or like to use. Take care that you've your personal Whitelist in place.
 # List-URL: https://raw.githubusercontent.com/SugusGuard/Blacklists/main/Domain-DoHTQ
-# Date: 2023-03-07
+# Date: 2023-08-04
 #
 ## CLOUDFLARE
 #
@@ -100,10 +100,10 @@ private.canadianshield.cira.ca
 #
 ## NEXTDNS
 #
-# dns.nextdns.io
-# dns1.nextdns.io
-# dns2.nextdns.io
-# steering.nextdns.io
+dns.nextdns.io
+dns1.nextdns.io
+dns2.nextdns.io
+steering.nextdns.io
 #
 ## DNS-OVER-HTTPS.COM
 #
