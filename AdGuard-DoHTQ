@@ -76,8 +76,8 @@
 #
 ##  MULLVAD
 #
-!||doh.mullvad.net^$important
-!||adblock.doh.mullvad.net^$important
+||doh.mullvad.net^$important
+||adblock.doh.mullvad.net^$important
 #
 ##  CLEANBROWSING
 #
@@ -134,3 +134,7 @@
 ||dns.watch^$important
 #
 ||ahadns.net^$important
+#
+||rethinkdns.com^$important
+||bravedns.com^$important
+
