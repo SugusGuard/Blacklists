@@ -35,10 +35,10 @@
 #
 ## LOCATION SERVICE
 # 
-||ls.apple.com^$important
-!||gsp*.apple.com^$important
-!||gsp*.apple.com.edgekey.net^$important
-!||configuration.ls.apple.com^$important
+!||ls.apple.com^$important
+||gsp*.apple.com^$important
+||gsp*.apple.com.edgekey.net^$important
+||configuration.ls.apple.com^$important
 ||iphone-ld.apple.com^$important
 ||iphone-ld.origin-apple.com.akadns.net^$important
 ||iphone-ld.apple.com-v1.edgesuite.net^$important
