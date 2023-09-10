@@ -46,7 +46,7 @@
 ||iadsdk.apple.com^$dnsrewrite=NXDOMAIN;;,important
 ||adservices.apple.com^$dnsrewrite=NXDOMAIN;;important
 #
-## LOCATION SERVICE
+## LOCATION SERVICE (||ls.apple.com breaks maps)
 # 
 ||ls.apple.com^$dnsrewrite=NXDOMAIN;;,important
 !||gsp*.apple.com^$dnsrewrite=NXDOMAIN;;,important
