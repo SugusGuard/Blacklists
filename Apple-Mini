@@ -46,11 +46,11 @@
 ||iadsdk.apple.com^$dnsrewrite=NXDOMAIN;;,important
 ||adservices.apple.com^$dnsrewrite=NXDOMAIN;;important
 #
-## LOCATION SERVICE (||ls.apple.com breaks maps)
+## LOCATION SERVICE (Breaks Apple Maps and Apple Weather)
 # 
 ||ls.apple.com^$dnsrewrite=NXDOMAIN;;,important
-!||gsp*.apple.com^$dnsrewrite=NXDOMAIN;;,important
-!||gsp*.apple.com.edgekey.net^$dnsrewrite=NXDOMAIN;;,important
+||gsp*.apple.com^$dnsrewrite=NXDOMAIN;;,important
+||gsp*.apple.com.edgekey.net^$dnsrewrite=NXDOMAIN;;,important
 !||configuration.ls.apple.com^$dnsrewrite=NXDOMAIN;;,important
 ||iphone-ld.apple.com^$dnsrewrite=NXDOMAIN;;,important
 ||iphone-ld.origin-apple.com.akadns.net^$dnsrewrite=NXDOMAIN;;,important
