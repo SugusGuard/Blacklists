@@ -33,18 +33,6 @@
 ||adservices.apple.com^$important
 ||api-adservices.apple.com^$important
 #
-## LOCATION SERVICE
-# 
-!||ls.apple.com^$important
-||gsp*.apple.com^$important
-||gsp*.apple.com.edgekey.net^$important
-||configuration.ls.apple.com^$important
-||iphone-ld.apple.com^$important
-||iphone-ld.origin-apple.com.akadns.net^$important
-||iphone-ld.apple.com-v1.edgesuite.net^$important
-||a1931.dscgi3.akamai.net^$important
-||gs-loc.apple.com^$important
-#
 ## ICLOUD PRIVATE RELAY, APPLE DNS
 #
 ||mask.icloud.com^$dnsrewrite=NXDOMAIN;;,important
