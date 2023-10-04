@@ -100,6 +100,9 @@
 ||mask.icloud.com^$dnsrewrite=NXDOMAIN;;,important
 ||mask-api.icloud.com^$dnsrewrite=NOERROR;;,important
 ||mask-h2.icloud.com^$dnsrewrite=NXDOMAIN;;,important
+||mask-t.apple-dns.net^$dnsrewrite=NXDOMAIN;;,important
+||mask.apple-dns.net^$dnsrewrite=NXDOMAIN;;,important
+||mask-api.fe.apple-dns.net^$dnsrewrite=NXDOMAIN;;,important
 #
 ## MISC AND TESTING - NOT OR UNPROPER EXPLAINED/DOCUMENTED
 #
