@@ -43,6 +43,8 @@
 ||crashlyticsreports-pa.googleapis.com^$important
 ||crashlyticsreports-pa.googleapis.com^$important
 ||withgoogle.com^$important
+||pagead.l.doubleclick.net^$important
+||www.googleadservices.com^$important
 #
 ## GOOGLE FIREBASE, RNFIREBASE
 #
