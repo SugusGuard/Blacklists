@@ -54,6 +54,10 @@
 ||quickconnect.*^$important
 ||on-ty-punch1.synology.com^$important
 #
+## PLESK
+#
+||shots.plesk.com^$important
+#
 ## BROWSERS
 #  GENERAL
 ||safebrowsing.googleapis.com^$important
