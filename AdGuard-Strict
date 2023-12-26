@@ -16,6 +16,8 @@
 /lb._dns-sd./$dnsrewrite=NXDOMAIN;;,important
 /aaplcache/$dnsrewrite=NXDOMAIN;;,important
 ||ip6.arpa^$dnsrewrite=NXDOMAIN;;,important
+||ampproject.*^$important
+||amp.*$important
 #
 ## GENERAL GARBAGE MISSING IN OTHER LISTS
 #
