@@ -3,7 +3,7 @@
 # This Blacklist can interrupt some services and/or some website functionalities you
 # may use or like to use. Take care that you've your personal Whitelist in place.
 # List-URL: https://raw.githubusercontent.com/SugusGuard/Blacklists/main/Calling-Home
-# Date: 2023-05-23
+# Date: 2023-12-26
 #
 ## KDE BULLSHIT "kuserfeeback"
 #
@@ -107,3 +107,5 @@
 ||arc.msn.com^$important
 ||img-s-msn-com.akamaized.net^$important
 ||srtb.msn.com^$important
+# Yandex
+||crash-reports.browser.yandex.net^$important
