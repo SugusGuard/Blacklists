@@ -46,6 +46,9 @@
 ||pagead.l.doubleclick.net^$important
 ||www.googleadservices.com^$important
 ||5471782.fls.doubleclick.net^$important
+||googleadapis.l.google.com^$important
+||imasdk.googleapis.com^$important
+||-ds.metric.gstatic.com^$important
 #
 ## GOOGLE FIREBASE, RNFIREBASE
 #
