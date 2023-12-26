@@ -3,7 +3,7 @@
 # This Blacklist can interrupt some services and/or some website functionalities you
 # may use or like to use. Take care that you've your personal Whitelist in place.
 # List-URL: https://raw.githubusercontent.com/SugusGuard/Blacklists/main/AdGuard-Strict
-# Date: 2023-09-11
+# Date: 2023-12-26
 #
 ## CANARY
 #
@@ -64,3 +64,25 @@
 ||app-advertise.zhihuishu.com^$important
 ||buyad.bi-xenon.cn^$important
 ||inmobi.com^$important
+||refer.discover.com^$important
+||cdn.us*.exponea.com^$important
+||data.digital.costco.ca^$important
+||data.digital.costco.com^$important
+||api.karte.io^$important
+||sponsor.nitropay.com^$important
+||click.cptrack.de^$important
+||ezodn.com^$important
+||gate.first-id.fr^$important
+||leechers-paradise.org^
+||data-*.herz-fuer-tiere.de^$important
+||go.adjust.com^$important
+||clickattr.wayup.com^$important
+||remembering.ca^$important
+||catchup.thisisdax.com^$important
+||px.a8.net^$important
+||app-cdn.minepi.com^$important
+||cdn.duurzaam.greenchoice.nl^$important
+||crm-cdn.peek-cloppenburg.com^$important
+||c.office.com^$important
+||surveymyopinion.researchnow.com^$important
+||e.customeriomail.com^$important
