@@ -3,7 +3,7 @@
 # This Blacklist can interrupt some services and/or some website functionalities you
 # may use or like to use. Take care that you've your personal Whitelist in place.
 # List-URL: https://raw.githubusercontent.com/SugusGuard/Blacklists/main/AdGuard-Strict
-# Date: 2023-12-26
+# Date: 2023-12-27
 #
 ## CANARY
 #
@@ -198,3 +198,4 @@
 ||str.hit.gemius.pl^$important
 ||track.rutarget.ru^$important
 ||omniture.walmart.com^$important
+||recommender.scarabresearch.com^$important
