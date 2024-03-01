@@ -14,10 +14,10 @@
 #
 ##  NEXTDNS
 #
-!||dns.nextdns.io^$important
-!||dns1.nextdns.io^$important
-!||dns2.nextdns.io^$important
-!||steering.nextdns.io^$important
+||dns.nextdns.io^$important
+||dns1.nextdns.io^$important
+||dns2.nextdns.io^$important
+||steering.nextdns.io^$important
 #
 ##  GOOGLE
 #
@@ -50,8 +50,8 @@
 #
 ##  APPLE
 #
-||doh.dns.apple.com^$important
-||doh.dns.apple.com.v.aaplimg.com^$important
+||doh.dns.apple.com^$dnsrewrite=NXDOMAIN;;important
+||doh.dns.apple.com.v.aaplimg.com^$dnsrewrite=NXDOMAIN;;important
 #
 ##  ORACLE
 #
