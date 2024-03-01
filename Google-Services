@@ -43,12 +43,11 @@
 ||crashlyticsreports-pa.googleapis.com^$important
 ||crashlyticsreports-pa.googleapis.com^$important
 ||withgoogle.com^$important
-||pagead.l.doubleclick.net^$important
-||www.googleadservices.com^$important
-||5471782.fls.doubleclick.net^$important
+||googleadservices.com^$important
+||doubleclick.*^$important
 ||googleadapis.l.google.com^$important
 ||imasdk.googleapis.com^$important
-||-ds.metric.gstatic.com^$important
+||*-ds.metric.gstatic.com^$important
 #
 ## GOOGLE FIREBASE, RNFIREBASE
 #
@@ -75,8 +74,8 @@
 #
 ## GOOGLE FONTS
 #
-||fonts.gstatic.com^$important
-||fonts.googleapis.com^$important
+!||fonts.gstatic.com^$important
+!||fonts.googleapis.com^$important
 #
 ## GOOGLE PROXY
 #
