@@ -3,35 +3,49 @@
 # This Blacklist can interrupt some services and/or some website functionalities you
 # may use or like to use. Take care that you've your personal Whitelist in place.
 # List-URL: https://raw.githubusercontent.com/SugusGuard/Blacklists/main/Apple-Pico
-# Date: 2023-05-23
+# Date: 2024-03-06
+#
+## PREVENT FILTER-BYPASSING WITH HTTPS REQUESTS AS APPLE LIKE TO DO
+#
+! Uncomment if you don't use a separate DoH Blocklist
+!||doh.dns.apple.com^$dnsrewrite=NOERROR;;,important
+!||doh.dns.apple.com.v.aaplimg.com^$dnsrewrite=NOERROR;;,important
+#
+## NTP
+#
+||time.apple.com^$dnsrewrite=NOERROR;CNAME;ch.pool.ntp.org
+||time-ios.apple.com^$dnsrewrite=NOERROR;CNAME;ch.pool.ntp.org
+||time-osx.g.aaplimg.com^$dnsrewrite=NOERROR;CNAME;ch.pool.ntp.org
+||time-macos.apple.com^$dnsrewrite=NOERROR;CNAME;ch.pool.ntp.org
 #
 ## TELEMETRY, ANALYTICS, CRASHREPORT
 #
-||xp.apple.com^$important
-||metrics.mzstatic.com^$important
-||metrics.icloud.com^$important
-||metrics.apple.com^$important
-||metrics.fe.apple-dns.net$important
-||dzc-metrics.mzstatic.com^$important
-||securemetrics.apple.com^$important
-||securemvt.apple.com^$important
-||supportmetrics.apple.com^$important
-||*-analytics-events.apple.com^$important
-||*-analytics-events.news.apple-dns.net^$important
-||idiagnostics.apple.com^$important
-||idiagnostics.apple.com.akadns.net^$important
-||*submissions.apple.com^$important
-||*submissions.v.aaplimg.com^$important
-||*submissions.apple.com.akadns.net^$important
-||diagassets.apple.com^$important
-||acfeedbackws.icloud.com^$important
-||feedbackws.icloud.com^$important
+||xp.apple.com^$dnsrewrite=NOERROR;;,important
+||metrics.mzstatic.com^$dnsrewrite=NOERROR;;,important
+||metrics.icloud.com^$dnsrewrite=NOERROR;;,important
+||metrics.apple.com^$dnsrewrite=NOERROR;;,important
+||feedbackws.icloud.com^$dnsrewrite=NOERROR;;,important
+||metrics.fe.apple-dns.net$dnsrewrite=NOERROR;;,important
+||dzc-metrics.mzstatic.com^$dnsrewrite=NOERROR;;,important
+||securemetrics.apple.com^$dnsrewrite=NOERROR;;,important
+||securemvt.apple.com^$dnsrewrite=NOERROR;;,important
+||supportmetrics.apple.com^$dnsrewrite=NOERROR;;,important
+||*-analytics-events.apple.com^$dnsrewrite=NOERROR;;,important
+||*-analytics-events.news.apple-dns.net^$dnsrewrite=NOERROR;;,important
+||idiagnostics.apple.com^$dnsrewrite=NOERROR;;,important
+||idiagnostics.apple.com.akadns.net^$dnsrewrite=NOERROR;;,important
+||*submissions.apple.com^$dnsrewrite=NOERROR;;,important
+||*submissions.v.aaplimg.com^$dnsrewrite=NOERROR;;,important
+||*submissions.apple.com.akadns.net^$dnsrewrite=NOERROR;;,important
+||diagassets.apple.com^$dnsrewrite=NOERROR;;,important
+||acfeedbackws.icloud.com^$dnsrewrite=NOERROR;;,important
+||api-adservices.apple.com^$dnsrewrite=NOERROR;;,important
 #
 ## APPLE ADS
 #
-||iadsdk.apple.com^$important
-||adservices.apple.com^$important
-||api-adservices.apple.com^$important
+||iadsdk.apple.com^$dnsrewrite=NOERROR;;,important
+||adservices.apple.com^$dnsrewrite=NOERROR;;,important
+||api-adservices.apple.com^$dnsrewrite=NOERROR;;,important
 #
 ## ICLOUD PRIVATE RELAY, APPLE DNS
 #
@@ -42,7 +56,29 @@
 ||mask.apple-dns.net^$dnsrewrite=NXDOMAIN;;,important
 ||mask-api.fe.apple-dns.net^$dnsrewrite=NXDOMAIN;;,important
 #
-## MISC AND TESTING - NOT OR UNPROPER EXPLAINED/DOCUMENTED
+## SIRI, SPOTLIGHT SUGGESTIONS
 #
-||experiments.apple.com^$important
-||passbook-test.aditus.de^$important
+||smoot.apple.com^$dnsrewrite=NOERROR;;,important
+||bag-smoot.v.aaplimg.com^$dnsrewrite=NOERROR;;,important
+||guzzoni.apple.com^$dnsrewrite=NOERROR;;,important
+||guzzoni-apple-com.v.aaplimg.com^$dnsrewrite=NOERROR;;,important
+||dejavu.apple.com^$dnsrewrite=NOERROR;;,important
+||siri.apple.com^$dnsrewrite=NOERROR;;,important
+||swallow.apple.com^$dnsrewrite=NOERROR;;,important
+#
+## FIND MY FRIENDS
+#
+||fmf.icloud.com^$dnsrewrite=NOERROR;;,important
+||fmfmobile.icloud.com^$dnsrewrite=NOERROR;;,important
+||fmfmobile.fe.apple-dns.net^$dnsrewrite=NOERROR;;,important
+||fmf.fe.apple-dns.net^$dnsrewrite=NOERROR;;,important
+#
+## FIND MY IPHONE
+#
+||fmip.icloud.com^$dnsrewrite=NOERROR;;,important
+||fmip.fe.apple-dns.net^$dnsrewrite=NOERROR;;,important
+#
+## Health
+#
+||health.apple.com^$dnsrewrite=NOERROR;;,important
+#
