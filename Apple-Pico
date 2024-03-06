@@ -39,7 +39,6 @@
 ||*submissions.apple.com.akadns.net^$dnsrewrite=NOERROR;;,important
 ||diagassets.apple.com^$dnsrewrite=NOERROR;;,important
 ||acfeedbackws.icloud.com^$dnsrewrite=NOERROR;;,important
-||api-adservices.apple.com^$dnsrewrite=NOERROR;;,important
 #
 ## APPLE ADS
 #
