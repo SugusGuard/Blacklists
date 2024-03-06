@@ -51,7 +51,6 @@
 ||ls.apple.com^$dnsrewrite=NOERROR;;,important
 ||gsp*.apple.com^$dnsrewrite=NOERROR;;,important
 ||gsp*.apple.com.edgekey.net^$dnsrewrite=NOERROR;;,important
-||configuration.ls.apple.com^$dnsrewrite=NOERROR;;,important
 ||iphone-ld.apple.com^$dnsrewrite=NOERROR;;,important
 ||iphone-ld.origin-apple.com.akadns.net^$dnsrewrite=NOERROR;;,important
 ||iphone-ld.apple.com-v1.edgesuite.net^$dnsrewrite=NOERROR;;,important
