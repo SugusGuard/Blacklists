@@ -3,7 +3,7 @@
 # This Blacklist can interrupt some services and/or some website functionalities you
 # may use or like to use. Take care that you've your personal Whitelist in place.
 # List-URL: https://raw.githubusercontent.com/SugusGuard/Blacklists/main/Google-Services
-# Date: 2023-12-27
+# Date: 2024-03-06
 #
 ## GOOGLE RECAPTCHA-SPYWARE
 #
@@ -48,6 +48,7 @@
 ||googleadapis.l.google.com^$important
 ||imasdk.googleapis.com^$important
 ||*-ds.metric.gstatic.com^$important
+||www3.l.google.com^$important
 #
 ## GOOGLE FIREBASE, RNFIREBASE
 #
@@ -84,5 +85,5 @@
 #
 ## GOOGLE PLAY
 #
-||play.google.com^$important
-||play.googleapis.com^$important
+!||play.google.com^$important
+!||play.googleapis.com^$important
