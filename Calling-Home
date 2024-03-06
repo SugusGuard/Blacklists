@@ -3,12 +3,16 @@
 # This Blacklist can interrupt some services and/or some website functionalities you
 # may use or like to use. Take care that you've your personal Whitelist in place.
 # List-URL: https://raw.githubusercontent.com/SugusGuard/Blacklists/main/Calling-Home
-# Date: 2023-12-26
+# Date: 2024-03-06
 #
 ## KDE BULLSHIT "kuserfeeback"
 #
 ||telemetry.kde.org^$important
 ||entypes.kde.org^$important
+#
+## UBUNTU (Unused since 2020.. maybe)
+#
+||popcon.ubuntu.com^$important
 #
 ## NITRO SOFTWARE
 #
@@ -71,12 +75,13 @@
 ||getpocket.com^$important
 ||webcompat.com^$important
 #  SAFARI
-||token.safebrowsing.apple^$important
-||safebrowsing.g.aaplimg.com^$important
-||proxy.safebrowsing.apple^$important
-||safebrowsing-proxy.g.aaplimg.com^$important
+||token.safebrowsing.apple^$dnsrewrite=NOERROR;;,important
+||safebrowsing.g.aaplimg.com^$dnsrewrite=NOERROR;;,important
+||proxy.safebrowsing.apple^$dnsrewrite=NOERROR;;,important
+||safebrowsing-proxy.g.aaplimg.com^$dnsrewrite=NOERROR;;,important
 #  BRAVE
 ||variations.brave.com^$important
+||laptop-updates.brave.com^$important
 ||p3a.brave.com^$important
 ||p3a-json.brave.com^$important
 ||safebrowsing.brave.com^$important
@@ -101,15 +106,7 @@
 ||getpocket.cdn.mozilla.net^$important
 ||merino.services.mozilla.com^$important
 ||merino.nonprod.cloudops.mozgcp.net^$important
-#  EDGE MICROSOFTS GARBAGE-BROWSER
-||browser.pipe.aria.microsoft.com^$important
-||config.edge.skype.com^$important
-||nav.smartscreen.microsoft.com^$important
-||browser.events.data.msn.com^$important
-||ntp.msn.com^$important
-||assets.msn.com^$important
-||arc.msn.com^$important
-||img-s-msn-com.akamaized.net^$important
-||srtb.msn.com^$important
 # Yandex
 ||crash-reports.browser.yandex.net^$important
+#  EDGE, OPERA AND OTHER GARBAGE BROWSERS
+#  UNINSTALL IT
